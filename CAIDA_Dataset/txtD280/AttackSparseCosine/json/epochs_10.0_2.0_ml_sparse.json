@@ -1,0 +1,3908 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-21T21:09:56.866333",
+    "dataset_name": "epochs",
+    "method": "Cosine_Similarity",
+    "sparse_mode": true
+  },
+  "baseline_stats": {
+    "src_ip": {
+      "mean": 0.9669318183249654,
+      "std": 0.003077873429648487
+    },
+    "dst_ip": {
+      "mean": 0.9825371393541776,
+      "std": 0.0014692765064203187
+    },
+    "src_port": {
+      "mean": 0.9993263245418675,
+      "std": 0.00020598183552984035
+    },
+    "dst_port": {
+      "mean": 0.971994017895913,
+      "std": 0.0038557643347544406
+    }
+  },
+  "epochs": [
+    {
+      "epoch_index": 21,
+      "epoch_name": "epoch_000021",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.760385,
+      "total_flows_count": 5144,
+      "similarities": {
+        "src_ip": 0.963751,
+        "dst_ip": 0.979951,
+        "src_port": 0.999411,
+        "dst_port": 0.972826
+      },
+      "z_scores": {
+        "src_ip": -1.033343,
+        "dst_ip": -1.760385,
+        "src_port": 0.41049,
+        "dst_port": 0.215661
+      }
+    },
+    {
+      "epoch_index": 22,
+      "epoch_name": "epoch_000022",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.865316,
+      "total_flows_count": 5007,
+      "similarities": {
+        "src_ip": 0.948879,
+        "dst_ip": 0.978018,
+        "src_port": 0.999022,
+        "dst_port": 0.9646
+      },
+      "z_scores": {
+        "src_ip": -5.865316,
+        "dst_ip": -3.075893,
+        "src_port": -1.475034,
+        "dst_port": -1.917612
+      }
+    },
+    {
+      "epoch_index": 23,
+      "epoch_name": "epoch_000023",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.608287,
+      "total_flows_count": 4968,
+      "similarities": {
+        "src_ip": 0.958904,
+        "dst_ip": 0.978712,
+        "src_port": 0.999349,
+        "dst_port": 0.971116
+      },
+      "z_scores": {
+        "src_ip": -2.608287,
+        "dst_ip": -2.603392,
+        "src_port": 0.107929,
+        "dst_port": -0.227768
+      }
+    },
+    {
+      "epoch_index": 24,
+      "epoch_name": "epoch_000024",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.329374,
+      "total_flows_count": 4960,
+      "similarities": {
+        "src_ip": 0.958442,
+        "dst_ip": 0.973238,
+        "src_port": 0.999279,
+        "dst_port": 0.963387
+      },
+      "z_scores": {
+        "src_ip": -2.758235,
+        "dst_ip": -6.329374,
+        "src_port": -0.229757,
+        "dst_port": -2.232373
+      }
+    },
+    {
+      "epoch_index": 25,
+      "epoch_name": "epoch_000025",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.709092,
+      "total_flows_count": 4960,
+      "similarities": {
+        "src_ip": 0.961671,
+        "dst_ip": 0.980658,
+        "src_port": 0.999415,
+        "dst_port": 0.973815
+      },
+      "z_scores": {
+        "src_ip": -1.709092,
+        "dst_ip": -1.279156,
+        "src_port": 0.429319,
+        "dst_port": 0.472266
+      }
+    },
+    {
+      "epoch_index": 26,
+      "epoch_name": "epoch_000026",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.654605,
+      "total_flows_count": 5037,
+      "similarities": {
+        "src_ip": 0.952606,
+        "dst_ip": 0.981288,
+        "src_port": 0.999051,
+        "dst_port": 0.964127
+      },
+      "z_scores": {
+        "src_ip": -4.654605,
+        "dst_ip": -0.850142,
+        "src_port": -1.338373,
+        "dst_port": -2.040321
+      }
+    },
+    {
+      "epoch_index": 27,
+      "epoch_name": "epoch_000027",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.619206,
+      "total_flows_count": 5065,
+      "similarities": {
+        "src_ip": 0.96225,
+        "dst_ip": 0.971342,
+        "src_port": 0.999215,
+        "dst_port": 0.968136
+      },
+      "z_scores": {
+        "src_ip": -1.521054,
+        "dst_ip": -7.619206,
+        "src_port": -0.538598,
+        "dst_port": -1.000532
+      }
+    },
+    {
+      "epoch_index": 28,
+      "epoch_name": "epoch_000028",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -9.773478,
+      "total_flows_count": 5124,
+      "similarities": {
+        "src_ip": 0.93685,
+        "dst_ip": 0.977014,
+        "src_port": 0.998611,
+        "dst_port": 0.964354
+      },
+      "z_scores": {
+        "src_ip": -9.773478,
+        "dst_ip": -3.759259,
+        "src_port": -3.47416,
+        "dst_port": -1.98134
+      }
+    },
+    {
+      "epoch_index": 29,
+      "epoch_name": "epoch_000029",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.655269,
+      "total_flows_count": 5147,
+      "similarities": {
+        "src_ip": 0.955681,
+        "dst_ip": 0.980079,
+        "src_port": 0.999189,
+        "dst_port": 0.967947
+      },
+      "z_scores": {
+        "src_ip": -3.655269,
+        "dst_ip": -1.67272,
+        "src_port": -0.664688,
+        "dst_port": -1.049562
+      }
+    },
+    {
+      "epoch_index": 30,
+      "epoch_name": "epoch_000030",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.693317,
+      "total_flows_count": 5038,
+      "similarities": {
+        "src_ip": 0.952486,
+        "dst_ip": 0.980166,
+        "src_port": 0.99917,
+        "dst_port": 0.966056
+      },
+      "z_scores": {
+        "src_ip": -4.693317,
+        "dst_ip": -1.613566,
+        "src_port": -0.759069,
+        "dst_port": -1.540024
+      }
+    },
+    {
+      "epoch_index": 31,
+      "epoch_name": "epoch_000031",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.828891,
+      "total_flows_count": 4937,
+      "similarities": {
+        "src_ip": 0.955147,
+        "dst_ip": 0.977368,
+        "src_port": 0.999314,
+        "dst_port": 0.963855
+      },
+      "z_scores": {
+        "src_ip": -3.828891,
+        "dst_ip": -3.517919,
+        "src_port": -0.05743,
+        "dst_port": -2.110768
+      }
+    },
+    {
+      "epoch_index": 32,
+      "epoch_name": "epoch_000032",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.98945,
+      "total_flows_count": 4980,
+      "similarities": {
+        "src_ip": 0.948497,
+        "dst_ip": 0.980038,
+        "src_port": 0.998998,
+        "dst_port": 0.95921
+      },
+      "z_scores": {
+        "src_ip": -5.98945,
+        "dst_ip": -1.700924,
+        "src_port": -1.594999,
+        "dst_port": -3.31551
+      }
+    },
+    {
+      "epoch_index": 33,
+      "epoch_name": "epoch_000033",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.356671,
+      "total_flows_count": 4992,
+      "similarities": {
+        "src_ip": 0.953523,
+        "dst_ip": 0.978127,
+        "src_port": 0.999533,
+        "dst_port": 0.970512
+      },
+      "z_scores": {
+        "src_ip": -4.356671,
+        "dst_ip": -3.001658,
+        "src_port": 1.002186,
+        "dst_port": -0.384295
+      }
+    },
+    {
+      "epoch_index": 34,
+      "epoch_name": "epoch_000034",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.817233,
+      "total_flows_count": 5050,
+      "similarities": {
+        "src_ip": 0.956925,
+        "dst_ip": 0.976929,
+        "src_port": 0.999254,
+        "dst_port": 0.973811
+      },
+      "z_scores": {
+        "src_ip": -3.251315,
+        "dst_ip": -3.817233,
+        "src_port": -0.35045,
+        "dst_port": 0.471128
+      }
+    },
+    {
+      "epoch_index": 35,
+      "epoch_name": "epoch_000035",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.980642,
+      "total_flows_count": 4919,
+      "similarities": {
+        "src_ip": 0.961989,
+        "dst_ip": 0.979627,
+        "src_port": 0.999395,
+        "dst_port": 0.973793
+      },
+      "z_scores": {
+        "src_ip": -1.605914,
+        "dst_ip": -1.980642,
+        "src_port": 0.334989,
+        "dst_port": 0.466675
+      }
+    },
+    {
+      "epoch_index": 36,
+      "epoch_name": "epoch_000036",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.381769,
+      "total_flows_count": 5111,
+      "similarities": {
+        "src_ip": 0.961972,
+        "dst_ip": 0.976099,
+        "src_port": 0.999334,
+        "dst_port": 0.96968
+      },
+      "z_scores": {
+        "src_ip": -1.61135,
+        "dst_ip": -4.381769,
+        "src_port": 0.037037,
+        "dst_port": -0.600237
+      }
+    },
+    {
+      "epoch_index": 37,
+      "epoch_name": "epoch_000037",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.891909,
+      "total_flows_count": 5065,
+      "similarities": {
+        "src_ip": 0.954953,
+        "dst_ip": 0.980925,
+        "src_port": 0.999225,
+        "dst_port": 0.969732
+      },
+      "z_scores": {
+        "src_ip": -3.891909,
+        "dst_ip": -1.097438,
+        "src_port": -0.490602,
+        "dst_port": -0.586766
+      }
+    },
+    {
+      "epoch_index": 38,
+      "epoch_name": "epoch_000038",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.841147,
+      "total_flows_count": 5087,
+      "similarities": {
+        "src_ip": 0.963616,
+        "dst_ip": 0.978363,
+        "src_port": 0.999351,
+        "dst_port": 0.966042
+      },
+      "z_scores": {
+        "src_ip": -1.077163,
+        "dst_ip": -2.841147,
+        "src_port": 0.119016,
+        "dst_port": -1.543621
+      }
+    },
+    {
+      "epoch_index": 39,
+      "epoch_name": "epoch_000039",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.410073,
+      "total_flows_count": 4967,
+      "similarities": {
+        "src_ip": 0.960991,
+        "dst_ip": 0.976058,
+        "src_port": 0.99907,
+        "dst_port": 0.969552
+      },
+      "z_scores": {
+        "src_ip": -1.930208,
+        "dst_ip": -4.410073,
+        "src_port": -1.245565,
+        "dst_port": -0.633217
+      }
+    },
+    {
+      "epoch_index": 40,
+      "epoch_name": "epoch_000040",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.27955,
+      "total_flows_count": 5069,
+      "similarities": {
+        "src_ip": 0.950682,
+        "dst_ip": 0.977687,
+        "src_port": 0.999314,
+        "dst_port": 0.970945
+      },
+      "z_scores": {
+        "src_ip": -5.27955,
+        "dst_ip": -3.300768,
+        "src_port": -0.061209,
+        "dst_port": -0.272099
+      }
+    },
+    {
+      "epoch_index": 41,
+      "epoch_name": "epoch_000041",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.002226,
+      "total_flows_count": 5046,
+      "similarities": {
+        "src_ip": 0.959713,
+        "dst_ip": 0.978126,
+        "src_port": 0.999493,
+        "dst_port": 0.970559
+      },
+      "z_scores": {
+        "src_ip": -2.34533,
+        "dst_ip": -3.002226,
+        "src_port": 0.807858,
+        "dst_port": -0.372081
+      }
+    },
+    {
+      "epoch_index": 42,
+      "epoch_name": "epoch_000042",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.272865,
+      "total_flows_count": 5019,
+      "similarities": {
+        "src_ip": 0.95158,
+        "dst_ip": 0.971851,
+        "src_port": 0.998896,
+        "dst_port": 0.968117
+      },
+      "z_scores": {
+        "src_ip": -4.987677,
+        "dst_ip": -7.272865,
+        "src_port": -2.09096,
+        "dst_port": -1.005417
+      }
+    },
+    {
+      "epoch_index": 43,
+      "epoch_name": "epoch_000043",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.398353,
+      "total_flows_count": 5070,
+      "similarities": {
+        "src_ip": 0.961109,
+        "dst_ip": 0.976075,
+        "src_port": 0.999461,
+        "dst_port": 0.970757
+      },
+      "z_scores": {
+        "src_ip": -1.891791,
+        "dst_ip": -4.398353,
+        "src_port": 0.653893,
+        "dst_port": -0.320754
+      }
+    },
+    {
+      "epoch_index": 44,
+      "epoch_name": "epoch_000044",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.858659,
+      "total_flows_count": 5095,
+      "similarities": {
+        "src_ip": 0.962215,
+        "dst_ip": 0.978337,
+        "src_port": 0.999433,
+        "dst_port": 0.970531
+      },
+      "z_scores": {
+        "src_ip": -1.532375,
+        "dst_ip": -2.858659,
+        "src_port": 0.519319,
+        "dst_port": -0.379557
+      }
+    },
+    {
+      "epoch_index": 45,
+      "epoch_name": "epoch_000045",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.714534,
+      "total_flows_count": 5079,
+      "similarities": {
+        "src_ip": 0.96355,
+        "dst_ip": 0.978549,
+        "src_port": 0.999198,
+        "dst_port": 0.97232
+      },
+      "z_scores": {
+        "src_ip": -1.098641,
+        "dst_ip": -2.714534,
+        "src_port": -0.622957,
+        "dst_port": 0.084526
+      }
+    },
+    {
+      "epoch_index": 46,
+      "epoch_name": "epoch_000046",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.658415,
+      "total_flows_count": 5121,
+      "similarities": {
+        "src_ip": 0.961827,
+        "dst_ip": 0.981337,
+        "src_port": 0.999201,
+        "dst_port": 0.966916
+      },
+      "z_scores": {
+        "src_ip": -1.658415,
+        "dst_ip": -0.817052,
+        "src_port": -0.609443,
+        "dst_port": -1.317106
+      }
+    },
+    {
+      "epoch_index": 47,
+      "epoch_name": "epoch_000047",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.208405,
+      "total_flows_count": 5076,
+      "similarities": {
+        "src_ip": 0.957184,
+        "dst_ip": 0.973415,
+        "src_port": 0.999269,
+        "dst_port": 0.967309
+      },
+      "z_scores": {
+        "src_ip": -3.167069,
+        "dst_ip": -6.208405,
+        "src_port": -0.279275,
+        "dst_port": -1.214974
+      }
+    },
+    {
+      "epoch_index": 48,
+      "epoch_name": "epoch_000048",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.349054,
+      "total_flows_count": 5080,
+      "similarities": {
+        "src_ip": 0.959702,
+        "dst_ip": 0.979891,
+        "src_port": 0.99948,
+        "dst_port": 0.97172
+      },
+      "z_scores": {
+        "src_ip": -2.349054,
+        "dst_ip": -1.800877,
+        "src_port": 0.745437,
+        "dst_port": -0.071147
+      }
+    },
+    {
+      "epoch_index": 49,
+      "epoch_name": "epoch_000049",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.804118,
+      "total_flows_count": 5111,
+      "similarities": {
+        "src_ip": 0.964266,
+        "dst_ip": 0.978417,
+        "src_port": 0.998954,
+        "dst_port": 0.97081
+      },
+      "z_scores": {
+        "src_ip": -0.866193,
+        "dst_ip": -2.804118,
+        "src_port": -1.806625,
+        "dst_port": -0.307153
+      }
+    },
+    {
+      "epoch_index": 50,
+      "epoch_name": "epoch_000050",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.55052,
+      "total_flows_count": 5126,
+      "similarities": {
+        "src_ip": 0.959082,
+        "dst_ip": 0.980379,
+        "src_port": 0.999289,
+        "dst_port": 0.969948
+      },
+      "z_scores": {
+        "src_ip": -2.55052,
+        "dst_ip": -1.468546,
+        "src_port": -0.181916,
+        "dst_port": -0.530722
+      }
+    },
+    {
+      "epoch_index": 51,
+      "epoch_name": "epoch_000051",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.229201,
+      "total_flows_count": 5149,
+      "similarities": {
+        "src_ip": 0.963865,
+        "dst_ip": 0.979262,
+        "src_port": 0.999351,
+        "dst_port": 0.970375
+      },
+      "z_scores": {
+        "src_ip": -0.996305,
+        "dst_ip": -2.229201,
+        "src_port": 0.120699,
+        "dst_port": -0.419925
+      }
+    },
+    {
+      "epoch_index": 52,
+      "epoch_name": "epoch_000052",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.05623,
+      "total_flows_count": 5114,
+      "similarities": {
+        "src_ip": 0.960603,
+        "dst_ip": 0.979622,
+        "src_port": 0.999277,
+        "dst_port": 0.971382
+      },
+      "z_scores": {
+        "src_ip": -2.05623,
+        "dst_ip": -1.98383,
+        "src_port": -0.240598,
+        "dst_port": -0.15876
+      }
+    },
+    {
+      "epoch_index": 53,
+      "epoch_name": "epoch_000053",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.50098,
+      "total_flows_count": 4954,
+      "similarities": {
+        "src_ip": 0.96667,
+        "dst_ip": 0.977393,
+        "src_port": 0.999462,
+        "dst_port": 0.967743
+      },
+      "z_scores": {
+        "src_ip": -0.085086,
+        "dst_ip": -3.50098,
+        "src_port": 0.657795,
+        "dst_port": -1.102488
+      }
+    },
+    {
+      "epoch_index": 54,
+      "epoch_name": "epoch_000054",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.175773,
+      "total_flows_count": 5117,
+      "similarities": {
+        "src_ip": 0.963943,
+        "dst_ip": 0.977871,
+        "src_port": 0.999448,
+        "dst_port": 0.969849
+      },
+      "z_scores": {
+        "src_ip": -0.971085,
+        "dst_ip": -3.175773,
+        "src_port": 0.588781,
+        "dst_port": -0.556372
+      }
+    },
+    {
+      "epoch_index": 55,
+      "epoch_name": "epoch_000055",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.748783,
+      "total_flows_count": 5069,
+      "similarities": {
+        "src_ip": 0.957454,
+        "dst_ip": 0.977029,
+        "src_port": 0.999426,
+        "dst_port": 0.9681
+      },
+      "z_scores": {
+        "src_ip": -3.079292,
+        "dst_ip": -3.748783,
+        "src_port": 0.482129,
+        "dst_port": -1.009912
+      }
+    },
+    {
+      "epoch_index": 56,
+      "epoch_name": "epoch_000056",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.980392,
+      "total_flows_count": 5029,
+      "similarities": {
+        "src_ip": 0.951603,
+        "dst_ip": 0.978952,
+        "src_port": 0.999033,
+        "dst_port": 0.972291
+      },
+      "z_scores": {
+        "src_ip": -4.980392,
+        "dst_ip": -2.440205,
+        "src_port": -1.425329,
+        "dst_port": 0.077068
+      }
+    },
+    {
+      "epoch_index": 57,
+      "epoch_name": "epoch_000057",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -10.669501,
+      "total_flows_count": 5103,
+      "similarities": {
+        "src_ip": 0.967283,
+        "dst_ip": 0.966861,
+        "src_port": 0.999106,
+        "dst_port": 0.974201
+      },
+      "z_scores": {
+        "src_ip": 0.114078,
+        "dst_ip": -10.669501,
+        "src_port": -1.071453,
+        "dst_port": 0.572303
+      }
+    },
+    {
+      "epoch_index": 58,
+      "epoch_name": "epoch_000058",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.478092,
+      "total_flows_count": 5106,
+      "similarities": {
+        "src_ip": 0.961578,
+        "dst_ip": 0.978896,
+        "src_port": 0.999472,
+        "dst_port": 0.969255
+      },
+      "z_scores": {
+        "src_ip": -1.739607,
+        "dst_ip": -2.478092,
+        "src_port": 0.708096,
+        "dst_port": -0.710272
+      }
+    },
+    {
+      "epoch_index": 59,
+      "epoch_name": "epoch_000059",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -12.625869,
+      "total_flows_count": 5167,
+      "similarities": {
+        "src_ip": 0.928071,
+        "dst_ip": 0.977989,
+        "src_port": 0.99868,
+        "dst_port": 0.945
+      },
+      "z_scores": {
+        "src_ip": -12.625869,
+        "dst_ip": -3.095158,
+        "src_port": -3.136578,
+        "dst_port": -7.00093
+      }
+    },
+    {
+      "epoch_index": 60,
+      "epoch_name": "epoch_000060",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -22.47415,
+      "total_flows_count": 5105,
+      "similarities": {
+        "src_ip": 0.897759,
+        "dst_ip": 0.97422,
+        "src_port": 0.997273,
+        "dst_port": 0.915527
+      },
+      "z_scores": {
+        "src_ip": -22.47415,
+        "dst_ip": -5.660745,
+        "src_port": -9.969343,
+        "dst_port": -14.644764
+      }
+    },
+    {
+      "epoch_index": 61,
+      "epoch_name": "epoch_000061",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.926779,
+      "total_flows_count": 5131,
+      "similarities": {
+        "src_ip": 0.953639,
+        "dst_ip": 0.975298,
+        "src_port": 0.998789,
+        "dst_port": 0.963407
+      },
+      "z_scores": {
+        "src_ip": -4.318813,
+        "dst_ip": -4.926779,
+        "src_port": -2.609081,
+        "dst_port": -2.226964
+      }
+    },
+    {
+      "epoch_index": 62,
+      "epoch_name": "epoch_000062",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.815922,
+      "total_flows_count": 5029,
+      "similarities": {
+        "src_ip": 0.956599,
+        "dst_ip": 0.97693,
+        "src_port": 0.99921,
+        "dst_port": 0.957974
+      },
+      "z_scores": {
+        "src_ip": -3.357117,
+        "dst_ip": -3.815922,
+        "src_port": -0.565641,
+        "dst_port": -3.636026
+      }
+    },
+    {
+      "epoch_index": 63,
+      "epoch_name": "epoch_000063",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.356119,
+      "total_flows_count": 5012,
+      "similarities": {
+        "src_ip": 0.956602,
+        "dst_ip": 0.979082,
+        "src_port": 0.999137,
+        "dst_port": 0.97194
+      },
+      "z_scores": {
+        "src_ip": -3.356119,
+        "dst_ip": -2.351854,
+        "src_port": -0.917102,
+        "dst_port": -0.014091
+      }
+    },
+    {
+      "epoch_index": 64,
+      "epoch_name": "epoch_000064",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.711429,
+      "total_flows_count": 5027,
+      "similarities": {
+        "src_ip": 0.958586,
+        "dst_ip": 0.980202,
+        "src_port": 0.999086,
+        "dst_port": 0.968177
+      },
+      "z_scores": {
+        "src_ip": -2.711429,
+        "dst_ip": -1.589139,
+        "src_port": -1.168205,
+        "dst_port": -0.989835
+      }
+    },
+    {
+      "epoch_index": 65,
+      "epoch_name": "epoch_000065",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.689394,
+      "total_flows_count": 5107,
+      "similarities": {
+        "src_ip": 0.956693,
+        "dst_ip": 0.975647,
+        "src_port": 0.999331,
+        "dst_port": 0.967421
+      },
+      "z_scores": {
+        "src_ip": -3.326505,
+        "dst_ip": -4.689394,
+        "src_port": 0.023261,
+        "dst_port": -1.185998
+      }
+    },
+    {
+      "epoch_index": 66,
+      "epoch_name": "epoch_000066",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.213813,
+      "total_flows_count": 5096,
+      "similarities": {
+        "src_ip": 0.958853,
+        "dst_ip": 0.976346,
+        "src_port": 0.999202,
+        "dst_port": 0.971015
+      },
+      "z_scores": {
+        "src_ip": -2.6247,
+        "dst_ip": -4.213813,
+        "src_port": -0.602192,
+        "dst_port": -0.253965
+      }
+    },
+    {
+      "epoch_index": 67,
+      "epoch_name": "epoch_000067",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.140492,
+      "total_flows_count": 5082,
+      "similarities": {
+        "src_ip": 0.95111,
+        "dst_ip": 0.977705,
+        "src_port": 0.99907,
+        "dst_port": 0.963699
+      },
+      "z_scores": {
+        "src_ip": -5.140492,
+        "dst_ip": -3.288609,
+        "src_port": -1.242025,
+        "dst_port": -2.151333
+      }
+    },
+    {
+      "epoch_index": 68,
+      "epoch_name": "epoch_000068",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.728593,
+      "total_flows_count": 5078,
+      "similarities": {
+        "src_ip": 0.959081,
+        "dst_ip": 0.97559,
+        "src_port": 0.999115,
+        "dst_port": 0.964014
+      },
+      "z_scores": {
+        "src_ip": -2.550698,
+        "dst_ip": -4.728593,
+        "src_port": -1.026036,
+        "dst_port": -2.069576
+      }
+    },
+    {
+      "epoch_index": 69,
+      "epoch_name": "epoch_000069",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.52126,
+      "total_flows_count": 5225,
+      "similarities": {
+        "src_ip": 0.951127,
+        "dst_ip": 0.972956,
+        "src_port": 0.999383,
+        "dst_port": 0.969223
+      },
+      "z_scores": {
+        "src_ip": -5.134977,
+        "dst_ip": -6.52126,
+        "src_port": 0.275599,
+        "dst_port": -0.718702
+      }
+    },
+    {
+      "epoch_index": 70,
+      "epoch_name": "epoch_000070",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.490877,
+      "total_flows_count": 5074,
+      "similarities": {
+        "src_ip": 0.962065,
+        "dst_ip": 0.97447,
+        "src_port": 0.99926,
+        "dst_port": 0.970955
+      },
+      "z_scores": {
+        "src_ip": -1.581123,
+        "dst_ip": -5.490877,
+        "src_port": -0.320779,
+        "dst_port": -0.26959
+      }
+    },
+    {
+      "epoch_index": 71,
+      "epoch_name": "epoch_000071",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.520705,
+      "total_flows_count": 5180,
+      "similarities": {
+        "src_ip": 0.962026,
+        "dst_ip": 0.977364,
+        "src_port": 0.999005,
+        "dst_port": 0.967534
+      },
+      "z_scores": {
+        "src_ip": -1.594015,
+        "dst_ip": -3.520705,
+        "src_port": -1.559986,
+        "dst_port": -1.156663
+      }
+    },
+    {
+      "epoch_index": 72,
+      "epoch_name": "epoch_000072",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.992956,
+      "total_flows_count": 5104,
+      "similarities": {
+        "src_ip": 0.965369,
+        "dst_ip": 0.978479,
+        "src_port": 0.999299,
+        "dst_port": 0.960454
+      },
+      "z_scores": {
+        "src_ip": -0.50763,
+        "dst_ip": -2.761873,
+        "src_port": -0.130656,
+        "dst_port": -2.992956
+      }
+    },
+    {
+      "epoch_index": 73,
+      "epoch_name": "epoch_000073",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.413164,
+      "total_flows_count": 5306,
+      "similarities": {
+        "src_ip": 0.966477,
+        "dst_ip": 0.976053,
+        "src_port": 0.999482,
+        "dst_port": 0.971846
+      },
+      "z_scores": {
+        "src_ip": -0.147696,
+        "dst_ip": -4.413164,
+        "src_port": 0.755933,
+        "dst_port": -0.038477
+      }
+    },
+    {
+      "epoch_index": 74,
+      "epoch_name": "epoch_000074",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.82176,
+      "total_flows_count": 5079,
+      "similarities": {
+        "src_ip": 0.967879,
+        "dst_ip": 0.98036,
+        "src_port": 0.999213,
+        "dst_port": 0.96497
+      },
+      "z_scores": {
+        "src_ip": 0.30785,
+        "dst_ip": -1.481911,
+        "src_port": -0.548145,
+        "dst_port": -1.82176
+      }
+    },
+    {
+      "epoch_index": 75,
+      "epoch_name": "epoch_000075",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.992231,
+      "total_flows_count": 5083,
+      "similarities": {
+        "src_ip": 0.957722,
+        "dst_ip": 0.981675,
+        "src_port": 0.999268,
+        "dst_port": 0.971788
+      },
+      "z_scores": {
+        "src_ip": -2.992231,
+        "dst_ip": -0.58648,
+        "src_port": -0.284062,
+        "dst_port": -0.05354
+      }
+    },
+    {
+      "epoch_index": 76,
+      "epoch_name": "epoch_000076",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.330463,
+      "total_flows_count": 4991,
+      "similarities": {
+        "src_ip": 0.956681,
+        "dst_ip": 0.980411,
+        "src_port": 0.999229,
+        "dst_port": 0.967591
+      },
+      "z_scores": {
+        "src_ip": -3.330463,
+        "dst_ip": -1.447314,
+        "src_port": -0.473027,
+        "dst_port": -1.141803
+      }
+    },
+    {
+      "epoch_index": 77,
+      "epoch_name": "epoch_000077",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.872399,
+      "total_flows_count": 5150,
+      "similarities": {
+        "src_ip": 0.958091,
+        "dst_ip": 0.980707,
+        "src_port": 0.999244,
+        "dst_port": 0.968301
+      },
+      "z_scores": {
+        "src_ip": -2.872399,
+        "dst_ip": -1.245711,
+        "src_port": -0.40208,
+        "dst_port": -0.957909
+      }
+    },
+    {
+      "epoch_index": 78,
+      "epoch_name": "epoch_000078",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.204432,
+      "total_flows_count": 5045,
+      "similarities": {
+        "src_ip": 0.957069,
+        "dst_ip": 0.977901,
+        "src_port": 0.999273,
+        "dst_port": 0.972521
+      },
+      "z_scores": {
+        "src_ip": -3.204432,
+        "dst_ip": -3.155686,
+        "src_port": -0.258367,
+        "dst_port": 0.1366
+      }
+    },
+    {
+      "epoch_index": 79,
+      "epoch_name": "epoch_000079",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.660989,
+      "total_flows_count": 5026,
+      "similarities": {
+        "src_ip": 0.960077,
+        "dst_ip": 0.97422,
+        "src_port": 0.999213,
+        "dst_port": 0.969361
+      },
+      "z_scores": {
+        "src_ip": -2.227019,
+        "dst_ip": -5.660989,
+        "src_port": -0.551113,
+        "dst_port": -0.682937
+      }
+    },
+    {
+      "epoch_index": 80,
+      "epoch_name": "epoch_000080",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.918219,
+      "total_flows_count": 5084,
+      "similarities": {
+        "src_ip": 0.961265,
+        "dst_ip": 0.97678,
+        "src_port": 0.999183,
+        "dst_port": 0.967138
+      },
+      "z_scores": {
+        "src_ip": -1.841266,
+        "dst_ip": -3.918219,
+        "src_port": -0.6956,
+        "dst_port": -1.259509
+      }
+    },
+    {
+      "epoch_index": 81,
+      "epoch_name": "epoch_000081",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.991422,
+      "total_flows_count": 5010,
+      "similarities": {
+        "src_ip": 0.962255,
+        "dst_ip": 0.978142,
+        "src_port": 0.999328,
+        "dst_port": 0.968098
+      },
+      "z_scores": {
+        "src_ip": -1.519438,
+        "dst_ip": -2.991422,
+        "src_port": 0.00658,
+        "dst_port": -1.010525
+      }
+    },
+    {
+      "epoch_index": 82,
+      "epoch_name": "epoch_000082",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.340431,
+      "total_flows_count": 5125,
+      "similarities": {
+        "src_ip": 0.947417,
+        "dst_ip": 0.974559,
+        "src_port": 0.998069,
+        "dst_port": 0.956121
+      },
+      "z_scores": {
+        "src_ip": -6.340431,
+        "dst_ip": -5.430049,
+        "src_port": -6.105222,
+        "dst_port": -4.116698
+      }
+    },
+    {
+      "epoch_index": 83,
+      "epoch_name": "epoch_000083",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.700132,
+      "total_flows_count": 5093,
+      "similarities": {
+        "src_ip": 0.962827,
+        "dst_ip": 0.972693,
+        "src_port": 0.999294,
+        "dst_port": 0.963672
+      },
+      "z_scores": {
+        "src_ip": -1.333526,
+        "dst_ip": -6.700132,
+        "src_port": -0.154986,
+        "dst_port": -2.158367
+      }
+    },
+    {
+      "epoch_index": 84,
+      "epoch_name": "epoch_000084",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.726966,
+      "total_flows_count": 5098,
+      "similarities": {
+        "src_ip": 0.958816,
+        "dst_ip": 0.974123,
+        "src_port": 0.998946,
+        "dst_port": 0.970315
+      },
+      "z_scores": {
+        "src_ip": -2.63696,
+        "dst_ip": -5.726966,
+        "src_port": -1.846778,
+        "dst_port": -0.435409
+      }
+    },
+    {
+      "epoch_index": 85,
+      "epoch_name": "epoch_000085",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.828584,
+      "total_flows_count": 5089,
+      "similarities": {
+        "src_ip": 0.957203,
+        "dst_ip": 0.971035,
+        "src_port": 0.998986,
+        "dst_port": 0.958496
+      },
+      "z_scores": {
+        "src_ip": -3.160738,
+        "dst_ip": -7.828584,
+        "src_port": -1.650388,
+        "dst_port": -3.500674
+      }
+    },
+    {
+      "epoch_index": 86,
+      "epoch_name": "epoch_000086",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.469368,
+      "total_flows_count": 5102,
+      "similarities": {
+        "src_ip": 0.958428,
+        "dst_ip": 0.974501,
+        "src_port": 0.998696,
+        "dst_port": 0.963391
+      },
+      "z_scores": {
+        "src_ip": -2.763043,
+        "dst_ip": -5.469368,
+        "src_port": -3.061902,
+        "dst_port": -2.231122
+      }
+    },
+    {
+      "epoch_index": 87,
+      "epoch_name": "epoch_000087",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.309734,
+      "total_flows_count": 5217,
+      "similarities": {
+        "src_ip": 0.962857,
+        "dst_ip": 0.974736,
+        "src_port": 0.999438,
+        "dst_port": 0.967723
+      },
+      "z_scores": {
+        "src_ip": -1.323805,
+        "dst_ip": -5.309734,
+        "src_port": 0.543543,
+        "dst_port": -1.107659
+      }
+    },
+    {
+      "epoch_index": 88,
+      "epoch_name": "epoch_000088",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.223582,
+      "total_flows_count": 5033,
+      "similarities": {
+        "src_ip": 0.962642,
+        "dst_ip": 0.971924,
+        "src_port": 0.999323,
+        "dst_port": 0.974667
+      },
+      "z_scores": {
+        "src_ip": -1.393622,
+        "dst_ip": -7.223582,
+        "src_port": -0.014412,
+        "dst_port": 0.693248
+      }
+    },
+    {
+      "epoch_index": 89,
+      "epoch_name": "epoch_000089",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.986052,
+      "total_flows_count": 5181,
+      "similarities": {
+        "src_ip": 0.957741,
+        "dst_ip": 0.978389,
+        "src_port": 0.999116,
+        "dst_port": 0.972241
+      },
+      "z_scores": {
+        "src_ip": -2.986052,
+        "dst_ip": -2.823142,
+        "src_port": -1.020068,
+        "dst_port": 0.06403
+      }
+    },
+    {
+      "epoch_index": 90,
+      "epoch_name": "epoch_000090",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.378357,
+      "total_flows_count": 4866,
+      "similarities": {
+        "src_ip": 0.960273,
+        "dst_ip": 0.976333,
+        "src_port": 0.999055,
+        "dst_port": 0.955112
+      },
+      "z_scores": {
+        "src_ip": -2.163357,
+        "dst_ip": -4.222351,
+        "src_port": -1.319334,
+        "dst_port": -4.378357
+      }
+    },
+    {
+      "epoch_index": 91,
+      "epoch_name": "epoch_000091",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.948068,
+      "total_flows_count": 4972,
+      "similarities": {
+        "src_ip": 0.950121,
+        "dst_ip": 0.973798,
+        "src_port": 0.998976,
+        "dst_port": 0.968026
+      },
+      "z_scores": {
+        "src_ip": -5.461976,
+        "dst_ip": -5.948068,
+        "src_port": -1.700052,
+        "dst_port": -1.029128
+      }
+    },
+    {
+      "epoch_index": 92,
+      "epoch_name": "epoch_000092",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.666396,
+      "total_flows_count": 5034,
+      "similarities": {
+        "src_ip": 0.952569,
+        "dst_ip": 0.97669,
+        "src_port": 0.999075,
+        "dst_port": 0.968191
+      },
+      "z_scores": {
+        "src_ip": -4.666396,
+        "dst_ip": -3.979779,
+        "src_port": -1.21836,
+        "dst_port": -0.986389
+      }
+    },
+    {
+      "epoch_index": 93,
+      "epoch_name": "epoch_000093",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.285412,
+      "total_flows_count": 5056,
+      "similarities": {
+        "src_ip": 0.959375,
+        "dst_ip": 0.97771,
+        "src_port": 0.998993,
+        "dst_port": 0.967025
+      },
+      "z_scores": {
+        "src_ip": -2.455141,
+        "dst_ip": -3.285412,
+        "src_port": -1.616399,
+        "dst_port": -1.288854
+      }
+    },
+    {
+      "epoch_index": 94,
+      "epoch_name": "epoch_000094",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.337169,
+      "total_flows_count": 5039,
+      "similarities": {
+        "src_ip": 0.961555,
+        "dst_ip": 0.973226,
+        "src_port": 0.999501,
+        "dst_port": 0.966546
+      },
+      "z_scores": {
+        "src_ip": -1.747055,
+        "dst_ip": -6.337169,
+        "src_port": 0.848391,
+        "dst_port": -1.412825
+      }
+    },
+    {
+      "epoch_index": 95,
+      "epoch_name": "epoch_000095",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.793503,
+      "total_flows_count": 5048,
+      "similarities": {
+        "src_ip": 0.953197,
+        "dst_ip": 0.971086,
+        "src_port": 0.99872,
+        "dst_port": 0.966783
+      },
+      "z_scores": {
+        "src_ip": -4.462428,
+        "dst_ip": -7.793503,
+        "src_port": -2.943182,
+        "dst_port": -1.35159
+      }
+    },
+    {
+      "epoch_index": 96,
+      "epoch_name": "epoch_000096",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -60.862561,
+      "total_flows_count": 1637,
+      "similarities": {
+        "src_ip": 0.836213,
+        "dst_ip": 0.893113,
+        "src_port": 0.990752,
+        "dst_port": 0.918596
+      },
+      "z_scores": {
+        "src_ip": -42.470429,
+        "dst_ip": -60.862561,
+        "src_port": -41.625578,
+        "dst_port": -13.848805
+      }
+    },
+    {
+      "epoch_index": 97,
+      "epoch_name": "epoch_000097",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.636227,
+      "total_flows_count": 3991,
+      "similarities": {
+        "src_ip": 0.943803,
+        "dst_ip": 0.971317,
+        "src_port": 0.998674,
+        "dst_port": 0.94781
+      },
+      "z_scores": {
+        "src_ip": -7.514394,
+        "dst_ip": -7.636227,
+        "src_port": -3.166621,
+        "dst_port": -6.272292
+      }
+    },
+    {
+      "epoch_index": 98,
+      "epoch_name": "epoch_000098",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.089127,
+      "total_flows_count": 5118,
+      "similarities": {
+        "src_ip": 0.956297,
+        "dst_ip": 0.973591,
+        "src_port": 0.999272,
+        "dst_port": 0.967271
+      },
+      "z_scores": {
+        "src_ip": -3.45527,
+        "dst_ip": -6.089127,
+        "src_port": -0.263685,
+        "dst_port": -1.224934
+      }
+    },
+    {
+      "epoch_index": 99,
+      "epoch_name": "epoch_000099",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.774436,
+      "total_flows_count": 4978,
+      "similarities": {
+        "src_ip": 0.963312,
+        "dst_ip": 0.974053,
+        "src_port": 0.999087,
+        "dst_port": 0.958635
+      },
+      "z_scores": {
+        "src_ip": -1.175995,
+        "dst_ip": -5.774436,
+        "src_port": -1.161193,
+        "dst_port": -3.464571
+      }
+    },
+    {
+      "epoch_index": 100,
+      "epoch_name": "epoch_000100",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.300276,
+      "total_flows_count": 5046,
+      "similarities": {
+        "src_ip": 0.95299,
+        "dst_ip": 0.97475,
+        "src_port": 0.9991,
+        "dst_port": 0.967194
+      },
+      "z_scores": {
+        "src_ip": -4.529606,
+        "dst_ip": -5.300276,
+        "src_port": -1.100946,
+        "dst_port": -1.24482
+      }
+    },
+    {
+      "epoch_index": 101,
+      "epoch_name": "epoch_000101",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.866742,
+      "total_flows_count": 4902,
+      "similarities": {
+        "src_ip": 0.958838,
+        "dst_ip": 0.976856,
+        "src_port": 0.999277,
+        "dst_port": 0.959826
+      },
+      "z_scores": {
+        "src_ip": -2.629623,
+        "dst_ip": -3.866742,
+        "src_port": -0.238267,
+        "dst_port": -3.155882
+      }
+    },
+    {
+      "epoch_index": 102,
+      "epoch_name": "epoch_000102",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.542614,
+      "total_flows_count": 5026,
+      "similarities": {
+        "src_ip": 0.957357,
+        "dst_ip": 0.975863,
+        "src_port": 0.998419,
+        "dst_port": 0.957906
+      },
+      "z_scores": {
+        "src_ip": -3.110813,
+        "dst_ip": -4.542614,
+        "src_port": -4.404626,
+        "dst_port": -3.653643
+      }
+    },
+    {
+      "epoch_index": 103,
+      "epoch_name": "epoch_000103",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.311336,
+      "total_flows_count": 4892,
+      "similarities": {
+        "src_ip": 0.953662,
+        "dst_ip": 0.977048,
+        "src_port": 0.999197,
+        "dst_port": 0.961551
+      },
+      "z_scores": {
+        "src_ip": -4.311336,
+        "dst_ip": -3.73588,
+        "src_port": -0.626524,
+        "dst_port": -2.708373
+      }
+    },
+    {
+      "epoch_index": 104,
+      "epoch_name": "epoch_000104",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.092044,
+      "total_flows_count": 4930,
+      "similarities": {
+        "src_ip": 0.964299,
+        "dst_ip": 0.973586,
+        "src_port": 0.99909,
+        "dst_port": 0.970801
+      },
+      "z_scores": {
+        "src_ip": -0.855411,
+        "dst_ip": -6.092044,
+        "src_port": -1.146843,
+        "dst_port": -0.309295
+      }
+    },
+    {
+      "epoch_index": 105,
+      "epoch_name": "epoch_000105",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.671793,
+      "total_flows_count": 5072,
+      "similarities": {
+        "src_ip": 0.962878,
+        "dst_ip": 0.975673,
+        "src_port": 0.999024,
+        "dst_port": 0.96914
+      },
+      "z_scores": {
+        "src_ip": -1.317151,
+        "dst_ip": -4.671793,
+        "src_port": -1.468463,
+        "dst_port": -0.740215
+      }
+    },
+    {
+      "epoch_index": 106,
+      "epoch_name": "epoch_000106",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.450571,
+      "total_flows_count": 4977,
+      "similarities": {
+        "src_ip": 0.966974,
+        "dst_ip": 0.973059,
+        "src_port": 0.999144,
+        "dst_port": 0.965875
+      },
+      "z_scores": {
+        "src_ip": 0.013665,
+        "dst_ip": -6.450571,
+        "src_port": -0.887457,
+        "dst_port": -1.587073
+      }
+    },
+    {
+      "epoch_index": 107,
+      "epoch_name": "epoch_000107",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.467108,
+      "total_flows_count": 4975,
+      "similarities": {
+        "src_ip": 0.958658,
+        "dst_ip": 0.975974,
+        "src_port": 0.999291,
+        "dst_port": 0.970568
+      },
+      "z_scores": {
+        "src_ip": -2.688261,
+        "dst_ip": -4.467108,
+        "src_port": -0.170926,
+        "dst_port": -0.369728
+      }
+    },
+    {
+      "epoch_index": 108,
+      "epoch_name": "epoch_000108",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.612308,
+      "total_flows_count": 5023,
+      "similarities": {
+        "src_ip": 0.958675,
+        "dst_ip": 0.972822,
+        "src_port": 0.999179,
+        "dst_port": 0.969993
+      },
+      "z_scores": {
+        "src_ip": -2.682739,
+        "dst_ip": -6.612308,
+        "src_port": -0.714757,
+        "dst_port": -0.518946
+      }
+    },
+    {
+      "epoch_index": 109,
+      "epoch_name": "epoch_000109",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.930701,
+      "total_flows_count": 5135,
+      "similarities": {
+        "src_ip": 0.953005,
+        "dst_ip": 0.978326,
+        "src_port": 0.997899,
+        "dst_port": 0.948958
+      },
+      "z_scores": {
+        "src_ip": -4.52492,
+        "dst_ip": -2.865805,
+        "src_port": -6.930701,
+        "dst_port": -5.974537
+      }
+    },
+    {
+      "epoch_index": 110,
+      "epoch_name": "epoch_000110",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.353219,
+      "total_flows_count": 5035,
+      "similarities": {
+        "src_ip": 0.957523,
+        "dst_ip": 0.974672,
+        "src_port": 0.999438,
+        "dst_port": 0.968552
+      },
+      "z_scores": {
+        "src_ip": -3.056924,
+        "dst_ip": -5.353219,
+        "src_port": 0.539759,
+        "dst_port": -0.892761
+      }
+    },
+    {
+      "epoch_index": 111,
+      "epoch_name": "epoch_000111",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -9.795882,
+      "total_flows_count": 5151,
+      "similarities": {
+        "src_ip": 0.963688,
+        "dst_ip": 0.968144,
+        "src_port": 0.998846,
+        "dst_port": 0.95091
+      },
+      "z_scores": {
+        "src_ip": -1.053846,
+        "dst_ip": -9.795882,
+        "src_port": -2.331461,
+        "dst_port": -5.46823
+      }
+    },
+    {
+      "epoch_index": 112,
+      "epoch_name": "epoch_000112",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.434343,
+      "total_flows_count": 4995,
+      "similarities": {
+        "src_ip": 0.953283,
+        "dst_ip": 0.977064,
+        "src_port": 0.998987,
+        "dst_port": 0.97038
+      },
+      "z_scores": {
+        "src_ip": -4.434343,
+        "dst_ip": -3.724866,
+        "src_port": -1.649582,
+        "dst_port": -0.418634
+      }
+    },
+    {
+      "epoch_index": 113,
+      "epoch_name": "epoch_000113",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.134167,
+      "total_flows_count": 5019,
+      "similarities": {
+        "src_ip": 0.960884,
+        "dst_ip": 0.976463,
+        "src_port": 0.99911,
+        "dst_port": 0.959061
+      },
+      "z_scores": {
+        "src_ip": -1.964968,
+        "dst_ip": -4.134167,
+        "src_port": -1.047895,
+        "dst_port": -3.354256
+      }
+    },
+    {
+      "epoch_index": 114,
+      "epoch_name": "epoch_000114",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -12.6299,
+      "total_flows_count": 5225,
+      "similarities": {
+        "src_ip": 0.951798,
+        "dst_ip": 0.96398,
+        "src_port": 0.998993,
+        "dst_port": 0.964177
+      },
+      "z_scores": {
+        "src_ip": -4.91686,
+        "dst_ip": -12.6299,
+        "src_port": -1.615882,
+        "dst_port": -2.027305
+      }
+    },
+    {
+      "epoch_index": 115,
+      "epoch_name": "epoch_000115",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.684427,
+      "total_flows_count": 5032,
+      "similarities": {
+        "src_ip": 0.958708,
+        "dst_ip": 0.975654,
+        "src_port": 0.99905,
+        "dst_port": 0.968366
+      },
+      "z_scores": {
+        "src_ip": -2.672063,
+        "dst_ip": -4.684427,
+        "src_port": -1.340909,
+        "dst_port": -0.941011
+      }
+    },
+    {
+      "epoch_index": 116,
+      "epoch_name": "epoch_000116",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.999192,
+      "total_flows_count": 5023,
+      "similarities": {
+        "src_ip": 0.951545,
+        "dst_ip": 0.979063,
+        "src_port": 0.99897,
+        "dst_port": 0.9553
+      },
+      "z_scores": {
+        "src_ip": -4.999192,
+        "dst_ip": -2.364598,
+        "src_port": -1.73072,
+        "dst_port": -4.32974
+      }
+    },
+    {
+      "epoch_index": 117,
+      "epoch_name": "epoch_000117",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.580943,
+      "total_flows_count": 5002,
+      "similarities": {
+        "src_ip": 0.962866,
+        "dst_ip": 0.972868,
+        "src_port": 0.999105,
+        "dst_port": 0.9713
+      },
+      "z_scores": {
+        "src_ip": -1.320891,
+        "dst_ip": -6.580943,
+        "src_port": -1.076319,
+        "dst_port": -0.179974
+      }
+    },
+    {
+      "epoch_index": 118,
+      "epoch_name": "epoch_000118",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.616099,
+      "total_flows_count": 5135,
+      "similarities": {
+        "src_ip": 0.962055,
+        "dst_ip": 0.975755,
+        "src_port": 0.999206,
+        "dst_port": 0.967971
+      },
+      "z_scores": {
+        "src_ip": -1.584369,
+        "dst_ip": -4.616099,
+        "src_port": -0.585852,
+        "dst_port": -1.043351
+      }
+    },
+    {
+      "epoch_index": 119,
+      "epoch_name": "epoch_000119",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.644963,
+      "total_flows_count": 5145,
+      "similarities": {
+        "src_ip": 0.958537,
+        "dst_ip": 0.977182,
+        "src_port": 0.999304,
+        "dst_port": 0.962144
+      },
+      "z_scores": {
+        "src_ip": -2.727467,
+        "dst_ip": -3.644963,
+        "src_port": -0.108416,
+        "dst_port": -2.554606
+      }
+    },
+    {
+      "epoch_index": 120,
+      "epoch_name": "epoch_000120",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.418446,
+      "total_flows_count": 5065,
+      "similarities": {
+        "src_ip": 0.961046,
+        "dst_ip": 0.977514,
+        "src_port": 0.999399,
+        "dst_port": 0.967215
+      },
+      "z_scores": {
+        "src_ip": -1.912143,
+        "dst_ip": -3.418446,
+        "src_port": 0.352626,
+        "dst_port": -1.239528
+      }
+    },
+    {
+      "epoch_index": 121,
+      "epoch_name": "epoch_000121",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.687718,
+      "total_flows_count": 5177,
+      "similarities": {
+        "src_ip": 0.963747,
+        "dst_ip": 0.97418,
+        "src_port": 0.999275,
+        "dst_port": 0.971732
+      },
+      "z_scores": {
+        "src_ip": -1.034609,
+        "dst_ip": -5.687718,
+        "src_port": -0.248735,
+        "dst_port": -0.067945
+      }
+    },
+    {
+      "epoch_index": 122,
+      "epoch_name": "epoch_000122",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.317945,
+      "total_flows_count": 5121,
+      "similarities": {
+        "src_ip": 0.962889,
+        "dst_ip": 0.974724,
+        "src_port": 0.999124,
+        "dst_port": 0.971887
+      },
+      "z_scores": {
+        "src_ip": -1.313539,
+        "dst_ip": -5.317945,
+        "src_port": -0.981082,
+        "dst_port": -0.027722
+      }
+    },
+    {
+      "epoch_index": 123,
+      "epoch_name": "epoch_000123",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.616284,
+      "total_flows_count": 5137,
+      "similarities": {
+        "src_ip": 0.960016,
+        "dst_ip": 0.977224,
+        "src_port": 0.999153,
+        "dst_port": 0.971109
+      },
+      "z_scores": {
+        "src_ip": -2.246785,
+        "dst_ip": -3.616284,
+        "src_port": -0.843754,
+        "dst_port": -0.229502
+      }
+    },
+    {
+      "epoch_index": 124,
+      "epoch_name": "epoch_000124",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.65285,
+      "total_flows_count": 5109,
+      "similarities": {
+        "src_ip": 0.960189,
+        "dst_ip": 0.978025,
+        "src_port": 0.998574,
+        "dst_port": 0.971735
+      },
+      "z_scores": {
+        "src_ip": -2.190671,
+        "dst_ip": -3.071328,
+        "src_port": -3.65285,
+        "dst_port": -0.06715
+      }
+    },
+    {
+      "epoch_index": 125,
+      "epoch_name": "epoch_000125",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.960236,
+      "total_flows_count": 5062,
+      "similarities": {
+        "src_ip": 0.958572,
+        "dst_ip": 0.976718,
+        "src_port": 0.999411,
+        "dst_port": 0.969322
+      },
+      "z_scores": {
+        "src_ip": -2.716227,
+        "dst_ip": -3.960236,
+        "src_port": 0.409298,
+        "dst_port": -0.692981
+      }
+    },
+    {
+      "epoch_index": 126,
+      "epoch_name": "epoch_000126",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.240739,
+      "total_flows_count": 4951,
+      "similarities": {
+        "src_ip": 0.960786,
+        "dst_ip": 0.971898,
+        "src_port": 0.999144,
+        "dst_port": 0.96893
+      },
+      "z_scores": {
+        "src_ip": -1.996833,
+        "dst_ip": -7.240739,
+        "src_port": -0.886727,
+        "dst_port": -0.794609
+      }
+    },
+    {
+      "epoch_index": 127,
+      "epoch_name": "epoch_000127",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.853619,
+      "total_flows_count": 5177,
+      "similarities": {
+        "src_ip": 0.956145,
+        "dst_ip": 0.973937,
+        "src_port": 0.999065,
+        "dst_port": 0.964464
+      },
+      "z_scores": {
+        "src_ip": -3.504732,
+        "dst_ip": -5.853619,
+        "src_port": -1.268987,
+        "dst_port": -1.952806
+      }
+    },
+    {
+      "epoch_index": 128,
+      "epoch_name": "epoch_000128",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.373061,
+      "total_flows_count": 5042,
+      "similarities": {
+        "src_ip": 0.958069,
+        "dst_ip": 0.974643,
+        "src_port": 0.999293,
+        "dst_port": 0.971148
+      },
+      "z_scores": {
+        "src_ip": -2.879366,
+        "dst_ip": -5.373061,
+        "src_port": -0.160368,
+        "dst_port": -0.219469
+      }
+    },
+    {
+      "epoch_index": 129,
+      "epoch_name": "epoch_000129",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.757473,
+      "total_flows_count": 5030,
+      "similarities": {
+        "src_ip": 0.955367,
+        "dst_ip": 0.979291,
+        "src_port": 0.999168,
+        "dst_port": 0.96321
+      },
+      "z_scores": {
+        "src_ip": -3.757473,
+        "dst_ip": -2.209336,
+        "src_port": -0.767447,
+        "dst_port": -2.278234
+      }
+    },
+    {
+      "epoch_index": 130,
+      "epoch_name": "epoch_000130",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.352975,
+      "total_flows_count": 5088,
+      "similarities": {
+        "src_ip": 0.961373,
+        "dst_ip": 0.977611,
+        "src_port": 0.999391,
+        "dst_port": 0.966787
+      },
+      "z_scores": {
+        "src_ip": -1.806001,
+        "dst_ip": -3.352975,
+        "src_port": 0.315828,
+        "dst_port": -1.350425
+      }
+    },
+    {
+      "epoch_index": 131,
+      "epoch_name": "epoch_000131",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.645388,
+      "total_flows_count": 5124,
+      "similarities": {
+        "src_ip": 0.960005,
+        "dst_ip": 0.97865,
+        "src_port": 0.998848,
+        "dst_port": 0.964285
+      },
+      "z_scores": {
+        "src_ip": -2.250371,
+        "dst_ip": -2.645388,
+        "src_port": -2.323878,
+        "dst_port": -1.999323
+      }
+    },
+    {
+      "epoch_index": 132,
+      "epoch_name": "epoch_000132",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.641798,
+      "total_flows_count": 4996,
+      "similarities": {
+        "src_ip": 0.95488,
+        "dst_ip": 0.977165,
+        "src_port": 0.998164,
+        "dst_port": 0.971078
+      },
+      "z_scores": {
+        "src_ip": -3.915776,
+        "dst_ip": -3.656604,
+        "src_port": -5.641798,
+        "dst_port": -0.237582
+      }
+    },
+    {
+      "epoch_index": 133,
+      "epoch_name": "epoch_000133",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.199746,
+      "total_flows_count": 5027,
+      "similarities": {
+        "src_ip": 0.961611,
+        "dst_ip": 0.976367,
+        "src_port": 0.999034,
+        "dst_port": 0.968586
+      },
+      "z_scores": {
+        "src_ip": -1.728875,
+        "dst_ip": -4.199746,
+        "src_port": -1.419989,
+        "dst_port": -0.88382
+      }
+    },
+    {
+      "epoch_index": 134,
+      "epoch_name": "epoch_000134",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.582362,
+      "total_flows_count": 5118,
+      "similarities": {
+        "src_ip": 0.9591,
+        "dst_ip": 0.971397,
+        "src_port": 0.999211,
+        "dst_port": 0.966494
+      },
+      "z_scores": {
+        "src_ip": -2.54464,
+        "dst_ip": -7.582362,
+        "src_port": -0.560747,
+        "dst_port": -1.426375
+      }
+    },
+    {
+      "epoch_index": 135,
+      "epoch_name": "epoch_000135",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.774997,
+      "total_flows_count": 5081,
+      "similarities": {
+        "src_ip": 0.957153,
+        "dst_ip": 0.978996,
+        "src_port": 0.999151,
+        "dst_port": 0.957439
+      },
+      "z_scores": {
+        "src_ip": -3.177232,
+        "dst_ip": -2.409821,
+        "src_port": -0.849445,
+        "dst_port": -3.774997
+      }
+    },
+    {
+      "epoch_index": 136,
+      "epoch_name": "epoch_000136",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.205983,
+      "total_flows_count": 5199,
+      "similarities": {
+        "src_ip": 0.950908,
+        "dst_ip": 0.978091,
+        "src_port": 0.999218,
+        "dst_port": 0.965185
+      },
+      "z_scores": {
+        "src_ip": -5.205983,
+        "dst_ip": -3.026043,
+        "src_port": -0.526783,
+        "dst_port": -1.766005
+      }
+    },
+    {
+      "epoch_index": 137,
+      "epoch_name": "epoch_000137",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.516501,
+      "total_flows_count": 5138,
+      "similarities": {
+        "src_ip": 0.952833,
+        "dst_ip": 0.974432,
+        "src_port": 0.999253,
+        "dst_port": 0.968649
+      },
+      "z_scores": {
+        "src_ip": -4.580751,
+        "dst_ip": -5.516501,
+        "src_port": -0.358334,
+        "dst_port": -0.86754
+      }
+    },
+    {
+      "epoch_index": 138,
+      "epoch_name": "epoch_000138",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.896779,
+      "total_flows_count": 5216,
+      "similarities": {
+        "src_ip": 0.95962,
+        "dst_ip": 0.979657,
+        "src_port": 0.998888,
+        "dst_port": 0.960825
+      },
+      "z_scores": {
+        "src_ip": -2.375742,
+        "dst_ip": -1.959907,
+        "src_port": -2.128025,
+        "dst_port": -2.896779
+      }
+    },
+    {
+      "epoch_index": 139,
+      "epoch_name": "epoch_000139",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.466493,
+      "total_flows_count": 5181,
+      "similarities": {
+        "src_ip": 0.950107,
+        "dst_ip": 0.976369,
+        "src_port": 0.999089,
+        "dst_port": 0.959689
+      },
+      "z_scores": {
+        "src_ip": -5.466493,
+        "dst_ip": -4.198256,
+        "src_port": -1.152655,
+        "dst_port": -3.191257
+      }
+    },
+    {
+      "epoch_index": 140,
+      "epoch_name": "epoch_000140",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.22595,
+      "total_flows_count": 5144,
+      "similarities": {
+        "src_ip": 0.963527,
+        "dst_ip": 0.976328,
+        "src_port": 0.999085,
+        "dst_port": 0.969691
+      },
+      "z_scores": {
+        "src_ip": -1.106304,
+        "dst_ip": -4.22595,
+        "src_port": -1.1732,
+        "dst_port": -0.59724
+      }
+    },
+    {
+      "epoch_index": 141,
+      "epoch_name": "epoch_000141",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.221504,
+      "total_flows_count": 5119,
+      "similarities": {
+        "src_ip": 0.955535,
+        "dst_ip": 0.976335,
+        "src_port": 0.999177,
+        "dst_port": 0.971645
+      },
+      "z_scores": {
+        "src_ip": -3.702943,
+        "dst_ip": -4.221504,
+        "src_port": -0.724465,
+        "dst_port": -0.090478
+      }
+    },
+    {
+      "epoch_index": 142,
+      "epoch_name": "epoch_000142",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -8.630413,
+      "total_flows_count": 5025,
+      "similarities": {
+        "src_ip": 0.940369,
+        "dst_ip": 0.97809,
+        "src_port": 0.998562,
+        "dst_port": 0.96048
+      },
+      "z_scores": {
+        "src_ip": -8.630413,
+        "dst_ip": -3.026839,
+        "src_port": -3.712781,
+        "dst_port": -2.986183
+      }
+    },
+    {
+      "epoch_index": 143,
+      "epoch_name": "epoch_000143",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.226348,
+      "total_flows_count": 5213,
+      "similarities": {
+        "src_ip": 0.956835,
+        "dst_ip": 0.973389,
+        "src_port": 0.999104,
+        "dst_port": 0.952645
+      },
+      "z_scores": {
+        "src_ip": -3.280428,
+        "dst_ip": -6.226348,
+        "src_port": -1.077929,
+        "dst_port": -5.018195
+      }
+    },
+    {
+      "epoch_index": 144,
+      "epoch_name": "epoch_000144",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.051772,
+      "total_flows_count": 5223,
+      "similarities": {
+        "src_ip": 0.961786,
+        "dst_ip": 0.976584,
+        "src_port": 0.999222,
+        "dst_port": 0.969262
+      },
+      "z_scores": {
+        "src_ip": -1.672006,
+        "dst_ip": -4.051772,
+        "src_port": -0.507345,
+        "dst_port": -0.708578
+      }
+    },
+    {
+      "epoch_index": 145,
+      "epoch_name": "epoch_000145",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.839912,
+      "total_flows_count": 5324,
+      "similarities": {
+        "src_ip": 0.952035,
+        "dst_ip": 0.97896,
+        "src_port": 0.998756,
+        "dst_port": 0.963571
+      },
+      "z_scores": {
+        "src_ip": -4.839912,
+        "dst_ip": -2.43487,
+        "src_port": -2.771047,
+        "dst_port": -2.184649
+      }
+    },
+    {
+      "epoch_index": 146,
+      "epoch_name": "epoch_000146",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.802778,
+      "total_flows_count": 5152,
+      "similarities": {
+        "src_ip": 0.955227,
+        "dst_ip": 0.978553,
+        "src_port": 0.99912,
+        "dst_port": 0.963808
+      },
+      "z_scores": {
+        "src_ip": -3.802778,
+        "dst_ip": -2.711867,
+        "src_port": -1.004051,
+        "dst_port": -2.122935
+      }
+    },
+    {
+      "epoch_index": 147,
+      "epoch_name": "epoch_000147",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.880337,
+      "total_flows_count": 5061,
+      "similarities": {
+        "src_ip": 0.954989,
+        "dst_ip": 0.977581,
+        "src_port": 0.998718,
+        "dst_port": 0.964324
+      },
+      "z_scores": {
+        "src_ip": -3.880337,
+        "dst_ip": -3.373403,
+        "src_port": -2.953799,
+        "dst_port": -1.989172
+      }
+    },
+    {
+      "epoch_index": 148,
+      "epoch_name": "epoch_000148",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.923955,
+      "total_flows_count": 5119,
+      "similarities": {
+        "src_ip": 0.960688,
+        "dst_ip": 0.975302,
+        "src_port": 0.999035,
+        "dst_port": 0.972672
+      },
+      "z_scores": {
+        "src_ip": -2.02862,
+        "dst_ip": -4.923955,
+        "src_port": -1.415271,
+        "dst_port": 0.175815
+      }
+    },
+    {
+      "epoch_index": 149,
+      "epoch_name": "epoch_000149",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.078351,
+      "total_flows_count": 5090,
+      "similarities": {
+        "src_ip": 0.945146,
+        "dst_ip": 0.977149,
+        "src_port": 0.998397,
+        "dst_port": 0.950688
+      },
+      "z_scores": {
+        "src_ip": -7.078351,
+        "dst_ip": -3.666869,
+        "src_port": -4.51177,
+        "dst_port": -5.525687
+      }
+    },
+    {
+      "epoch_index": 150,
+      "epoch_name": "epoch_000150",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.805104,
+      "total_flows_count": 5107,
+      "similarities": {
+        "src_ip": 0.95522,
+        "dst_ip": 0.977364,
+        "src_port": 0.999328,
+        "dst_port": 0.96989
+      },
+      "z_scores": {
+        "src_ip": -3.805104,
+        "dst_ip": -3.520959,
+        "src_port": 0.009526,
+        "dst_port": -0.545768
+      }
+    },
+    {
+      "epoch_index": 151,
+      "epoch_name": "epoch_000151",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.017353,
+      "total_flows_count": 5167,
+      "similarities": {
+        "src_ip": 0.960341,
+        "dst_ip": 0.978104,
+        "src_port": 0.999216,
+        "dst_port": 0.965681
+      },
+      "z_scores": {
+        "src_ip": -2.141264,
+        "dst_ip": -3.017353,
+        "src_port": -0.537206,
+        "dst_port": -1.637251
+      }
+    },
+    {
+      "epoch_index": 152,
+      "epoch_name": "epoch_000152",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -1.919439,
+      "total_flows_count": 5239,
+      "similarities": {
+        "src_ip": 0.961024,
+        "dst_ip": 0.980175,
+        "src_port": 0.999319,
+        "dst_port": 0.969294
+      },
+      "z_scores": {
+        "src_ip": -1.919439,
+        "dst_ip": -1.607929,
+        "src_port": -0.036491,
+        "dst_port": -0.700251
+      }
+    },
+    {
+      "epoch_index": 153,
+      "epoch_name": "epoch_000153",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.721646,
+      "total_flows_count": 5262,
+      "similarities": {
+        "src_ip": 0.957531,
+        "dst_ip": 0.97413,
+        "src_port": 0.999075,
+        "dst_port": 0.964487
+      },
+      "z_scores": {
+        "src_ip": -3.054396,
+        "dst_ip": -5.721646,
+        "src_port": -1.220297,
+        "dst_port": -1.947052
+      }
+    },
+    {
+      "epoch_index": 154,
+      "epoch_name": "epoch_000154",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.674741,
+      "total_flows_count": 5317,
+      "similarities": {
+        "src_ip": 0.960322,
+        "dst_ip": 0.978607,
+        "src_port": 0.999215,
+        "dst_port": 0.966499
+      },
+      "z_scores": {
+        "src_ip": -2.1476,
+        "dst_ip": -2.674741,
+        "src_port": -0.539205,
+        "dst_port": -1.425122
+      }
+    },
+    {
+      "epoch_index": 155,
+      "epoch_name": "epoch_000155",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.311074,
+      "total_flows_count": 5266,
+      "similarities": {
+        "src_ip": 0.961298,
+        "dst_ip": 0.974734,
+        "src_port": 0.999125,
+        "dst_port": 0.969945
+      },
+      "z_scores": {
+        "src_ip": -1.830318,
+        "dst_ip": -5.311074,
+        "src_port": -0.975838,
+        "dst_port": -0.531356
+      }
+    },
+    {
+      "epoch_index": 156,
+      "epoch_name": "epoch_000156",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.115733,
+      "total_flows_count": 5135,
+      "similarities": {
+        "src_ip": 0.957842,
+        "dst_ip": 0.97649,
+        "src_port": 0.998908,
+        "dst_port": 0.963271
+      },
+      "z_scores": {
+        "src_ip": -2.953414,
+        "dst_ip": -4.115733,
+        "src_port": -2.031236,
+        "dst_port": -2.262261
+      }
+    },
+    {
+      "epoch_index": 157,
+      "epoch_name": "epoch_000157",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.908904,
+      "total_flows_count": 5072,
+      "similarities": {
+        "src_ip": 0.956073,
+        "dst_ip": 0.973855,
+        "src_port": 0.99934,
+        "dst_port": 0.970198
+      },
+      "z_scores": {
+        "src_ip": -3.52789,
+        "dst_ip": -5.908904,
+        "src_port": 0.064341,
+        "dst_port": -0.465751
+      }
+    },
+    {
+      "epoch_index": 158,
+      "epoch_name": "epoch_000158",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.600417,
+      "total_flows_count": 5155,
+      "similarities": {
+        "src_ip": 0.95585,
+        "dst_ip": 0.97983,
+        "src_port": 0.999276,
+        "dst_port": 0.961735
+      },
+      "z_scores": {
+        "src_ip": -3.600417,
+        "dst_ip": -1.842347,
+        "src_port": -0.245135,
+        "dst_port": -2.660677
+      }
+    },
+    {
+      "epoch_index": 159,
+      "epoch_name": "epoch_000159",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.868876,
+      "total_flows_count": 5138,
+      "similarities": {
+        "src_ip": 0.955024,
+        "dst_ip": 0.978057,
+        "src_port": 0.999333,
+        "dst_port": 0.969575
+      },
+      "z_scores": {
+        "src_ip": -3.868876,
+        "dst_ip": -3.049028,
+        "src_port": 0.033306,
+        "dst_port": -0.627352
+      }
+    },
+    {
+      "epoch_index": 160,
+      "epoch_name": "epoch_000160",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.036464,
+      "total_flows_count": 5164,
+      "similarities": {
+        "src_ip": 0.959738,
+        "dst_ip": 0.976606,
+        "src_port": 0.999249,
+        "dst_port": 0.967735
+      },
+      "z_scores": {
+        "src_ip": -2.337191,
+        "dst_ip": -4.036464,
+        "src_port": -0.373666,
+        "dst_port": -1.104559
+      }
+    },
+    {
+      "epoch_index": 161,
+      "epoch_name": "epoch_000161",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.960593,
+      "total_flows_count": 5261,
+      "similarities": {
+        "src_ip": 0.956047,
+        "dst_ip": 0.978337,
+        "src_port": 0.999351,
+        "dst_port": 0.956723
+      },
+      "z_scores": {
+        "src_ip": -3.536361,
+        "dst_ip": -2.858408,
+        "src_port": 0.118277,
+        "dst_port": -3.960593
+      }
+    },
+    {
+      "epoch_index": 162,
+      "epoch_name": "epoch_000162",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.941491,
+      "total_flows_count": 5223,
+      "similarities": {
+        "src_ip": 0.9548,
+        "dst_ip": 0.978035,
+        "src_port": 0.999205,
+        "dst_port": 0.959239
+      },
+      "z_scores": {
+        "src_ip": -3.941491,
+        "dst_ip": -3.064468,
+        "src_port": -0.586936,
+        "dst_port": -3.308002
+      }
+    },
+    {
+      "epoch_index": 163,
+      "epoch_name": "epoch_000163",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.237564,
+      "total_flows_count": 5219,
+      "similarities": {
+        "src_ip": 0.950811,
+        "dst_ip": 0.975426,
+        "src_port": 0.999151,
+        "dst_port": 0.958703
+      },
+      "z_scores": {
+        "src_ip": -5.237564,
+        "dst_ip": -4.840141,
+        "src_port": -0.852044,
+        "dst_port": -3.44718
+      }
+    },
+    {
+      "epoch_index": 164,
+      "epoch_name": "epoch_000164",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.782137,
+      "total_flows_count": 5321,
+      "similarities": {
+        "src_ip": 0.961497,
+        "dst_ip": 0.971103,
+        "src_port": 0.999301,
+        "dst_port": 0.964804
+      },
+      "z_scores": {
+        "src_ip": -1.765903,
+        "dst_ip": -7.782137,
+        "src_port": -0.124352,
+        "dst_port": -1.864868
+      }
+    },
+    {
+      "epoch_index": 165,
+      "epoch_name": "epoch_000165",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.318852,
+      "total_flows_count": 5269,
+      "similarities": {
+        "src_ip": 0.947483,
+        "dst_ip": 0.978398,
+        "src_port": 0.99872,
+        "dst_port": 0.950834
+      },
+      "z_scores": {
+        "src_ip": -6.318852,
+        "dst_ip": -2.816899,
+        "src_port": -2.944251,
+        "dst_port": -5.487792
+      }
+    },
+    {
+      "epoch_index": 166,
+      "epoch_name": "epoch_000166",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -18.433427,
+      "total_flows_count": 3481,
+      "similarities": {
+        "src_ip": 0.910196,
+        "dst_ip": 0.95877,
+        "src_port": 0.998007,
+        "dst_port": 0.951103
+      },
+      "z_scores": {
+        "src_ip": -18.433427,
+        "dst_ip": -16.17618,
+        "src_port": -6.402721,
+        "dst_port": -5.418174
+      }
+    },
+    {
+      "epoch_index": 167,
+      "epoch_name": "epoch_000167",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.675161,
+      "total_flows_count": 5228,
+      "similarities": {
+        "src_ip": 0.952542,
+        "dst_ip": 0.979512,
+        "src_port": 0.998979,
+        "dst_port": 0.957951
+      },
+      "z_scores": {
+        "src_ip": -4.675161,
+        "dst_ip": -2.058704,
+        "src_port": -1.684427,
+        "dst_port": -3.6422
+      }
+    },
+    {
+      "epoch_index": 168,
+      "epoch_name": "epoch_000168",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.133687,
+      "total_flows_count": 5549,
+      "similarities": {
+        "src_ip": 0.951131,
+        "dst_ip": 0.978277,
+        "src_port": 0.998987,
+        "dst_port": 0.96202
+      },
+      "z_scores": {
+        "src_ip": -5.133687,
+        "dst_ip": -2.899298,
+        "src_port": -1.649166,
+        "dst_port": -2.586808
+      }
+    },
+    {
+      "epoch_index": 169,
+      "epoch_name": "epoch_000169",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.751718,
+      "total_flows_count": 5422,
+      "similarities": {
+        "src_ip": 0.95927,
+        "dst_ip": 0.978793,
+        "src_port": 0.998781,
+        "dst_port": 0.949817
+      },
+      "z_scores": {
+        "src_ip": -2.489459,
+        "dst_ip": -2.548142,
+        "src_port": -2.649867,
+        "dst_port": -5.751718
+      }
+    },
+    {
+      "epoch_index": 170,
+      "epoch_name": "epoch_000170",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.931821,
+      "total_flows_count": 5509,
+      "similarities": {
+        "src_ip": 0.951752,
+        "dst_ip": 0.978515,
+        "src_port": 0.998778,
+        "dst_port": 0.955286
+      },
+      "z_scores": {
+        "src_ip": -4.931821,
+        "dst_ip": -2.737513,
+        "src_port": -2.664033,
+        "dst_port": -4.333277
+      }
+    },
+    {
+      "epoch_index": 171,
+      "epoch_name": "epoch_000171",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.515386,
+      "total_flows_count": 5371,
+      "similarities": {
+        "src_ip": 0.953034,
+        "dst_ip": 0.979031,
+        "src_port": 0.999429,
+        "dst_port": 0.958571
+      },
+      "z_scores": {
+        "src_ip": -4.515386,
+        "dst_ip": -2.386562,
+        "src_port": 0.497295,
+        "dst_port": -3.481275
+      }
+    },
+    {
+      "epoch_index": 172,
+      "epoch_name": "epoch_000172",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.338051,
+      "total_flows_count": 5247,
+      "similarities": {
+        "src_ip": 0.95174,
+        "dst_ip": 0.973225,
+        "src_port": 0.998889,
+        "dst_port": 0.950036
+      },
+      "z_scores": {
+        "src_ip": -4.93573,
+        "dst_ip": -6.338051,
+        "src_port": -2.123313,
+        "dst_port": -5.694832
+      }
+    },
+    {
+      "epoch_index": 173,
+      "epoch_name": "epoch_000173",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.213588,
+      "total_flows_count": 5300,
+      "similarities": {
+        "src_ip": 0.950885,
+        "dst_ip": 0.977068,
+        "src_port": 0.999067,
+        "dst_port": 0.960698
+      },
+      "z_scores": {
+        "src_ip": -5.213588,
+        "dst_ip": -3.722343,
+        "src_port": -1.258696,
+        "dst_port": -2.929689
+      }
+    },
+    {
+      "epoch_index": 174,
+      "epoch_name": "epoch_000174",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.049622,
+      "total_flows_count": 5246,
+      "similarities": {
+        "src_ip": 0.954914,
+        "dst_ip": 0.976587,
+        "src_port": 0.999247,
+        "dst_port": 0.959807
+      },
+      "z_scores": {
+        "src_ip": -3.904672,
+        "dst_ip": -4.049622,
+        "src_port": -0.385141,
+        "dst_port": -3.160742
+      }
+    },
+    {
+      "epoch_index": 175,
+      "epoch_name": "epoch_000175",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.765377,
+      "total_flows_count": 5412,
+      "similarities": {
+        "src_ip": 0.955667,
+        "dst_ip": 0.979609,
+        "src_port": 0.999126,
+        "dst_port": 0.95362
+      },
+      "z_scores": {
+        "src_ip": -3.659774,
+        "dst_ip": -1.993098,
+        "src_port": -0.974088,
+        "dst_port": -4.765377
+      }
+    },
+    {
+      "epoch_index": 176,
+      "epoch_name": "epoch_000176",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.364409,
+      "total_flows_count": 5235,
+      "similarities": {
+        "src_ip": 0.959237,
+        "dst_ip": 0.976125,
+        "src_port": 0.999131,
+        "dst_port": 0.955414
+      },
+      "z_scores": {
+        "src_ip": -2.500082,
+        "dst_ip": -4.364409,
+        "src_port": -0.947322,
+        "dst_port": -4.300033
+      }
+    },
+    {
+      "epoch_index": 177,
+      "epoch_name": "epoch_000177",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.815615,
+      "total_flows_count": 5350,
+      "similarities": {
+        "src_ip": 0.950304,
+        "dst_ip": 0.973992,
+        "src_port": 0.999118,
+        "dst_port": 0.957743
+      },
+      "z_scores": {
+        "src_ip": -5.402432,
+        "dst_ip": -5.815615,
+        "src_port": -1.010126,
+        "dst_port": -3.696117
+      }
+    },
+    {
+      "epoch_index": 178,
+      "epoch_name": "epoch_000178",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.022015,
+      "total_flows_count": 5113,
+      "similarities": {
+        "src_ip": 0.960955,
+        "dst_ip": 0.979471,
+        "src_port": 0.999126,
+        "dst_port": 0.960342
+      },
+      "z_scores": {
+        "src_ip": -1.94182,
+        "dst_ip": -2.087041,
+        "src_port": -0.970648,
+        "dst_port": -3.022015
+      }
+    },
+    {
+      "epoch_index": 179,
+      "epoch_name": "epoch_000179",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.092946,
+      "total_flows_count": 5276,
+      "similarities": {
+        "src_ip": 0.956882,
+        "dst_ip": 0.972116,
+        "src_port": 0.998883,
+        "dst_port": 0.9539
+      },
+      "z_scores": {
+        "src_ip": -3.265105,
+        "dst_ip": -7.092946,
+        "src_port": -2.154233,
+        "dst_port": -4.692616
+      }
+    },
+    {
+      "epoch_index": 180,
+      "epoch_name": "epoch_000180",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.387989,
+      "total_flows_count": 5265,
+      "similarities": {
+        "src_ip": 0.960607,
+        "dst_ip": 0.979029,
+        "src_port": 0.999331,
+        "dst_port": 0.967581
+      },
+      "z_scores": {
+        "src_ip": -2.054973,
+        "dst_ip": -2.387989,
+        "src_port": 0.02405,
+        "dst_port": -1.144435
+      }
+    },
+    {
+      "epoch_index": 181,
+      "epoch_name": "epoch_000181",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.868917,
+      "total_flows_count": 5181,
+      "similarities": {
+        "src_ip": 0.955024,
+        "dst_ip": 0.97841,
+        "src_port": 0.999275,
+        "dst_port": 0.968566
+      },
+      "z_scores": {
+        "src_ip": -3.868917,
+        "dst_ip": -2.808718,
+        "src_port": -0.250117,
+        "dst_port": -0.88913
+      }
+    },
+    {
+      "epoch_index": 182,
+      "epoch_name": "epoch_000182",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.024148,
+      "total_flows_count": 5226,
+      "similarities": {
+        "src_ip": 0.94839,
+        "dst_ip": 0.979131,
+        "src_port": 0.99896,
+        "dst_port": 0.95912
+      },
+      "z_scores": {
+        "src_ip": -6.024148,
+        "dst_ip": -2.3184,
+        "src_port": -1.777508,
+        "dst_port": -3.338959
+      }
+    },
+    {
+      "epoch_index": 183,
+      "epoch_name": "epoch_000183",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": false,
+      "ml_anomaly_score": -2.779114,
+      "total_flows_count": 5181,
+      "similarities": {
+        "src_ip": 0.958378,
+        "dst_ip": 0.979944,
+        "src_port": 0.999205,
+        "dst_port": 0.964089
+      },
+      "z_scores": {
+        "src_ip": -2.779114,
+        "dst_ip": -1.764872,
+        "src_port": -0.586796,
+        "dst_port": -2.05008
+      }
+    },
+    {
+      "epoch_index": 184,
+      "epoch_name": "epoch_000184",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.977429,
+      "total_flows_count": 5195,
+      "similarities": {
+        "src_ip": 0.948534,
+        "dst_ip": 0.976829,
+        "src_port": 0.99942,
+        "dst_port": 0.969312
+      },
+      "z_scores": {
+        "src_ip": -5.977429,
+        "dst_ip": -3.885113,
+        "src_port": 0.455669,
+        "dst_port": -0.695524
+      }
+    },
+    {
+      "epoch_index": 185,
+      "epoch_name": "epoch_000185",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.385369,
+      "total_flows_count": 5207,
+      "similarities": {
+        "src_ip": 0.960509,
+        "dst_ip": 0.977563,
+        "src_port": 0.999365,
+        "dst_port": 0.962488
+      },
+      "z_scores": {
+        "src_ip": -2.086659,
+        "dst_ip": -3.385369,
+        "src_port": 0.189275,
+        "dst_port": -2.465525
+      }
+    },
+    {
+      "epoch_index": 186,
+      "epoch_name": "epoch_000186",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -7.183728,
+      "total_flows_count": 5214,
+      "similarities": {
+        "src_ip": 0.944821,
+        "dst_ip": 0.976427,
+        "src_port": 0.999159,
+        "dst_port": 0.963708
+      },
+      "z_scores": {
+        "src_ip": -7.183728,
+        "dst_ip": -4.158356,
+        "src_port": -0.81291,
+        "dst_port": -2.14896
+      }
+    },
+    {
+      "epoch_index": 187,
+      "epoch_name": "epoch_000187",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.877224,
+      "total_flows_count": 5084,
+      "similarities": {
+        "src_ip": 0.95192,
+        "dst_ip": 0.979178,
+        "src_port": 0.999149,
+        "dst_port": 0.967511
+      },
+      "z_scores": {
+        "src_ip": -4.877224,
+        "dst_ip": -2.286022,
+        "src_port": -0.858708,
+        "dst_port": -1.162615
+      }
+    },
+    {
+      "epoch_index": 188,
+      "epoch_name": "epoch_000188",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.316302,
+      "total_flows_count": 5109,
+      "similarities": {
+        "src_ip": 0.959463,
+        "dst_ip": 0.977665,
+        "src_port": 0.999278,
+        "dst_port": 0.967816
+      },
+      "z_scores": {
+        "src_ip": -2.426517,
+        "dst_ip": -3.316302,
+        "src_port": -0.236974,
+        "dst_port": -1.083513
+      }
+    },
+    {
+      "epoch_index": 189,
+      "epoch_name": "epoch_000189",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.800273,
+      "total_flows_count": 5306,
+      "similarities": {
+        "src_ip": 0.946001,
+        "dst_ip": 0.97555,
+        "src_port": 0.998842,
+        "dst_port": 0.948948
+      },
+      "z_scores": {
+        "src_ip": -6.800273,
+        "dst_ip": -4.755783,
+        "src_port": -2.353248,
+        "dst_port": -5.977019
+      }
+    },
+    {
+      "epoch_index": 190,
+      "epoch_name": "epoch_000190",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.702283,
+      "total_flows_count": 5090,
+      "similarities": {
+        "src_ip": 0.949381,
+        "dst_ip": 0.976045,
+        "src_port": 0.999278,
+        "dst_port": 0.960361
+      },
+      "z_scores": {
+        "src_ip": -5.702283,
+        "dst_ip": -4.418305,
+        "src_port": -0.236615,
+        "dst_port": -3.017164
+      }
+    },
+    {
+      "epoch_index": 191,
+      "epoch_name": "epoch_000191",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.362625,
+      "total_flows_count": 5236,
+      "similarities": {
+        "src_ip": 0.950426,
+        "dst_ip": 0.979874,
+        "src_port": 0.999244,
+        "dst_port": 0.960969
+      },
+      "z_scores": {
+        "src_ip": -5.362625,
+        "dst_ip": -1.812694,
+        "src_port": -0.400243,
+        "dst_port": -2.859254
+      }
+    },
+    {
+      "epoch_index": 192,
+      "epoch_name": "epoch_000192",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.572059,
+      "total_flows_count": 5284,
+      "similarities": {
+        "src_ip": 0.95286,
+        "dst_ip": 0.980084,
+        "src_port": 0.999054,
+        "dst_port": 0.96365
+      },
+      "z_scores": {
+        "src_ip": -4.572059,
+        "dst_ip": -1.669687,
+        "src_port": -1.321945,
+        "dst_port": -2.163992
+      }
+    },
+    {
+      "epoch_index": 193,
+      "epoch_name": "epoch_000193",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.623651,
+      "total_flows_count": 5239,
+      "similarities": {
+        "src_ip": 0.958432,
+        "dst_ip": 0.977213,
+        "src_port": 0.999303,
+        "dst_port": 0.960166
+      },
+      "z_scores": {
+        "src_ip": -2.761649,
+        "dst_ip": -3.623651,
+        "src_port": -0.111807,
+        "dst_port": -3.067626
+      }
+    },
+    {
+      "epoch_index": 194,
+      "epoch_name": "epoch_000194",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.096416,
+      "total_flows_count": 5263,
+      "similarities": {
+        "src_ip": 0.956479,
+        "dst_ip": 0.97358,
+        "src_port": 0.99922,
+        "dst_port": 0.963148
+      },
+      "z_scores": {
+        "src_ip": -3.39596,
+        "dst_ip": -6.096416,
+        "src_port": -0.517354,
+        "dst_port": -2.294163
+      }
+    },
+    {
+      "epoch_index": 195,
+      "epoch_name": "epoch_000195",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.664293,
+      "total_flows_count": 5341,
+      "similarities": {
+        "src_ip": 0.95144,
+        "dst_ip": 0.974215,
+        "src_port": 0.999207,
+        "dst_port": 0.962282
+      },
+      "z_scores": {
+        "src_ip": -5.033144,
+        "dst_ip": -5.664293,
+        "src_port": -0.577415,
+        "dst_port": -2.518746
+      }
+    },
+    {
+      "epoch_index": 196,
+      "epoch_name": "epoch_000196",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.076081,
+      "total_flows_count": 5229,
+      "similarities": {
+        "src_ip": 0.957464,
+        "dst_ip": 0.978298,
+        "src_port": 0.99911,
+        "dst_port": 0.963338
+      },
+      "z_scores": {
+        "src_ip": -3.076081,
+        "dst_ip": -2.885205,
+        "src_port": -1.049627,
+        "dst_port": -2.244859
+      }
+    },
+    {
+      "epoch_index": 197,
+      "epoch_name": "epoch_000197",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.283439,
+      "total_flows_count": 5138,
+      "similarities": {
+        "src_ip": 0.953748,
+        "dst_ip": 0.981033,
+        "src_port": 0.999194,
+        "dst_port": 0.957777
+      },
+      "z_scores": {
+        "src_ip": -4.283439,
+        "dst_ip": -1.023644,
+        "src_port": -0.640074,
+        "dst_port": -3.687287
+      }
+    },
+    {
+      "epoch_index": 198,
+      "epoch_name": "epoch_000198",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -8.701226,
+      "total_flows_count": 5245,
+      "similarities": {
+        "src_ip": 0.955708,
+        "dst_ip": 0.969753,
+        "src_port": 0.999138,
+        "dst_port": 0.960371
+      },
+      "z_scores": {
+        "src_ip": -3.646483,
+        "dst_ip": -8.701226,
+        "src_port": -0.916668,
+        "dst_port": -3.014419
+      }
+    },
+    {
+      "epoch_index": 199,
+      "epoch_name": "epoch_000199",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.134451,
+      "total_flows_count": 5318,
+      "similarities": {
+        "src_ip": 0.954267,
+        "dst_ip": 0.976462,
+        "src_port": 0.999206,
+        "dst_port": 0.966086
+      },
+      "z_scores": {
+        "src_ip": -4.114887,
+        "dst_ip": -4.134451,
+        "src_port": -0.581853,
+        "dst_port": -1.532354
+      }
+    },
+    {
+      "epoch_index": 200,
+      "epoch_name": "epoch_000200",
+      "attacked_ground_truth": true,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.243231,
+      "total_flows_count": 5400,
+      "similarities": {
+        "src_ip": 0.947716,
+        "dst_ip": 0.975839,
+        "src_port": 0.99919,
+        "dst_port": 0.962218
+      },
+      "z_scores": {
+        "src_ip": -6.243231,
+        "dst_ip": -4.559092,
+        "src_port": -0.662406,
+        "dst_port": -2.535361
+      }
+    },
+    {
+      "epoch_index": 201,
+      "epoch_name": "epoch_000201",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.093491,
+      "total_flows_count": 5084,
+      "similarities": {
+        "src_ip": 0.9541,
+        "dst_ip": 0.975053,
+        "src_port": 0.999246,
+        "dst_port": 0.964907
+      },
+      "z_scores": {
+        "src_ip": -4.16896,
+        "dst_ip": -5.093491,
+        "src_port": -0.390647,
+        "dst_port": -1.837987
+      }
+    },
+    {
+      "epoch_index": 202,
+      "epoch_name": "epoch_000202",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -8.016873,
+      "total_flows_count": 5185,
+      "similarities": {
+        "src_ip": 0.953796,
+        "dst_ip": 0.970758,
+        "src_port": 0.999338,
+        "dst_port": 0.970541
+      },
+      "z_scores": {
+        "src_ip": -4.267738,
+        "dst_ip": -8.016873,
+        "src_port": 0.058822,
+        "dst_port": -0.376759
+      }
+    },
+    {
+      "epoch_index": 203,
+      "epoch_name": "epoch_000203",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.654448,
+      "total_flows_count": 5077,
+      "similarities": {
+        "src_ip": 0.94645,
+        "dst_ip": 0.978046,
+        "src_port": 0.99928,
+        "dst_port": 0.965075
+      },
+      "z_scores": {
+        "src_ip": -6.654448,
+        "dst_ip": -3.056398,
+        "src_port": -0.225138,
+        "dst_port": -1.794401
+      }
+    },
+    {
+      "epoch_index": 204,
+      "epoch_name": "epoch_000204",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.876687,
+      "total_flows_count": 5152,
+      "similarities": {
+        "src_ip": 0.961679,
+        "dst_ip": 0.976841,
+        "src_port": 0.999337,
+        "dst_port": 0.963854
+      },
+      "z_scores": {
+        "src_ip": -1.706789,
+        "dst_ip": -3.876687,
+        "src_port": 0.052899,
+        "dst_port": -2.111183
+      }
+    },
+    {
+      "epoch_index": 205,
+      "epoch_name": "epoch_000205",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.743759,
+      "total_flows_count": 5079,
+      "similarities": {
+        "src_ip": 0.952331,
+        "dst_ip": 0.977341,
+        "src_port": 0.999412,
+        "dst_port": 0.96444
+      },
+      "z_scores": {
+        "src_ip": -4.743759,
+        "dst_ip": -3.536229,
+        "src_port": 0.415488,
+        "dst_port": -1.959229
+      }
+    },
+    {
+      "epoch_index": 206,
+      "epoch_name": "epoch_000206",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.613364,
+      "total_flows_count": 5037,
+      "similarities": {
+        "src_ip": 0.953452,
+        "dst_ip": 0.975759,
+        "src_port": 0.999081,
+        "dst_port": 0.956354
+      },
+      "z_scores": {
+        "src_ip": -4.379518,
+        "dst_ip": -4.613364,
+        "src_port": -1.190681,
+        "dst_port": -4.056243
+      }
+    },
+    {
+      "epoch_index": 207,
+      "epoch_name": "epoch_000207",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -4.160496,
+      "total_flows_count": 5057,
+      "similarities": {
+        "src_ip": 0.954126,
+        "dst_ip": 0.980221,
+        "src_port": 0.99945,
+        "dst_port": 0.969404
+      },
+      "z_scores": {
+        "src_ip": -4.160496,
+        "dst_ip": -1.576316,
+        "src_port": 0.598484,
+        "dst_port": -0.671671
+      }
+    },
+    {
+      "epoch_index": 208,
+      "epoch_name": "epoch_000208",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.278536,
+      "total_flows_count": 5105,
+      "similarities": {
+        "src_ip": 0.956841,
+        "dst_ip": 0.980149,
+        "src_port": 0.999375,
+        "dst_port": 0.964594
+      },
+      "z_scores": {
+        "src_ip": -3.278536,
+        "dst_ip": -1.625089,
+        "src_port": 0.237693,
+        "dst_port": -1.919118
+      }
+    },
+    {
+      "epoch_index": 209,
+      "epoch_name": "epoch_000209",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -3.875594,
+      "total_flows_count": 5083,
+      "similarities": {
+        "src_ip": 0.955783,
+        "dst_ip": 0.976843,
+        "src_port": 0.99938,
+        "dst_port": 0.963992
+      },
+      "z_scores": {
+        "src_ip": -3.622332,
+        "dst_ip": -3.875594,
+        "src_port": 0.259967,
+        "dst_port": -2.075395
+      }
+    },
+    {
+      "epoch_index": 210,
+      "epoch_name": "epoch_000210",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -6.624261,
+      "total_flows_count": 5195,
+      "similarities": {
+        "src_ip": 0.947372,
+        "dst_ip": 0.972804,
+        "src_port": 0.999236,
+        "dst_port": 0.961734
+      },
+      "z_scores": {
+        "src_ip": -6.354854,
+        "dst_ip": -6.624261,
+        "src_port": -0.439324,
+        "dst_port": -2.66107
+      }
+    },
+    {
+      "epoch_index": 211,
+      "epoch_name": "epoch_000211",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -8.044832,
+      "total_flows_count": 4992,
+      "similarities": {
+        "src_ip": 0.955013,
+        "dst_ip": 0.970717,
+        "src_port": 0.999396,
+        "dst_port": 0.968353
+      },
+      "z_scores": {
+        "src_ip": -3.872302,
+        "dst_ip": -8.044832,
+        "src_port": 0.33746,
+        "dst_port": -0.944271
+      }
+    },
+    {
+      "epoch_index": 212,
+      "epoch_name": "epoch_000212",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.025395,
+      "total_flows_count": 5128,
+      "similarities": {
+        "src_ip": 0.961455,
+        "dst_ip": 0.977063,
+        "src_port": 0.998291,
+        "dst_port": 0.967702
+      },
+      "z_scores": {
+        "src_ip": -1.779383,
+        "dst_ip": -3.725835,
+        "src_port": -5.025395,
+        "dst_port": -1.113237
+      }
+    },
+    {
+      "epoch_index": 213,
+      "epoch_name": "epoch_000213",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -5.132501,
+      "total_flows_count": 5111,
+      "similarities": {
+        "src_ip": 0.951135,
+        "dst_ip": 0.975707,
+        "src_port": 0.999082,
+        "dst_port": 0.960339
+      },
+      "z_scores": {
+        "src_ip": -5.132501,
+        "dst_ip": -4.648615,
+        "src_port": -1.186746,
+        "dst_port": -3.022639
+      }
+    },
+    {
+      "epoch_index": 214,
+      "epoch_name": "epoch_000214",
+      "attacked_ground_truth": false,
+      "ml_prediction_anomaly": true,
+      "ml_anomaly_score": -49.077226,
+      "total_flows_count": 1931,
+      "similarities": {
+        "src_ip": 0.852922,
+        "dst_ip": 0.910429,
+        "src_port": 0.992987,
+        "dst_port": 0.921403
+      },
+      "z_scores": {
+        "src_ip": -37.04166,
+        "dst_ip": -49.077226,
+        "src_port": -30.775187,
+        "dst_port": -13.120781
+      }
+    }
+  ]
+}

@@ -1,0 +1,3018 @@
+{
+  "input_directory": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch",
+  "z_score_used": null,
+  "z_score_mode": "per-file",
+  "z_thresholds_used": [
+    2.0,
+    2.5,
+    3.0
+  ],
+  "matrices_by_z_threshold": [
+    {
+      "z_threshold": 2.0,
+      "accuracy_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.7853658536585366,
+            "2": 0.926829268292683,
+            "3": 0.9853658536585366,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.8092783505154639,
+            "2": 0.9329896907216495,
+            "3": 0.9896907216494846,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.5792349726775956,
+            "2": 0.7923497267759563,
+            "3": 0.9344262295081968,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.4883720930232558,
+            "2": 0.7093023255813954,
+            "3": 0.9302325581395349,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.5432098765432098,
+            "2": 0.7222222222222222,
+            "3": 0.9320987654320988,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.48344370860927155,
+            "2": 0.7284768211920529,
+            "3": 0.9006622516556292,
+            "5": 1.0,
+            "10": 1.0
+          }
+        }
+      },
+      "precision_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "20": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "25": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          }
+        }
+      },
+      "recall_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.7853658536585366,
+            "2": 0.926829268292683,
+            "3": 0.9853658536585366,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.8092783505154639,
+            "2": 0.9329896907216495,
+            "3": 0.9896907216494846,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.5792349726775956,
+            "2": 0.7923497267759563,
+            "3": 0.9344262295081968,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.4883720930232558,
+            "2": 0.7093023255813954,
+            "3": 0.9302325581395349,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.5432098765432098,
+            "2": 0.7222222222222222,
+            "3": 0.9320987654320988,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.48344370860927155,
+            "2": 0.7284768211920529,
+            "3": 0.9006622516556292,
+            "5": 1.0,
+            "10": 1.0
+          }
+        }
+      }
+    },
+    {
+      "z_threshold": 2.5,
+      "accuracy_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.6536585365853659,
+            "2": 0.8341463414634146,
+            "3": 0.9609756097560975,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.6649484536082474,
+            "2": 0.845360824742268,
+            "3": 0.9587628865979382,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.36065573770491804,
+            "2": 0.6120218579234973,
+            "3": 0.825136612021858,
+            "5": 0.994535519125683,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.27325581395348836,
+            "2": 0.5,
+            "3": 0.7965116279069767,
+            "5": 0.9941860465116279,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.3271604938271605,
+            "2": 0.5432098765432098,
+            "3": 0.808641975308642,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.271523178807947,
+            "2": 0.47019867549668876,
+            "3": 0.7483443708609272,
+            "5": 0.9867549668874173,
+            "10": 1.0
+          }
+        }
+      },
+      "precision_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "20": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "25": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          }
+        }
+      },
+      "recall_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.6536585365853659,
+            "2": 0.8341463414634146,
+            "3": 0.9609756097560975,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.6649484536082474,
+            "2": 0.845360824742268,
+            "3": 0.9587628865979382,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.36065573770491804,
+            "2": 0.6120218579234973,
+            "3": 0.825136612021858,
+            "5": 0.994535519125683,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.27325581395348836,
+            "2": 0.5,
+            "3": 0.7965116279069767,
+            "5": 0.9941860465116279,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.3271604938271605,
+            "2": 0.5432098765432098,
+            "3": 0.808641975308642,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.271523178807947,
+            "2": 0.47019867549668876,
+            "3": 0.7483443708609272,
+            "5": 0.9867549668874173,
+            "10": 1.0
+          }
+        }
+      }
+    },
+    {
+      "z_threshold": 3.0,
+      "accuracy_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.5317073170731708,
+            "2": 0.7853658536585366,
+            "3": 0.9463414634146341,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.4845360824742268,
+            "2": 0.7474226804123711,
+            "3": 0.9123711340206185,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.21311475409836064,
+            "2": 0.40437158469945356,
+            "3": 0.6830601092896175,
+            "5": 0.9726775956284153,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.10465116279069768,
+            "2": 0.29069767441860467,
+            "3": 0.5930232558139535,
+            "5": 0.9593023255813954,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.14814814814814814,
+            "2": 0.3395061728395062,
+            "3": 0.6419753086419753,
+            "5": 0.9567901234567902,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.13245033112582782,
+            "2": 0.31788079470198677,
+            "3": 0.5761589403973509,
+            "5": 0.9403973509933775,
+            "10": 1.0
+          }
+        }
+      },
+      "precision_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "20": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "25": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "30": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "5": 1.0,
+            "10": 1.0
+          }
+        }
+      },
+      "recall_matrix": {
+        "rows_baseline_percent": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "cols_malicious_percent": [
+          1.0,
+          2.0,
+          3.0,
+          5.0,
+          10.0
+        ],
+        "values": {
+          "5": {
+            "1": 0.5317073170731708,
+            "2": 0.7853658536585366,
+            "3": 0.9463414634146341,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "10": {
+            "1": 0.4845360824742268,
+            "2": 0.7474226804123711,
+            "3": 0.9123711340206185,
+            "5": 1.0,
+            "10": 1.0
+          },
+          "15": {
+            "1": 0.21311475409836064,
+            "2": 0.40437158469945356,
+            "3": 0.6830601092896175,
+            "5": 0.9726775956284153,
+            "10": 1.0
+          },
+          "20": {
+            "1": 0.10465116279069768,
+            "2": 0.29069767441860467,
+            "3": 0.5930232558139535,
+            "5": 0.9593023255813954,
+            "10": 1.0
+          },
+          "25": {
+            "1": 0.14814814814814814,
+            "2": 0.3395061728395062,
+            "3": 0.6419753086419753,
+            "5": 0.9567901234567902,
+            "10": 1.0
+          },
+          "30": {
+            "1": 0.13245033112582782,
+            "2": 0.31788079470198677,
+            "3": 0.5761589403973509,
+            "5": 0.9403973509933775,
+            "10": 1.0
+          }
+        }
+      }
+    }
+  ],
+  "files_processed": 90,
+  "most_deviating_pair": {
+    "pair_key": "mi_src_ip_src_port",
+    "pair_name": "Src-IP x Src-Port",
+    "trigger_count": 11557,
+    "all_pair_trigger_counts": {
+      "mi_src_ip_src_port": 11557,
+      "mi_src_dst_ip": 11161,
+      "mi_src_dst_port": 6256,
+      "mi_src_ip_dst_port": 3326,
+      "mi_dst_ip_dst_port": 1997
+    }
+  },
+  "accuracy_matrix": {
+    "rows_baseline_percent": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "cols_malicious_percent": [
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      10.0
+    ],
+    "values": {
+      "5": {
+        "1": 0.656910569105691,
+        "2": 0.848780487804878,
+        "3": 0.9642276422764228,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "10": {
+        "1": 0.6529209621993127,
+        "2": 0.8419243986254296,
+        "3": 0.9536082474226805,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "15": {
+        "1": 0.38433515482695807,
+        "2": 0.6029143897996357,
+        "3": 0.814207650273224,
+        "5": 0.9890710382513661,
+        "10": 1.0
+      },
+      "20": {
+        "1": 0.28875968992248063,
+        "2": 0.5,
+        "3": 0.7732558139534884,
+        "5": 0.9844961240310077,
+        "10": 1.0
+      },
+      "25": {
+        "1": 0.3395061728395062,
+        "2": 0.5349794238683128,
+        "3": 0.794238683127572,
+        "5": 0.9855967078189302,
+        "10": 1.0
+      },
+      "30": {
+        "1": 0.2958057395143488,
+        "2": 0.5055187637969095,
+        "3": 0.7417218543046357,
+        "5": 0.9757174392935983,
+        "10": 1.0
+      }
+    }
+  },
+  "precision_matrix": {
+    "rows_baseline_percent": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "cols_malicious_percent": [
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      10.0
+    ],
+    "values": {
+      "5": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "10": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "15": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "20": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "25": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "30": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      }
+    }
+  },
+  "recall_matrix": {
+    "rows_baseline_percent": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "cols_malicious_percent": [
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      10.0
+    ],
+    "values": {
+      "5": {
+        "1": 0.656910569105691,
+        "2": 0.848780487804878,
+        "3": 0.9642276422764228,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "10": {
+        "1": 0.6529209621993127,
+        "2": 0.8419243986254296,
+        "3": 0.9536082474226805,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "15": {
+        "1": 0.38433515482695807,
+        "2": 0.6029143897996357,
+        "3": 0.814207650273224,
+        "5": 0.9890710382513661,
+        "10": 1.0
+      },
+      "20": {
+        "1": 0.28875968992248063,
+        "2": 0.5,
+        "3": 0.7732558139534884,
+        "5": 0.9844961240310077,
+        "10": 1.0
+      },
+      "25": {
+        "1": 0.3395061728395062,
+        "2": 0.5349794238683128,
+        "3": 0.794238683127572,
+        "5": 0.9855967078189302,
+        "10": 1.0
+      },
+      "30": {
+        "1": 0.2958057395143488,
+        "2": 0.5055187637969095,
+        "3": 0.7417218543046357,
+        "5": 0.9757174392935983,
+        "10": 1.0
+      }
+    }
+  },
+  "per_file_results": [
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_1.0_2.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 157,
+      "fp": 0,
+      "tn": 0,
+      "fn": 37,
+      "accuracy": 0.8092783505154639,
+      "precision": 1.0,
+      "recall": 0.8092783505154639,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 123,
+      "trigger_counts": {
+        "mi_src_dst_ip": 123,
+        "mi_src_ip_src_port": 119,
+        "mi_src_dst_port": 109,
+        "mi_src_ip_dst_port": 42,
+        "mi_dst_ip_dst_port": 39
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_1.0_2.5.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 129,
+      "fp": 0,
+      "tn": 0,
+      "fn": 65,
+      "accuracy": 0.6649484536082474,
+      "precision": 1.0,
+      "recall": 0.6649484536082474,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 96,
+      "trigger_counts": {
+        "mi_src_dst_ip": 96,
+        "mi_src_ip_src_port": 87,
+        "mi_src_dst_port": 83,
+        "mi_src_ip_dst_port": 25,
+        "mi_dst_ip_dst_port": 18
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_1.0_3.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 94,
+      "fp": 0,
+      "tn": 0,
+      "fn": 100,
+      "accuracy": 0.4845360824742268,
+      "precision": 1.0,
+      "recall": 0.4845360824742268,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 68,
+      "trigger_counts": {
+        "mi_src_dst_ip": 68,
+        "mi_src_ip_src_port": 62,
+        "mi_src_dst_port": 59,
+        "mi_dst_ip_dst_port": 12,
+        "mi_src_ip_dst_port": 11
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_10.0_2.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_dst_ip": 194,
+        "mi_src_ip_src_port": 194,
+        "mi_src_ip_dst_port": 171,
+        "mi_src_dst_port": 163,
+        "mi_dst_ip_dst_port": 115
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_10.0_2.5.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 194,
+        "mi_src_dst_ip": 193,
+        "mi_src_dst_port": 146,
+        "mi_src_ip_dst_port": 144,
+        "mi_dst_ip_dst_port": 73
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_10.0_3.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 194,
+        "mi_src_dst_ip": 193,
+        "mi_src_dst_port": 122,
+        "mi_src_ip_dst_port": 116,
+        "mi_dst_ip_dst_port": 50
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_2.0_2.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 181,
+      "fp": 0,
+      "tn": 0,
+      "fn": 13,
+      "accuracy": 0.9329896907216495,
+      "precision": 1.0,
+      "recall": 0.9329896907216495,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 166,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 166,
+        "mi_src_dst_ip": 164,
+        "mi_src_dst_port": 132,
+        "mi_src_ip_dst_port": 36,
+        "mi_dst_ip_dst_port": 35
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_2.0_2.5.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 164,
+      "fp": 0,
+      "tn": 0,
+      "fn": 30,
+      "accuracy": 0.845360824742268,
+      "precision": 1.0,
+      "recall": 0.845360824742268,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 151,
+      "trigger_counts": {
+        "mi_src_dst_ip": 151,
+        "mi_src_ip_src_port": 142,
+        "mi_src_dst_port": 104,
+        "mi_src_ip_dst_port": 16,
+        "mi_dst_ip_dst_port": 14
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_2.0_3.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 145,
+      "fp": 0,
+      "tn": 0,
+      "fn": 49,
+      "accuracy": 0.7474226804123711,
+      "precision": 1.0,
+      "recall": 0.7474226804123711,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 127,
+      "trigger_counts": {
+        "mi_src_dst_ip": 127,
+        "mi_src_ip_src_port": 117,
+        "mi_src_dst_port": 78,
+        "mi_dst_ip_dst_port": 8,
+        "mi_src_ip_dst_port": 8
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_3.0_2.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 192,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "accuracy": 0.9896907216494846,
+      "precision": 1.0,
+      "recall": 0.9896907216494846,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 185,
+      "trigger_counts": {
+        "mi_src_dst_ip": 185,
+        "mi_src_ip_src_port": 185,
+        "mi_src_dst_port": 146,
+        "mi_dst_ip_dst_port": 24,
+        "mi_src_ip_dst_port": 24
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_3.0_2.5.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 186,
+      "fp": 0,
+      "tn": 0,
+      "fn": 8,
+      "accuracy": 0.9587628865979382,
+      "precision": 1.0,
+      "recall": 0.9587628865979382,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 179,
+      "trigger_counts": {
+        "mi_src_dst_ip": 179,
+        "mi_src_ip_src_port": 175,
+        "mi_src_dst_port": 119,
+        "mi_dst_ip_dst_port": 12,
+        "mi_src_ip_dst_port": 10
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_3.0_3.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 177,
+      "fp": 0,
+      "tn": 0,
+      "fn": 17,
+      "accuracy": 0.9123711340206185,
+      "precision": 1.0,
+      "recall": 0.9123711340206185,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 167,
+      "trigger_counts": {
+        "mi_src_dst_ip": 167,
+        "mi_src_ip_src_port": 165,
+        "mi_src_dst_port": 89,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_5.0_2.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 194,
+        "mi_src_dst_ip": 192,
+        "mi_src_dst_port": 156,
+        "mi_dst_ip_dst_port": 19,
+        "mi_src_ip_dst_port": 19
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_5.0_2.5.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 194,
+        "mi_src_dst_ip": 192,
+        "mi_src_dst_port": 135,
+        "mi_src_ip_dst_port": 13,
+        "mi_dst_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_10.0_5.0_3.0.json",
+      "baseline_pct": 10.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 194,
+      "epochs_with_truth": 194,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 194,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 194,
+        "mi_src_dst_ip": 191,
+        "mi_src_dst_port": 114,
+        "mi_src_ip_dst_port": 6,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_1.0_2.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 106,
+      "fp": 0,
+      "tn": 0,
+      "fn": 77,
+      "accuracy": 0.5792349726775956,
+      "precision": 1.0,
+      "recall": 0.5792349726775956,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 72,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 72,
+        "mi_src_dst_port": 63,
+        "mi_src_dst_ip": 52,
+        "mi_src_ip_dst_port": 31,
+        "mi_dst_ip_dst_port": 30
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_1.0_2.5.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 66,
+      "fp": 0,
+      "tn": 0,
+      "fn": 117,
+      "accuracy": 0.36065573770491804,
+      "precision": 1.0,
+      "recall": 0.36065573770491804,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 43,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 43,
+        "mi_src_dst_port": 38,
+        "mi_src_dst_ip": 33,
+        "mi_src_ip_dst_port": 12,
+        "mi_dst_ip_dst_port": 11
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_1.0_3.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 39,
+      "fp": 0,
+      "tn": 0,
+      "fn": 144,
+      "accuracy": 0.21311475409836064,
+      "precision": 1.0,
+      "recall": 0.21311475409836064,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 21,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 21,
+        "mi_src_dst_port": 21,
+        "mi_src_dst_ip": 15,
+        "mi_src_ip_dst_port": 7,
+        "mi_dst_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_10.0_2.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 183,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 183,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 183,
+        "mi_src_dst_ip": 182,
+        "mi_src_ip_dst_port": 162,
+        "mi_src_dst_port": 124,
+        "mi_dst_ip_dst_port": 112
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_10.0_2.5.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 183,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 183,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 183,
+        "mi_src_dst_ip": 182,
+        "mi_src_ip_dst_port": 137,
+        "mi_src_dst_port": 83,
+        "mi_dst_ip_dst_port": 75
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_10.0_3.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 183,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 183,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 183,
+        "mi_src_dst_ip": 182,
+        "mi_src_ip_dst_port": 104,
+        "mi_src_dst_port": 57,
+        "mi_dst_ip_dst_port": 47
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_2.0_2.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 145,
+      "fp": 0,
+      "tn": 0,
+      "fn": 38,
+      "accuracy": 0.7923497267759563,
+      "precision": 1.0,
+      "recall": 0.7923497267759563,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 126,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 126,
+        "mi_src_dst_ip": 114,
+        "mi_src_dst_port": 80,
+        "mi_src_ip_dst_port": 28,
+        "mi_dst_ip_dst_port": 25
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_2.0_2.5.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 112,
+      "fp": 0,
+      "tn": 0,
+      "fn": 71,
+      "accuracy": 0.6120218579234973,
+      "precision": 1.0,
+      "recall": 0.6120218579234973,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 93,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 93,
+        "mi_src_dst_ip": 75,
+        "mi_src_dst_port": 51,
+        "mi_dst_ip_dst_port": 11,
+        "mi_src_ip_dst_port": 10
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_2.0_3.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 74,
+      "fp": 0,
+      "tn": 0,
+      "fn": 109,
+      "accuracy": 0.40437158469945356,
+      "precision": 1.0,
+      "recall": 0.40437158469945356,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 60,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 60,
+        "mi_src_dst_ip": 46,
+        "mi_src_dst_port": 29,
+        "mi_dst_ip_dst_port": 7,
+        "mi_src_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_3.0_2.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 171,
+      "fp": 0,
+      "tn": 0,
+      "fn": 12,
+      "accuracy": 0.9344262295081968,
+      "precision": 1.0,
+      "recall": 0.9344262295081968,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 164,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 164,
+        "mi_src_dst_ip": 152,
+        "mi_src_dst_port": 90,
+        "mi_dst_ip_dst_port": 22,
+        "mi_src_ip_dst_port": 15
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_3.0_2.5.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 32,
+      "accuracy": 0.825136612021858,
+      "precision": 1.0,
+      "recall": 0.825136612021858,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 137,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 137,
+        "mi_src_dst_ip": 132,
+        "mi_src_dst_port": 59,
+        "mi_dst_ip_dst_port": 9,
+        "mi_src_ip_dst_port": 6
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_3.0_3.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 125,
+      "fp": 0,
+      "tn": 0,
+      "fn": 58,
+      "accuracy": 0.6830601092896175,
+      "precision": 1.0,
+      "recall": 0.6830601092896175,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 111,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 111,
+        "mi_src_dst_ip": 102,
+        "mi_src_dst_port": 38,
+        "mi_dst_ip_dst_port": 5,
+        "mi_src_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_5.0_2.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 183,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 183,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 183,
+        "mi_src_dst_ip": 179,
+        "mi_src_dst_port": 109,
+        "mi_src_ip_dst_port": 21,
+        "mi_dst_ip_dst_port": 14
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_5.0_2.5.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 182,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "accuracy": 0.994535519125683,
+      "precision": 1.0,
+      "recall": 0.994535519125683,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 181,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 181,
+        "mi_src_dst_ip": 178,
+        "mi_src_dst_port": 76,
+        "mi_src_ip_dst_port": 9,
+        "mi_dst_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_15.0_5.0_3.0.json",
+      "baseline_pct": 15.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 183,
+      "epochs_with_truth": 183,
+      "tp": 178,
+      "fp": 0,
+      "tn": 0,
+      "fn": 5,
+      "accuracy": 0.9726775956284153,
+      "precision": 1.0,
+      "recall": 0.9726775956284153,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 173,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 173,
+        "mi_src_dst_ip": 169,
+        "mi_src_dst_port": 48,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_1.0_2.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 84,
+      "fp": 0,
+      "tn": 0,
+      "fn": 88,
+      "accuracy": 0.4883720930232558,
+      "precision": 1.0,
+      "recall": 0.4883720930232558,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 56,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 56,
+        "mi_src_dst_port": 43,
+        "mi_src_dst_ip": 35,
+        "mi_src_ip_dst_port": 26,
+        "mi_dst_ip_dst_port": 13
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_1.0_2.5.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 47,
+      "fp": 0,
+      "tn": 0,
+      "fn": 125,
+      "accuracy": 0.27325581395348836,
+      "precision": 1.0,
+      "recall": 0.27325581395348836,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 31,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 31,
+        "mi_src_dst_port": 26,
+        "mi_src_dst_ip": 16,
+        "mi_src_ip_dst_port": 10,
+        "mi_dst_ip_dst_port": 8
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_1.0_3.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 18,
+      "fp": 0,
+      "tn": 0,
+      "fn": 154,
+      "accuracy": 0.10465116279069768,
+      "precision": 1.0,
+      "recall": 0.10465116279069768,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 13,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 13,
+        "mi_src_dst_port": 11,
+        "mi_src_dst_ip": 7,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_10.0_2.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 172,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 172,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 172,
+        "mi_src_dst_ip": 171,
+        "mi_src_ip_dst_port": 150,
+        "mi_dst_ip_dst_port": 100,
+        "mi_src_dst_port": 96
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_10.0_2.5.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 172,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 172,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 172,
+        "mi_src_dst_ip": 171,
+        "mi_src_ip_dst_port": 127,
+        "mi_dst_ip_dst_port": 67,
+        "mi_src_dst_port": 56
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_10.0_3.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 172,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 172,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 172,
+        "mi_src_dst_ip": 170,
+        "mi_src_ip_dst_port": 103,
+        "mi_dst_ip_dst_port": 45,
+        "mi_src_dst_port": 36
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_2.0_2.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 122,
+      "fp": 0,
+      "tn": 0,
+      "fn": 50,
+      "accuracy": 0.7093023255813954,
+      "precision": 1.0,
+      "recall": 0.7093023255813954,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 107,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 107,
+        "mi_src_dst_ip": 83,
+        "mi_src_dst_port": 56,
+        "mi_src_ip_dst_port": 20,
+        "mi_dst_ip_dst_port": 12
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_2.0_2.5.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 86,
+      "fp": 0,
+      "tn": 0,
+      "fn": 86,
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 70,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 70,
+        "mi_src_dst_ip": 46,
+        "mi_src_dst_port": 36,
+        "mi_src_ip_dst_port": 8,
+        "mi_dst_ip_dst_port": 6
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_2.0_3.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 50,
+      "fp": 0,
+      "tn": 0,
+      "fn": 122,
+      "accuracy": 0.29069767441860467,
+      "precision": 1.0,
+      "recall": 0.29069767441860467,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 41,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 41,
+        "mi_src_dst_ip": 26,
+        "mi_src_dst_port": 20,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_3.0_2.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 160,
+      "fp": 0,
+      "tn": 0,
+      "fn": 12,
+      "accuracy": 0.9302325581395349,
+      "precision": 1.0,
+      "recall": 0.9302325581395349,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 148,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 148,
+        "mi_src_dst_ip": 134,
+        "mi_src_dst_port": 69,
+        "mi_dst_ip_dst_port": 12,
+        "mi_src_ip_dst_port": 12
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_3.0_2.5.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 137,
+      "fp": 0,
+      "tn": 0,
+      "fn": 35,
+      "accuracy": 0.7965116279069767,
+      "precision": 1.0,
+      "recall": 0.7965116279069767,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 125,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 125,
+        "mi_src_dst_ip": 104,
+        "mi_src_dst_port": 41,
+        "mi_dst_ip_dst_port": 5,
+        "mi_src_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_3.0_3.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 102,
+      "fp": 0,
+      "tn": 0,
+      "fn": 70,
+      "accuracy": 0.5930232558139535,
+      "precision": 1.0,
+      "recall": 0.5930232558139535,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 90,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 90,
+        "mi_src_dst_ip": 60,
+        "mi_src_dst_port": 24,
+        "mi_src_ip_dst_port": 3,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_5.0_2.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 172,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 172,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 172,
+        "mi_src_dst_ip": 167,
+        "mi_src_dst_port": 82,
+        "mi_src_ip_dst_port": 15,
+        "mi_dst_ip_dst_port": 13
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_5.0_2.5.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 171,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "accuracy": 0.9941860465116279,
+      "precision": 1.0,
+      "recall": 0.9941860465116279,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 168,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 168,
+        "mi_src_dst_ip": 162,
+        "mi_src_dst_port": 55,
+        "mi_src_ip_dst_port": 8,
+        "mi_dst_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_20.0_5.0_3.0.json",
+      "baseline_pct": 20.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 172,
+      "epochs_with_truth": 172,
+      "tp": 165,
+      "fp": 0,
+      "tn": 0,
+      "fn": 7,
+      "accuracy": 0.9593023255813954,
+      "precision": 1.0,
+      "recall": 0.9593023255813954,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 160,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 160,
+        "mi_src_dst_ip": 150,
+        "mi_src_dst_port": 33,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_1.0_2.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 88,
+      "fp": 0,
+      "tn": 0,
+      "fn": 74,
+      "accuracy": 0.5432098765432098,
+      "precision": 1.0,
+      "recall": 0.5432098765432098,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 57,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 57,
+        "mi_src_dst_port": 50,
+        "mi_src_dst_ip": 40,
+        "mi_src_ip_dst_port": 30,
+        "mi_dst_ip_dst_port": 19
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_1.0_2.5.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 53,
+      "fp": 0,
+      "tn": 0,
+      "fn": 109,
+      "accuracy": 0.3271604938271605,
+      "precision": 1.0,
+      "recall": 0.3271604938271605,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 32,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 32,
+        "mi_src_dst_port": 29,
+        "mi_src_dst_ip": 18,
+        "mi_src_ip_dst_port": 12,
+        "mi_dst_ip_dst_port": 9
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_1.0_3.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 24,
+      "fp": 0,
+      "tn": 0,
+      "fn": 138,
+      "accuracy": 0.14814814814814814,
+      "precision": 1.0,
+      "recall": 0.14814814814814814,
+      "top_trigger_pair": "mi_src_dst_port",
+      "top_trigger_pair_name": "Src-Port x Dst-Port",
+      "top_trigger_pair_count": 16,
+      "trigger_counts": {
+        "mi_src_dst_port": 16,
+        "mi_src_ip_src_port": 13,
+        "mi_src_dst_ip": 10,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_10.0_2.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 162,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 162,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 162,
+        "mi_src_dst_ip": 161,
+        "mi_src_ip_dst_port": 141,
+        "mi_dst_ip_dst_port": 102,
+        "mi_src_dst_port": 92
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_10.0_2.5.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 162,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 162,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 162,
+        "mi_src_dst_ip": 161,
+        "mi_src_ip_dst_port": 119,
+        "mi_src_dst_port": 68,
+        "mi_dst_ip_dst_port": 66
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_10.0_3.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 162,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 162,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 162,
+        "mi_src_dst_ip": 160,
+        "mi_src_ip_dst_port": 97,
+        "mi_dst_ip_dst_port": 46,
+        "mi_src_dst_port": 40
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_2.0_2.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 117,
+      "fp": 0,
+      "tn": 0,
+      "fn": 45,
+      "accuracy": 0.7222222222222222,
+      "precision": 1.0,
+      "recall": 0.7222222222222222,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 101,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 101,
+        "mi_src_dst_ip": 83,
+        "mi_src_dst_port": 64,
+        "mi_src_ip_dst_port": 24,
+        "mi_dst_ip_dst_port": 13
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_2.0_2.5.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 88,
+      "fp": 0,
+      "tn": 0,
+      "fn": 74,
+      "accuracy": 0.5432098765432098,
+      "precision": 1.0,
+      "recall": 0.5432098765432098,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 69,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 69,
+        "mi_src_dst_ip": 53,
+        "mi_src_dst_port": 39,
+        "mi_src_ip_dst_port": 9,
+        "mi_dst_ip_dst_port": 6
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_2.0_3.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 55,
+      "fp": 0,
+      "tn": 0,
+      "fn": 107,
+      "accuracy": 0.3395061728395062,
+      "precision": 1.0,
+      "recall": 0.3395061728395062,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 43,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 43,
+        "mi_src_dst_ip": 31,
+        "mi_src_dst_port": 23,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_3.0_2.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 11,
+      "accuracy": 0.9320987654320988,
+      "precision": 1.0,
+      "recall": 0.9320987654320988,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 137,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 137,
+        "mi_src_dst_ip": 130,
+        "mi_src_dst_port": 74,
+        "mi_dst_ip_dst_port": 14,
+        "mi_src_ip_dst_port": 13
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_3.0_2.5.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 131,
+      "fp": 0,
+      "tn": 0,
+      "fn": 31,
+      "accuracy": 0.808641975308642,
+      "precision": 1.0,
+      "recall": 0.808641975308642,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 119,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 119,
+        "mi_src_dst_ip": 104,
+        "mi_src_dst_port": 50,
+        "mi_src_ip_dst_port": 6,
+        "mi_dst_ip_dst_port": 5
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_3.0_3.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 104,
+      "fp": 0,
+      "tn": 0,
+      "fn": 58,
+      "accuracy": 0.6419753086419753,
+      "precision": 1.0,
+      "recall": 0.6419753086419753,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 91,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 91,
+        "mi_src_dst_ip": 68,
+        "mi_src_dst_port": 28,
+        "mi_src_ip_dst_port": 3,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_5.0_2.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 162,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 162,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 162,
+        "mi_src_dst_ip": 157,
+        "mi_src_dst_port": 89,
+        "mi_src_ip_dst_port": 17,
+        "mi_dst_ip_dst_port": 15
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_5.0_2.5.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 162,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 158,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 158,
+        "mi_src_dst_ip": 153,
+        "mi_src_dst_port": 63,
+        "mi_src_ip_dst_port": 9,
+        "mi_dst_ip_dst_port": 7
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_25.0_5.0_3.0.json",
+      "baseline_pct": 25.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 162,
+      "epochs_with_truth": 162,
+      "tp": 155,
+      "fp": 0,
+      "tn": 0,
+      "fn": 7,
+      "accuracy": 0.9567901234567902,
+      "precision": 1.0,
+      "recall": 0.9567901234567902,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 150,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 150,
+        "mi_src_dst_ip": 143,
+        "mi_src_dst_port": 38,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_1.0_2.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 73,
+      "fp": 0,
+      "tn": 0,
+      "fn": 78,
+      "accuracy": 0.48344370860927155,
+      "precision": 1.0,
+      "recall": 0.48344370860927155,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 42,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 42,
+        "mi_src_dst_ip": 38,
+        "mi_src_dst_port": 33,
+        "mi_src_ip_dst_port": 28,
+        "mi_dst_ip_dst_port": 14
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_1.0_2.5.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 41,
+      "fp": 0,
+      "tn": 0,
+      "fn": 110,
+      "accuracy": 0.271523178807947,
+      "precision": 1.0,
+      "recall": 0.271523178807947,
+      "top_trigger_pair": "mi_src_dst_port",
+      "top_trigger_pair_name": "Src-Port x Dst-Port",
+      "top_trigger_pair_count": 19,
+      "trigger_counts": {
+        "mi_src_dst_port": 19,
+        "mi_src_ip_src_port": 19,
+        "mi_src_dst_ip": 18,
+        "mi_src_ip_dst_port": 11,
+        "mi_dst_ip_dst_port": 7
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_1.0_3.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 131,
+      "accuracy": 0.13245033112582782,
+      "precision": 1.0,
+      "recall": 0.13245033112582782,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 10,
+      "trigger_counts": {
+        "mi_src_dst_ip": 10,
+        "mi_src_ip_src_port": 9,
+        "mi_src_ip_dst_port": 7,
+        "mi_src_dst_port": 6,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_10.0_2.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 151,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 151,
+        "mi_src_dst_ip": 150,
+        "mi_src_ip_dst_port": 135,
+        "mi_dst_ip_dst_port": 98,
+        "mi_src_dst_port": 75
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_10.0_2.5.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 151,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 151,
+        "mi_src_dst_ip": 150,
+        "mi_src_ip_dst_port": 113,
+        "mi_dst_ip_dst_port": 71,
+        "mi_src_dst_port": 45
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_10.0_3.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 151,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 151,
+        "mi_src_dst_ip": 149,
+        "mi_src_ip_dst_port": 95,
+        "mi_dst_ip_dst_port": 41,
+        "mi_src_dst_port": 26
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_2.0_2.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 110,
+      "fp": 0,
+      "tn": 0,
+      "fn": 41,
+      "accuracy": 0.7284768211920529,
+      "precision": 1.0,
+      "recall": 0.7284768211920529,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 86,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 86,
+        "mi_src_dst_ip": 76,
+        "mi_src_dst_port": 47,
+        "mi_src_ip_dst_port": 24,
+        "mi_dst_ip_dst_port": 12
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_2.0_2.5.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 71,
+      "fp": 0,
+      "tn": 0,
+      "fn": 80,
+      "accuracy": 0.47019867549668876,
+      "precision": 1.0,
+      "recall": 0.47019867549668876,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 54,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 54,
+        "mi_src_dst_ip": 46,
+        "mi_src_dst_port": 25,
+        "mi_src_ip_dst_port": 10,
+        "mi_dst_ip_dst_port": 6
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_2.0_3.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 48,
+      "fp": 0,
+      "tn": 0,
+      "fn": 103,
+      "accuracy": 0.31788079470198677,
+      "precision": 1.0,
+      "recall": 0.31788079470198677,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 31,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 31,
+        "mi_src_dst_ip": 30,
+        "mi_src_dst_port": 12,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_3.0_2.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 136,
+      "fp": 0,
+      "tn": 0,
+      "fn": 15,
+      "accuracy": 0.9006622516556292,
+      "precision": 1.0,
+      "recall": 0.9006622516556292,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 120,
+      "trigger_counts": {
+        "mi_src_dst_ip": 120,
+        "mi_src_ip_src_port": 118,
+        "mi_src_dst_port": 56,
+        "mi_src_ip_dst_port": 14,
+        "mi_dst_ip_dst_port": 12
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_3.0_2.5.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 113,
+      "fp": 0,
+      "tn": 0,
+      "fn": 38,
+      "accuracy": 0.7483443708609272,
+      "precision": 1.0,
+      "recall": 0.7483443708609272,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 98,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 98,
+        "mi_src_dst_ip": 95,
+        "mi_src_dst_port": 31,
+        "mi_src_ip_dst_port": 8,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_3.0_3.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 87,
+      "fp": 0,
+      "tn": 0,
+      "fn": 64,
+      "accuracy": 0.5761589403973509,
+      "precision": 1.0,
+      "recall": 0.5761589403973509,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 69,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 69,
+        "mi_src_dst_ip": 61,
+        "mi_src_dst_port": 16,
+        "mi_src_ip_dst_port": 3,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_5.0_2.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 151,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 150,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 150,
+        "mi_src_dst_ip": 146,
+        "mi_src_dst_port": 68,
+        "mi_src_ip_dst_port": 20,
+        "mi_dst_ip_dst_port": 15
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_5.0_2.5.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 149,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "accuracy": 0.9867549668874173,
+      "precision": 1.0,
+      "recall": 0.9867549668874173,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 145,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 145,
+        "mi_src_dst_ip": 141,
+        "mi_src_dst_port": 43,
+        "mi_src_ip_dst_port": 8,
+        "mi_dst_ip_dst_port": 7
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_30.0_5.0_3.0.json",
+      "baseline_pct": 30.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 151,
+      "epochs_with_truth": 151,
+      "tp": 142,
+      "fp": 0,
+      "tn": 0,
+      "fn": 9,
+      "accuracy": 0.9403973509933775,
+      "precision": 1.0,
+      "recall": 0.9403973509933775,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 137,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 137,
+        "mi_src_dst_ip": 132,
+        "mi_src_dst_port": 25,
+        "mi_src_ip_dst_port": 4,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_1.0_2.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 161,
+      "fp": 0,
+      "tn": 0,
+      "fn": 44,
+      "accuracy": 0.7853658536585366,
+      "precision": 1.0,
+      "recall": 0.7853658536585366,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 136,
+      "trigger_counts": {
+        "mi_src_dst_ip": 136,
+        "mi_src_ip_src_port": 127,
+        "mi_src_dst_port": 92,
+        "mi_src_ip_dst_port": 36,
+        "mi_dst_ip_dst_port": 28
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_1.0_2.5.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 134,
+      "fp": 0,
+      "tn": 0,
+      "fn": 71,
+      "accuracy": 0.6536585365853659,
+      "precision": 1.0,
+      "recall": 0.6536585365853659,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 115,
+      "trigger_counts": {
+        "mi_src_dst_ip": 115,
+        "mi_src_ip_src_port": 99,
+        "mi_src_dst_port": 71,
+        "mi_src_ip_dst_port": 17,
+        "mi_dst_ip_dst_port": 12
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_1.0_3.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 1.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 109,
+      "fp": 0,
+      "tn": 0,
+      "fn": 96,
+      "accuracy": 0.5317073170731708,
+      "precision": 1.0,
+      "recall": 0.5317073170731708,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 85,
+      "trigger_counts": {
+        "mi_src_dst_ip": 85,
+        "mi_src_ip_src_port": 70,
+        "mi_src_dst_port": 50,
+        "mi_src_ip_dst_port": 8,
+        "mi_dst_ip_dst_port": 4
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_10.0_2.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_dst_ip": 205,
+        "mi_src_ip_src_port": 205,
+        "mi_src_ip_dst_port": 180,
+        "mi_src_dst_port": 159,
+        "mi_dst_ip_dst_port": 79
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_10.0_2.5.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_dst_ip": 205,
+        "mi_src_ip_src_port": 205,
+        "mi_src_ip_dst_port": 162,
+        "mi_src_dst_port": 142,
+        "mi_dst_ip_dst_port": 48
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_10.0_3.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 10.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 205,
+        "mi_src_dst_ip": 204,
+        "mi_src_ip_dst_port": 125,
+        "mi_src_dst_port": 99,
+        "mi_dst_ip_dst_port": 23
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_2.0_2.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 190,
+      "fp": 0,
+      "tn": 0,
+      "fn": 15,
+      "accuracy": 0.926829268292683,
+      "precision": 1.0,
+      "recall": 0.926829268292683,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 178,
+      "trigger_counts": {
+        "mi_src_dst_ip": 178,
+        "mi_src_ip_src_port": 175,
+        "mi_src_dst_port": 114,
+        "mi_src_ip_dst_port": 31,
+        "mi_dst_ip_dst_port": 24
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_2.0_2.5.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 171,
+      "fp": 0,
+      "tn": 0,
+      "fn": 34,
+      "accuracy": 0.8341463414634146,
+      "precision": 1.0,
+      "recall": 0.8341463414634146,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 164,
+      "trigger_counts": {
+        "mi_src_dst_ip": 164,
+        "mi_src_ip_src_port": 148,
+        "mi_src_dst_port": 85,
+        "mi_dst_ip_dst_port": 11,
+        "mi_src_ip_dst_port": 11
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_2.0_3.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 2.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 161,
+      "fp": 0,
+      "tn": 0,
+      "fn": 44,
+      "accuracy": 0.7853658536585366,
+      "precision": 1.0,
+      "recall": 0.7853658536585366,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 144,
+      "trigger_counts": {
+        "mi_src_dst_ip": 144,
+        "mi_src_ip_src_port": 130,
+        "mi_src_dst_port": 64,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_3.0_2.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 202,
+      "fp": 0,
+      "tn": 0,
+      "fn": 3,
+      "accuracy": 0.9853658536585366,
+      "precision": 1.0,
+      "recall": 0.9853658536585366,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 199,
+      "trigger_counts": {
+        "mi_src_dst_ip": 199,
+        "mi_src_ip_src_port": 196,
+        "mi_src_dst_port": 134,
+        "mi_src_ip_dst_port": 19,
+        "mi_dst_ip_dst_port": 15
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_3.0_2.5.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 197,
+      "fp": 0,
+      "tn": 0,
+      "fn": 8,
+      "accuracy": 0.9609756097560975,
+      "precision": 1.0,
+      "recall": 0.9609756097560975,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 192,
+      "trigger_counts": {
+        "mi_src_dst_ip": 192,
+        "mi_src_ip_src_port": 185,
+        "mi_src_dst_port": 103,
+        "mi_src_ip_dst_port": 10,
+        "mi_dst_ip_dst_port": 8
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_3.0_3.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 3.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 194,
+      "fp": 0,
+      "tn": 0,
+      "fn": 11,
+      "accuracy": 0.9463414634146341,
+      "precision": 1.0,
+      "recall": 0.9463414634146341,
+      "top_trigger_pair": "mi_src_dst_ip",
+      "top_trigger_pair_name": "Src-IP x Dst-IP",
+      "top_trigger_pair_count": 182,
+      "trigger_counts": {
+        "mi_src_dst_ip": 182,
+        "mi_src_ip_src_port": 176,
+        "mi_src_dst_port": 74,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_5.0_2.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 205,
+        "mi_src_dst_ip": 203,
+        "mi_src_dst_port": 156,
+        "mi_src_ip_dst_port": 23,
+        "mi_dst_ip_dst_port": 7
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_5.0_2.5.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 2.5,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 205,
+        "mi_src_dst_ip": 203,
+        "mi_src_dst_port": 125,
+        "mi_src_ip_dst_port": 11,
+        "mi_dst_ip_dst_port": 3
+      }
+    },
+    {
+      "path": "/home/siddu/LossRadar_Pollution/LG/Mutual_Info/EveryEpoch/mi_5.0_5.0_3.0.json",
+      "baseline_pct": 5.0,
+      "malicious_pct": 5.0,
+      "z_threshold_used": 3.0,
+      "epochs_count": 205,
+      "epochs_with_truth": 205,
+      "tp": 205,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "top_trigger_pair": "mi_src_ip_src_port",
+      "top_trigger_pair_name": "Src-IP x Src-Port",
+      "top_trigger_pair_count": 205,
+      "trigger_counts": {
+        "mi_src_ip_src_port": 205,
+        "mi_src_dst_ip": 202,
+        "mi_src_dst_port": 93,
+        "mi_src_ip_dst_port": 5,
+        "mi_dst_ip_dst_port": 3
+      }
+    }
+  ]
+}

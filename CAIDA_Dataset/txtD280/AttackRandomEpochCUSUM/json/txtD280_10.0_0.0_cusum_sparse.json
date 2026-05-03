@@ -1,0 +1,7322 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-23T14:50:17.542180",
+    "dataset_name": "txtD280",
+    "method": "CUSUM Change-Point (JS + NewIP + TopK)",
+    "sparse_mode": true,
+    "sparse_attack_prob": 0.3,
+    "sparse_window_size": 10,
+    "k_factor": 0.5,
+    "h_factor": 4.0,
+    "attacked_windows": [
+      {
+        "window_index": 0,
+        "epoch_indices": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "epoch_range": [
+          21,
+          30
+        ]
+      },
+      {
+        "window_index": 3,
+        "epoch_indices": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "epoch_range": [
+          51,
+          60
+        ]
+      },
+      {
+        "window_index": 11,
+        "epoch_indices": [
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140
+        ],
+        "epoch_range": [
+          131,
+          140
+        ]
+      },
+      {
+        "window_index": 14,
+        "epoch_indices": [
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170
+        ],
+        "epoch_range": [
+          161,
+          170
+        ]
+      },
+      {
+        "window_index": 17,
+        "epoch_indices": [
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200
+        ],
+        "epoch_range": [
+          191,
+          200
+        ]
+      },
+      {
+        "window_index": 19,
+        "epoch_indices": [
+          211,
+          212,
+          213,
+          214
+        ],
+        "epoch_range": [
+          211,
+          214
+        ]
+      }
+    ]
+  },
+  "baseline": {
+    "js": {
+      "mean": 0.671615,
+      "std": 0.008525,
+      "k": 0.004262,
+      "h": 0.0341
+    },
+    "new_src_ratio": {
+      "mean": 0.0,
+      "std": 0.0,
+      "k": 0.0,
+      "h": 0.0
+    },
+    "topk_src": {
+      "mean": 0.062261,
+      "std": 0.002393,
+      "k": 0.001197,
+      "h": 0.009572
+    }
+  },
+  "epochs": [
+    {
+      "epoch_index": 21,
+      "epoch_name": "epoch_000021",
+      "attacked": true,
+      "clean_flows_count": 5144,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5144,
+      "signal": {
+        "js": 0.72641974,
+        "new_src_ratio": 0.15202177,
+        "topk_src": 0.05734837
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.050542,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.72641974
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.152022,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.15202177
+        },
+        "topk_src": {
+          "alarm": false,
+          "c_plus": 0.0,
+          "c_minus": 0.003716,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05734837
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 22,
+      "epoch_name": "epoch_000022",
+      "attacked": true,
+      "clean_flows_count": 5007,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5007,
+      "signal": {
+        "js": 0.74097185,
+        "new_src_ratio": 0.14939085,
+        "topk_src": 0.05472339
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.115637,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74097185
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.301413,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.14939085
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.010057,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05472339
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 23,
+      "epoch_name": "epoch_000023",
+      "attacked": true,
+      "clean_flows_count": 4968,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4968,
+      "signal": {
+        "js": 0.7218825,
+        "new_src_ratio": 0.14291465,
+        "topk_src": 0.05958132
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.161642,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7218825
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.444327,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.14291465
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.01154,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05958132
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 24,
+      "epoch_name": "epoch_000024",
+      "attacked": true,
+      "clean_flows_count": 4960,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4960,
+      "signal": {
+        "js": 0.73264071,
+        "new_src_ratio": 0.16290323,
+        "topk_src": 0.05302419
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.218405,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73264071
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.60723,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16290323
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.01958,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05302419
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 25,
+      "epoch_name": "epoch_000025",
+      "attacked": true,
+      "clean_flows_count": 4960,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4960,
+      "signal": {
+        "js": 0.74081283,
+        "new_src_ratio": 0.15403226,
+        "topk_src": 0.05826613
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.28334,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74081283
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.761263,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.15403226
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.022378,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05826613
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 26,
+      "epoch_name": "epoch_000026",
+      "attacked": true,
+      "clean_flows_count": 5037,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5037,
+      "signal": {
+        "js": 0.73550797,
+        "new_src_ratio": 0.16775859,
+        "topk_src": 0.05638277
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.342971,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73550797
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 0.929021,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16775859
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.02706,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05638277
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 27,
+      "epoch_name": "epoch_000027",
+      "attacked": true,
+      "clean_flows_count": 5065,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5065,
+      "signal": {
+        "js": 0.74235415,
+        "new_src_ratio": 0.15715696,
+        "topk_src": 0.06495558
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.409447,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74235415
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.086178,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.15715696
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001498,
+          "c_minus": 0.023169,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06495558
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 28,
+      "epoch_name": "epoch_000028",
+      "attacked": true,
+      "clean_flows_count": 5124,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5124,
+      "signal": {
+        "js": 0.73447421,
+        "new_src_ratio": 0.16647151,
+        "topk_src": 0.05776737
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.468044,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73447421
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.25265,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16647151
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.026465,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05776737
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 29,
+      "epoch_name": "epoch_000029",
+      "attacked": true,
+      "clean_flows_count": 5147,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5147,
+      "signal": {
+        "js": 0.73217342,
+        "new_src_ratio": 0.16786478,
+        "topk_src": 0.05614921
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.52434,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73217342
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.420515,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16786478
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.031381,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05614921
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 30,
+      "epoch_name": "epoch_000030",
+      "attacked": true,
+      "clean_flows_count": 5038,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5038,
+      "signal": {
+        "js": 0.74347765,
+        "new_src_ratio": 0.16077809,
+        "topk_src": 0.05776102
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.59194,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74347765
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.581293,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16077809
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.034684,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05776102
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 31,
+      "epoch_name": "epoch_000031",
+      "attacked": false,
+      "clean_flows_count": 4937,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4937,
+      "signal": {
+        "js": 0.73330911,
+        "new_src_ratio": 0.16710553,
+        "topk_src": 0.05813247
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.649372,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73330911
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.748398,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16710553
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.037616,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05813247
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 32,
+      "epoch_name": "epoch_000032",
+      "attacked": false,
+      "clean_flows_count": 4980,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4980,
+      "signal": {
+        "js": 0.74115784,
+        "new_src_ratio": 0.16144578,
+        "topk_src": 0.05682731
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.714652,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74115784
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 1.909844,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16144578
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.041853,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05682731
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 33,
+      "epoch_name": "epoch_000033",
+      "attacked": false,
+      "clean_flows_count": 4992,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4992,
+      "signal": {
+        "js": 0.74289585,
+        "new_src_ratio": 0.17447917,
+        "topk_src": 0.05508814
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.78167,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74289585
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.084323,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.17447917
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.047829,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05508814
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 34,
+      "epoch_name": "epoch_000034",
+      "attacked": false,
+      "clean_flows_count": 5050,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5050,
+      "signal": {
+        "js": 0.74227136,
+        "new_src_ratio": 0.18554455,
+        "topk_src": 0.05267327
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.848064,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74227136
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.269868,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18554455
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.05622,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05267327
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 35,
+      "epoch_name": "epoch_000035",
+      "attacked": false,
+      "clean_flows_count": 4919,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4919,
+      "signal": {
+        "js": 0.74978033,
+        "new_src_ratio": 0.16995324,
+        "topk_src": 0.06017483
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.921967,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74978033
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.439821,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.16995324
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.057109,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06017483
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 36,
+      "epoch_name": "epoch_000036",
+      "attacked": false,
+      "clean_flows_count": 5111,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5111,
+      "signal": {
+        "js": 0.74191798,
+        "new_src_ratio": 0.17746038,
+        "topk_src": 0.06202309
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 0.988007,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74191798
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.617281,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.17746038
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.056151,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06202309
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 37,
+      "epoch_name": "epoch_000037",
+      "attacked": false,
+      "clean_flows_count": 5065,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5065,
+      "signal": {
+        "js": 0.74240619,
+        "new_src_ratio": 0.17295163,
+        "topk_src": 0.06614018
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.054536,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74240619
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.790233,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.17295163
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.002683,
+          "c_minus": 0.051075,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06614018
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 38,
+      "epoch_name": "epoch_000038",
+      "attacked": false,
+      "clean_flows_count": 5087,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5087,
+      "signal": {
+        "js": 0.7348897,
+        "new_src_ratio": 0.18655396,
+        "topk_src": 0.05779438
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.113548,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7348897
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 2.976787,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18655396
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.054345,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05779438
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 39,
+      "epoch_name": "epoch_000039",
+      "attacked": false,
+      "clean_flows_count": 4967,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4967,
+      "signal": {
+        "js": 0.74326378,
+        "new_src_ratio": 0.1868331,
+        "topk_src": 0.05375478
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.180935,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74326378
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 3.16362,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.1868331
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.061654,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05375478
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 40,
+      "epoch_name": "epoch_000040",
+      "attacked": false,
+      "clean_flows_count": 5069,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5069,
+      "signal": {
+        "js": 0.74281249,
+        "new_src_ratio": 0.19017558,
+        "topk_src": 0.06411521
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.24787,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74281249
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 3.353796,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19017558
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000658,
+          "c_minus": 0.058603,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06411521
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 41,
+      "epoch_name": "epoch_000041",
+      "attacked": false,
+      "clean_flows_count": 5046,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5046,
+      "signal": {
+        "js": 0.74911539,
+        "new_src_ratio": 0.18232263,
+        "topk_src": 0.06024574
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.321107,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74911539
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 3.536118,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18232263
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.059422,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06024574
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 42,
+      "epoch_name": "epoch_000042",
+      "attacked": false,
+      "clean_flows_count": 5019,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5019,
+      "signal": {
+        "js": 0.74347513,
+        "new_src_ratio": 0.1803148,
+        "topk_src": 0.05339709
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.388705,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74347513
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 3.716433,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.1803148
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.067089,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05339709
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 43,
+      "epoch_name": "epoch_000043",
+      "attacked": false,
+      "clean_flows_count": 5070,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5070,
+      "signal": {
+        "js": 0.73659555,
+        "new_src_ratio": 0.18658777,
+        "topk_src": 0.05719921
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.449423,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73659555
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 3.903021,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18658777
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.070954,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05719921
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 44,
+      "epoch_name": "epoch_000044",
+      "attacked": false,
+      "clean_flows_count": 5095,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5095,
+      "signal": {
+        "js": 0.73762104,
+        "new_src_ratio": 0.19156035,
+        "topk_src": 0.06202159
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.511167,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73762104
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 4.094581,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19156035
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.069997,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06202159
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 45,
+      "epoch_name": "epoch_000045",
+      "attacked": false,
+      "clean_flows_count": 5079,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5079,
+      "signal": {
+        "js": 0.73895719,
+        "new_src_ratio": 0.18586336,
+        "topk_src": 0.06379209
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.574246,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73895719
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 4.280445,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18586336
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000335,
+          "c_minus": 0.067269,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06379209
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 46,
+      "epoch_name": "epoch_000046",
+      "attacked": false,
+      "clean_flows_count": 5121,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5121,
+      "signal": {
+        "js": 0.74017684,
+        "new_src_ratio": 0.19351689,
+        "topk_src": 0.05955868
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.638546,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74017684
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 4.473961,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19351689
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.068775,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05955868
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 47,
+      "epoch_name": "epoch_000047",
+      "attacked": false,
+      "clean_flows_count": 5076,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5076,
+      "signal": {
+        "js": 0.73990526,
+        "new_src_ratio": 0.18892829,
+        "topk_src": 0.06166273
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.702573,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73990526
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 4.66289,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18892829
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.068177,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06166273
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 48,
+      "epoch_name": "epoch_000048",
+      "attacked": false,
+      "clean_flows_count": 5080,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5080,
+      "signal": {
+        "js": 0.73798383,
+        "new_src_ratio": 0.17755906,
+        "topk_src": 0.06003937
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.76468,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73798383
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 4.840449,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.17755906
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.069201,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06003937
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 49,
+      "epoch_name": "epoch_000049",
+      "attacked": false,
+      "clean_flows_count": 5111,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5111,
+      "signal": {
+        "js": 0.74651103,
+        "new_src_ratio": 0.1872432,
+        "topk_src": 0.063784
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.835313,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74651103
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.027692,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.1872432
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000327,
+          "c_minus": 0.066482,
+          "threshold_h": 0.009572,
+          "signal_value": 0.063784
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 50,
+      "epoch_name": "epoch_000050",
+      "attacked": false,
+      "clean_flows_count": 5126,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5126,
+      "signal": {
+        "js": 0.74373824,
+        "new_src_ratio": 0.18571986,
+        "topk_src": 0.06242684
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.903174,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74373824
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.213412,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18571986
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.065119,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06242684
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 51,
+      "epoch_name": "epoch_000051",
+      "attacked": true,
+      "clean_flows_count": 5149,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5149,
+      "signal": {
+        "js": 0.74723354,
+        "new_src_ratio": 0.183725,
+        "topk_src": 0.05651583
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 1.97453,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74723354
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.397137,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.183725
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.069668,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05651583
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 52,
+      "epoch_name": "epoch_000052",
+      "attacked": true,
+      "clean_flows_count": 5114,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5114,
+      "signal": {
+        "js": 0.74515903,
+        "new_src_ratio": 0.19045757,
+        "topk_src": 0.06472429
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.043812,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74515903
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.587594,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19045757
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001267,
+          "c_minus": 0.066008,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06472429
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 53,
+      "epoch_name": "epoch_000053",
+      "attacked": true,
+      "clean_flows_count": 4954,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4954,
+      "signal": {
+        "js": 0.74871133,
+        "new_src_ratio": 0.1881308,
+        "topk_src": 0.06419055
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.116645,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74871133
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.775725,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.1881308
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.002,
+          "c_minus": 0.062882,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06419055
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 54,
+      "epoch_name": "epoch_000054",
+      "attacked": true,
+      "clean_flows_count": 5117,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5117,
+      "signal": {
+        "js": 0.73970494,
+        "new_src_ratio": 0.20617549,
+        "topk_src": 0.0586281
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.180473,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73970494
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 5.981901,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20617549
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.065318,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0586281
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 55,
+      "epoch_name": "epoch_000055",
+      "attacked": true,
+      "clean_flows_count": 5069,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5069,
+      "signal": {
+        "js": 0.72847325,
+        "new_src_ratio": 0.18918919,
+        "topk_src": 0.0651016
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.233069,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.72847325
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 6.17109,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.18918919
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001644,
+          "c_minus": 0.061281,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0651016
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 56,
+      "epoch_name": "epoch_000056",
+      "attacked": true,
+      "clean_flows_count": 5029,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5029,
+      "signal": {
+        "js": 0.74293937,
+        "new_src_ratio": 0.19765361,
+        "topk_src": 0.05985285
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.30013,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74293937
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 6.368743,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19765361
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.062492,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05985285
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 57,
+      "epoch_name": "epoch_000057",
+      "attacked": true,
+      "clean_flows_count": 5103,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5103,
+      "signal": {
+        "js": 0.74015273,
+        "new_src_ratio": 0.2032138,
+        "topk_src": 0.05878895
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.364406,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74015273
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 6.571957,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2032138
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.064767,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05878895
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 58,
+      "epoch_name": "epoch_000058",
+      "attacked": true,
+      "clean_flows_count": 5106,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5106,
+      "signal": {
+        "js": 0.74840464,
+        "new_src_ratio": 0.20505288,
+        "topk_src": 0.06130043
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.436933,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74840464
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 6.77701,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20505288
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.064531,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06130043
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 59,
+      "epoch_name": "epoch_000059",
+      "attacked": true,
+      "clean_flows_count": 5167,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5167,
+      "signal": {
+        "js": 0.74462014,
+        "new_src_ratio": 0.21540546,
+        "topk_src": 0.06289917
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.505675,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74462014
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 6.992416,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21540546
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.062696,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06289917
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 60,
+      "epoch_name": "epoch_000060",
+      "attacked": true,
+      "clean_flows_count": 5105,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5105,
+      "signal": {
+        "js": 0.75166894,
+        "new_src_ratio": 0.21802155,
+        "topk_src": 0.07091087
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.581467,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75166894
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 7.210437,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21802155
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.007453,
+          "c_minus": 0.05285,
+          "threshold_h": 0.009572,
+          "signal_value": 0.07091087
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 61,
+      "epoch_name": "epoch_000061",
+      "attacked": false,
+      "clean_flows_count": 5131,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5131,
+      "signal": {
+        "js": 0.73753408,
+        "new_src_ratio": 0.20756188,
+        "topk_src": 0.06314559
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.643123,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73753408
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 7.417999,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20756188
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.007142,
+          "c_minus": 0.050769,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06314559
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 62,
+      "epoch_name": "epoch_000062",
+      "attacked": false,
+      "clean_flows_count": 5029,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5029,
+      "signal": {
+        "js": 0.74857673,
+        "new_src_ratio": 0.19705707,
+        "topk_src": 0.05925631
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.715823,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74857673
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 7.615056,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19705707
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.00294,
+          "c_minus": 0.052577,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05925631
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 63,
+      "epoch_name": "epoch_000063",
+      "attacked": false,
+      "clean_flows_count": 5012,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5012,
+      "signal": {
+        "js": 0.73812522,
+        "new_src_ratio": 0.19872306,
+        "topk_src": 0.06005587
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.77807,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73812522
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 7.813779,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19872306
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.053585,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06005587
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 64,
+      "epoch_name": "epoch_000064",
+      "attacked": false,
+      "clean_flows_count": 5027,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5027,
+      "signal": {
+        "js": 0.74026111,
+        "new_src_ratio": 0.20111398,
+        "topk_src": 0.06206485
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.842454,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74026111
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 8.014893,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20111398
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.052585,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06206485
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 65,
+      "epoch_name": "epoch_000065",
+      "attacked": false,
+      "clean_flows_count": 5107,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5107,
+      "signal": {
+        "js": 0.74049287,
+        "new_src_ratio": 0.19659291,
+        "topk_src": 0.05560995
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.907069,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74049287
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 8.211486,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19659291
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.058039,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05560995
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 66,
+      "epoch_name": "epoch_000066",
+      "attacked": false,
+      "clean_flows_count": 5096,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5096,
+      "signal": {
+        "js": 0.74266166,
+        "new_src_ratio": 0.2044741,
+        "topk_src": 0.0588697
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 2.973854,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74266166
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 8.41596,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2044741
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.060234,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0588697
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 67,
+      "epoch_name": "epoch_000067",
+      "attacked": false,
+      "clean_flows_count": 5082,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5082,
+      "signal": {
+        "js": 0.74000828,
+        "new_src_ratio": 0.20306966,
+        "topk_src": 0.05588351
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.037984,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74000828
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 8.61903,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20306966
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.065414,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05588351
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 68,
+      "epoch_name": "epoch_000068",
+      "attacked": false,
+      "clean_flows_count": 5078,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5078,
+      "signal": {
+        "js": 0.74348836,
+        "new_src_ratio": 0.20697125,
+        "topk_src": 0.06163844
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.105595,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74348836
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 8.826001,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20697125
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.06484,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06163844
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 69,
+      "epoch_name": "epoch_000069",
+      "attacked": false,
+      "clean_flows_count": 5225,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5225,
+      "signal": {
+        "js": 0.7458365,
+        "new_src_ratio": 0.20133971,
+        "topk_src": 0.05894737
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.175554,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7458365
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 9.027341,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20133971
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.066957,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05894737
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 70,
+      "epoch_name": "epoch_000070",
+      "attacked": false,
+      "clean_flows_count": 5074,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5074,
+      "signal": {
+        "js": 0.75562361,
+        "new_src_ratio": 0.21344107,
+        "topk_src": 0.06168703
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.2553,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75562361
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 9.240782,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21344107
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.066334,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06168703
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 71,
+      "epoch_name": "epoch_000071",
+      "attacked": false,
+      "clean_flows_count": 5180,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5180,
+      "signal": {
+        "js": 0.74220102,
+        "new_src_ratio": 0.20212355,
+        "topk_src": 0.05945946
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.321624,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74220102
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 9.442905,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20212355
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.067939,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05945946
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 72,
+      "epoch_name": "epoch_000072",
+      "attacked": false,
+      "clean_flows_count": 5104,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5104,
+      "signal": {
+        "js": 0.75415302,
+        "new_src_ratio": 0.22217868,
+        "topk_src": 0.06132445
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.399899,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75415302
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 9.665084,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22217868
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.067679,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06132445
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 73,
+      "epoch_name": "epoch_000073",
+      "attacked": false,
+      "clean_flows_count": 5306,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5306,
+      "signal": {
+        "js": 0.72407578,
+        "new_src_ratio": 0.20147003,
+        "topk_src": 0.06068602
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.448098,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.72407578
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 9.866554,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20147003
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.068058,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06068602
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 74,
+      "epoch_name": "epoch_000074",
+      "attacked": false,
+      "clean_flows_count": 5079,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5079,
+      "signal": {
+        "js": 0.74823097,
+        "new_src_ratio": 0.20003938,
+        "topk_src": 0.06142942
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.520451,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74823097
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 10.066593,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20003938
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.067692,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06142942
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 75,
+      "epoch_name": "epoch_000075",
+      "attacked": false,
+      "clean_flows_count": 5083,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5083,
+      "signal": {
+        "js": 0.74736724,
+        "new_src_ratio": 0.21030887,
+        "topk_src": 0.05587252
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.591941,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74736724
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 10.276902,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21030887
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.072884,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05587252
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 76,
+      "epoch_name": "epoch_000076",
+      "attacked": false,
+      "clean_flows_count": 4991,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4991,
+      "signal": {
+        "js": 0.74637851,
+        "new_src_ratio": 0.21498698,
+        "topk_src": 0.0621118
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.662442,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74637851
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 10.491889,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21498698
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.071837,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0621118
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 77,
+      "epoch_name": "epoch_000077",
+      "attacked": false,
+      "clean_flows_count": 5150,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5150,
+      "signal": {
+        "js": 0.75051424,
+        "new_src_ratio": 0.21572816,
+        "topk_src": 0.06116505
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.737078,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75051424
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 10.707618,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21572816
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.071736,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06116505
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 78,
+      "epoch_name": "epoch_000078",
+      "attacked": false,
+      "clean_flows_count": 5045,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5045,
+      "signal": {
+        "js": 0.74570282,
+        "new_src_ratio": 0.21367691,
+        "topk_src": 0.05847374
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.806904,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74570282
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 10.921294,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21367691
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.074327,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05847374
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 79,
+      "epoch_name": "epoch_000079",
+      "attacked": false,
+      "clean_flows_count": 5026,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5026,
+      "signal": {
+        "js": 0.74989231,
+        "new_src_ratio": 0.21687226,
+        "topk_src": 0.06068444
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.880919,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74989231
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 11.138167,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21687226
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.074706,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06068444
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 80,
+      "epoch_name": "epoch_000080",
+      "attacked": false,
+      "clean_flows_count": 5084,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5084,
+      "signal": {
+        "js": 0.74002422,
+        "new_src_ratio": 0.20712038,
+        "topk_src": 0.06077891
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 3.945065,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74002422
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 11.345287,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20712038
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.074992,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06077891
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 81,
+      "epoch_name": "epoch_000081",
+      "attacked": false,
+      "clean_flows_count": 5010,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5010,
+      "signal": {
+        "js": 0.74937559,
+        "new_src_ratio": 0.20858283,
+        "topk_src": 0.06067864
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.018563,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74937559
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 11.55387,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20858283
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.075378,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06067864
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 82,
+      "epoch_name": "epoch_000082",
+      "attacked": false,
+      "clean_flows_count": 5125,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5125,
+      "signal": {
+        "js": 0.74971542,
+        "new_src_ratio": 0.20682927,
+        "topk_src": 0.06653659
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.092401,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74971542
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 11.760699,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20682927
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.003079,
+          "c_minus": 0.069905,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06653659
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 83,
+      "epoch_name": "epoch_000083",
+      "attacked": false,
+      "clean_flows_count": 5093,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5093,
+      "signal": {
+        "js": 0.73737856,
+        "new_src_ratio": 0.2089142,
+        "topk_src": 0.06027881
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.153902,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73737856
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 11.969613,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2089142
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.070691,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06027881
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 84,
+      "epoch_name": "epoch_000084",
+      "attacked": false,
+      "clean_flows_count": 5098,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5098,
+      "signal": {
+        "js": 0.73913425,
+        "new_src_ratio": 0.2069439,
+        "topk_src": 0.06002354
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.217159,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73913425
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 12.176557,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2069439
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.071732,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06002354
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 85,
+      "epoch_name": "epoch_000085",
+      "attacked": false,
+      "clean_flows_count": 5089,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5089,
+      "signal": {
+        "js": 0.74207844,
+        "new_src_ratio": 0.20573787,
+        "topk_src": 0.06464924
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.28336,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74207844
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 12.382295,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20573787
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001192,
+          "c_minus": 0.068147,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06464924
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 86,
+      "epoch_name": "epoch_000086",
+      "attacked": false,
+      "clean_flows_count": 5102,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5102,
+      "signal": {
+        "js": 0.74469055,
+        "new_src_ratio": 0.21383771,
+        "topk_src": 0.05821247
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.352173,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74469055
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 12.596133,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21383771
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.070999,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05821247
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 87,
+      "epoch_name": "epoch_000087",
+      "attacked": false,
+      "clean_flows_count": 5217,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5217,
+      "signal": {
+        "js": 0.73765888,
+        "new_src_ratio": 0.21276596,
+        "topk_src": 0.06114625
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.413954,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73765888
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 12.808899,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21276596
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.070917,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06114625
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 88,
+      "epoch_name": "epoch_000088",
+      "attacked": false,
+      "clean_flows_count": 5033,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5033,
+      "signal": {
+        "js": 0.75640785,
+        "new_src_ratio": 0.22253129,
+        "topk_src": 0.06318299
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.494485,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75640785
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 13.03143,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22253129
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.068798,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06318299
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 89,
+      "epoch_name": "epoch_000089",
+      "attacked": false,
+      "clean_flows_count": 5181,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5181,
+      "signal": {
+        "js": 0.74364154,
+        "new_src_ratio": 0.20401467,
+        "topk_src": 0.06369427
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.562249,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74364154
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 13.235445,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20401467
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000237,
+          "c_minus": 0.066168,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06369427
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 90,
+      "epoch_name": "epoch_000090",
+      "attacked": false,
+      "clean_flows_count": 4866,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4866,
+      "signal": {
+        "js": 0.75918634,
+        "new_src_ratio": 0.21824908,
+        "topk_src": 0.06514591
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.645558,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75918634
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 13.453694,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21824908
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001925,
+          "c_minus": 0.062086,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06514591
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 91,
+      "epoch_name": "epoch_000091",
+      "attacked": false,
+      "clean_flows_count": 4972,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4972,
+      "signal": {
+        "js": 0.74779247,
+        "new_src_ratio": 0.20876911,
+        "topk_src": 0.06053902
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.717473,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74779247
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 13.662463,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20876911
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.062612,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06053902
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 92,
+      "epoch_name": "epoch_000092",
+      "attacked": false,
+      "clean_flows_count": 5034,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5034,
+      "signal": {
+        "js": 0.74736919,
+        "new_src_ratio": 0.22328168,
+        "topk_src": 0.05899881
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.788964,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74736919
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 13.885745,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22328168
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.064677,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05899881
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 93,
+      "epoch_name": "epoch_000093",
+      "attacked": false,
+      "clean_flows_count": 5056,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5056,
+      "signal": {
+        "js": 0.74679189,
+        "new_src_ratio": 0.20450949,
+        "topk_src": 0.06052215
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.859879,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74679189
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 14.090254,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20450949
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.065219,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06052215
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 94,
+      "epoch_name": "epoch_000094",
+      "attacked": false,
+      "clean_flows_count": 5039,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5039,
+      "signal": {
+        "js": 0.75131133,
+        "new_src_ratio": 0.2149236,
+        "topk_src": 0.0625124
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 4.935313,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75131133
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 14.305178,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2149236
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.063771,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0625124
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 95,
+      "epoch_name": "epoch_000095",
+      "attacked": false,
+      "clean_flows_count": 5048,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5048,
+      "signal": {
+        "js": 0.75157003,
+        "new_src_ratio": 0.21493661,
+        "topk_src": 0.0572504
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.011005,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75157003
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 14.520114,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21493661
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.067585,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0572504
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 96,
+      "epoch_name": "epoch_000096",
+      "attacked": false,
+      "clean_flows_count": 1637,
+      "malicious_flows_count": 0,
+      "total_flows_count": 1637,
+      "signal": {
+        "js": 0.85323484,
+        "new_src_ratio": 0.15455101,
+        "topk_src": 0.0415394
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.188362,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.85323484
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 14.674665,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.15455101
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.08711,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0415394
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 97,
+      "epoch_name": "epoch_000097",
+      "attacked": false,
+      "clean_flows_count": 3991,
+      "malicious_flows_count": 0,
+      "total_flows_count": 3991,
+      "signal": {
+        "js": 0.77351695,
+        "new_src_ratio": 0.20947131,
+        "topk_src": 0.05662741
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.286002,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.77351695
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 14.884137,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20947131
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.091547,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05662741
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 98,
+      "epoch_name": "epoch_000098",
+      "attacked": false,
+      "clean_flows_count": 5118,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5118,
+      "signal": {
+        "js": 0.74408979,
+        "new_src_ratio": 0.21434154,
+        "topk_src": 0.06057054
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.354214,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74408979
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 15.098478,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21434154
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.092041,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06057054
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 99,
+      "epoch_name": "epoch_000099",
+      "attacked": false,
+      "clean_flows_count": 4978,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4978,
+      "signal": {
+        "js": 0.74798179,
+        "new_src_ratio": 0.21313781,
+        "topk_src": 0.06227401
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.426318,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74798179
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 15.311616,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21313781
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.090831,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06227401
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 100,
+      "epoch_name": "epoch_000100",
+      "attacked": false,
+      "clean_flows_count": 5046,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5046,
+      "signal": {
+        "js": 0.7498365,
+        "new_src_ratio": 0.20788744,
+        "topk_src": 0.05330955
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.500277,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7498365
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 15.519503,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20788744
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.098586,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05330955
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 101,
+      "epoch_name": "epoch_000101",
+      "attacked": false,
+      "clean_flows_count": 4902,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4902,
+      "signal": {
+        "js": 0.74394836,
+        "new_src_ratio": 0.21073031,
+        "topk_src": 0.05956752
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.568348,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74394836
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 15.730234,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21073031
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.100083,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05956752
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 102,
+      "epoch_name": "epoch_000102",
+      "attacked": false,
+      "clean_flows_count": 5026,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5026,
+      "signal": {
+        "js": 0.75517496,
+        "new_src_ratio": 0.21408675,
+        "topk_src": 0.0614803
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.647646,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75517496
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 15.94432,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21408675
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.099667,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0614803
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 103,
+      "epoch_name": "epoch_000103",
+      "attacked": false,
+      "clean_flows_count": 4892,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4892,
+      "signal": {
+        "js": 0.75017664,
+        "new_src_ratio": 0.21913328,
+        "topk_src": 0.05805397
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.721945,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75017664
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 16.163454,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21913328
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.102677,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05805397
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 104,
+      "epoch_name": "epoch_000104",
+      "attacked": false,
+      "clean_flows_count": 4930,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4930,
+      "signal": {
+        "js": 0.74702565,
+        "new_src_ratio": 0.20182556,
+        "topk_src": 0.05963489
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.793093,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74702565
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 16.365279,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20182556
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.104107,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05963489
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 105,
+      "epoch_name": "epoch_000105",
+      "attacked": false,
+      "clean_flows_count": 5072,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5072,
+      "signal": {
+        "js": 0.74995263,
+        "new_src_ratio": 0.20839905,
+        "topk_src": 0.06092271
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.867168,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74995263
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 16.573678,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20839905
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.104248,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06092271
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 106,
+      "epoch_name": "epoch_000106",
+      "attacked": false,
+      "clean_flows_count": 4977,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4977,
+      "signal": {
+        "js": 0.74610406,
+        "new_src_ratio": 0.21860559,
+        "topk_src": 0.0596745
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 5.937395,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74610406
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 16.792284,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21860559
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.105638,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0596745
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 107,
+      "epoch_name": "epoch_000107",
+      "attacked": false,
+      "clean_flows_count": 4975,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4975,
+      "signal": {
+        "js": 0.74136909,
+        "new_src_ratio": 0.22190955,
+        "topk_src": 0.05809045
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.002886,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74136909
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 17.014194,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22190955
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.108612,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05809045
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 108,
+      "epoch_name": "epoch_000108",
+      "attacked": false,
+      "clean_flows_count": 5023,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5023,
+      "signal": {
+        "js": 0.74656045,
+        "new_src_ratio": 0.21321919,
+        "topk_src": 0.05972526
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.073569,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74656045
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 17.227413,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21321919
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.109951,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05972526
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 109,
+      "epoch_name": "epoch_000109",
+      "attacked": false,
+      "clean_flows_count": 5135,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5135,
+      "signal": {
+        "js": 0.74017921,
+        "new_src_ratio": 0.21869523,
+        "topk_src": 0.05511198
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.137871,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74017921
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 17.446108,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21869523
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.115903,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05511198
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 110,
+      "epoch_name": "epoch_000110",
+      "attacked": false,
+      "clean_flows_count": 5035,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5035,
+      "signal": {
+        "js": 0.7468359,
+        "new_src_ratio": 0.21151936,
+        "topk_src": 0.06295929
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.208829,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7468359
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 17.657627,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21151936
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.114008,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06295929
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 111,
+      "epoch_name": "epoch_000111",
+      "attacked": false,
+      "clean_flows_count": 5151,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5151,
+      "signal": {
+        "js": 0.74321561,
+        "new_src_ratio": 0.22927587,
+        "topk_src": 0.05727043
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.276167,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74321561
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 17.886903,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22927587
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.117802,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05727043
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 112,
+      "epoch_name": "epoch_000112",
+      "attacked": false,
+      "clean_flows_count": 4995,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4995,
+      "signal": {
+        "js": 0.7433631,
+        "new_src_ratio": 0.21221221,
+        "topk_src": 0.06466466
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.343653,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7433631
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 18.099115,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21221221
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001207,
+          "c_minus": 0.114202,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06466466
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 113,
+      "epoch_name": "epoch_000113",
+      "attacked": false,
+      "clean_flows_count": 5019,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5019,
+      "signal": {
+        "js": 0.74399702,
+        "new_src_ratio": 0.21697549,
+        "topk_src": 0.05817892
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.411773,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74399702
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 18.316091,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21697549
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.117087,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05817892
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 114,
+      "epoch_name": "epoch_000114",
+      "attacked": false,
+      "clean_flows_count": 5225,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5225,
+      "signal": {
+        "js": 0.74326474,
+        "new_src_ratio": 0.23004785,
+        "topk_src": 0.05760766
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.47916,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74326474
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 18.546139,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23004785
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.120544,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05760766
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 115,
+      "epoch_name": "epoch_000115",
+      "attacked": false,
+      "clean_flows_count": 5032,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5032,
+      "signal": {
+        "js": 0.74984506,
+        "new_src_ratio": 0.23032591,
+        "topk_src": 0.05802862
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.553127,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74984506
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 18.776465,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23032591
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.12358,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05802862
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 116,
+      "epoch_name": "epoch_000116",
+      "attacked": false,
+      "clean_flows_count": 5023,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5023,
+      "signal": {
+        "js": 0.74284615,
+        "new_src_ratio": 0.22516424,
+        "topk_src": 0.05753534
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.620096,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74284615
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 19.001629,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22516424
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.127109,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05753534
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 117,
+      "epoch_name": "epoch_000117",
+      "attacked": false,
+      "clean_flows_count": 5002,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5002,
+      "signal": {
+        "js": 0.74356738,
+        "new_src_ratio": 0.22191124,
+        "topk_src": 0.06137545
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.687786,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74356738
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 19.22354,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22191124
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.126797,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06137545
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 118,
+      "epoch_name": "epoch_000118",
+      "attacked": false,
+      "clean_flows_count": 5135,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5135,
+      "signal": {
+        "js": 0.74687034,
+        "new_src_ratio": 0.21441091,
+        "topk_src": 0.06465433
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.758779,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74687034
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 19.437951,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21441091
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.001197,
+          "c_minus": 0.123207,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06465433
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 119,
+      "epoch_name": "epoch_000119",
+      "attacked": false,
+      "clean_flows_count": 5145,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5145,
+      "signal": {
+        "js": 0.74303317,
+        "new_src_ratio": 0.22332362,
+        "topk_src": 0.0606414
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.825934,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74303317
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 19.661275,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22332362
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.12363,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0606414
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 120,
+      "epoch_name": "epoch_000120",
+      "attacked": false,
+      "clean_flows_count": 5065,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5065,
+      "signal": {
+        "js": 0.749457,
+        "new_src_ratio": 0.20631787,
+        "topk_src": 0.06159921
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.899514,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.749457
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 19.867593,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20631787
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.123095,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06159921
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 121,
+      "epoch_name": "epoch_000121",
+      "attacked": false,
+      "clean_flows_count": 5177,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5177,
+      "signal": {
+        "js": 0.73924262,
+        "new_src_ratio": 0.20919451,
+        "topk_src": 0.06374348
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 6.962879,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73924262
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 20.076787,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20919451
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000286,
+          "c_minus": 0.120416,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06374348
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 122,
+      "epoch_name": "epoch_000122",
+      "attacked": false,
+      "clean_flows_count": 5121,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5121,
+      "signal": {
+        "js": 0.74978124,
+        "new_src_ratio": 0.20425698,
+        "topk_src": 0.06736965
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.036783,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74978124
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 20.281044,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20425698
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.004198,
+          "c_minus": 0.114111,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06736965
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 123,
+      "epoch_name": "epoch_000123",
+      "attacked": false,
+      "clean_flows_count": 5137,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5137,
+      "signal": {
+        "js": 0.74602672,
+        "new_src_ratio": 0.21705275,
+        "topk_src": 0.06618649
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.106932,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74602672
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 20.498097,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21705275
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.006927,
+          "c_minus": 0.108989,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06618649
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 124,
+      "epoch_name": "epoch_000124",
+      "attacked": false,
+      "clean_flows_count": 5109,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5109,
+      "signal": {
+        "js": 0.73315413,
+        "new_src_ratio": 0.2063026,
+        "topk_src": 0.0622431
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.164209,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73315413
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 20.704399,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2063026
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.005713,
+          "c_minus": 0.10781,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0622431
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 125,
+      "epoch_name": "epoch_000125",
+      "attacked": false,
+      "clean_flows_count": 5062,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5062,
+      "signal": {
+        "js": 0.75393363,
+        "new_src_ratio": 0.21730541,
+        "topk_src": 0.06459897
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.242265,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75393363
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 20.921705,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21730541
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.006854,
+          "c_minus": 0.104275,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06459897
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 126,
+      "epoch_name": "epoch_000126",
+      "attacked": false,
+      "clean_flows_count": 4951,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4951,
+      "signal": {
+        "js": 0.75049178,
+        "new_src_ratio": 0.21753181,
+        "topk_src": 0.05756413
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.316879,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75049178
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 21.139237,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21753181
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000961,
+          "c_minus": 0.107776,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05756413
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 127,
+      "epoch_name": "epoch_000127",
+      "attacked": false,
+      "clean_flows_count": 5177,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5177,
+      "signal": {
+        "js": 0.74419742,
+        "new_src_ratio": 0.22001159,
+        "topk_src": 0.05968708
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.385199,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74419742
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 21.359248,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22001159
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.109153,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05968708
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 128,
+      "epoch_name": "epoch_000128",
+      "attacked": false,
+      "clean_flows_count": 5042,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5042,
+      "signal": {
+        "js": 0.75393276,
+        "new_src_ratio": 0.22094407,
+        "topk_src": 0.05969853
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.463254,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75393276
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 21.580192,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22094407
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.110519,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05969853
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 129,
+      "epoch_name": "epoch_000129",
+      "attacked": false,
+      "clean_flows_count": 5030,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5030,
+      "signal": {
+        "js": 0.75354603,
+        "new_src_ratio": 0.20874751,
+        "topk_src": 0.05666004
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.540923,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75354603
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 21.78894,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20874751
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.114923,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05666004
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 130,
+      "epoch_name": "epoch_000130",
+      "attacked": false,
+      "clean_flows_count": 5088,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5088,
+      "signal": {
+        "js": 0.75217769,
+        "new_src_ratio": 0.22091195,
+        "topk_src": 0.05974843
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.617223,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75217769
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 22.009852,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22091195
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.116239,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05974843
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 131,
+      "epoch_name": "epoch_000131",
+      "attacked": true,
+      "clean_flows_count": 5124,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5124,
+      "signal": {
+        "js": 0.7578538,
+        "new_src_ratio": 0.22736144,
+        "topk_src": 0.06108509
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.699199,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7578538
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 22.237213,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22736144
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.116218,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06108509
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 132,
+      "epoch_name": "epoch_000132",
+      "attacked": true,
+      "clean_flows_count": 4996,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4996,
+      "signal": {
+        "js": 0.74955394,
+        "new_src_ratio": 0.2183747,
+        "topk_src": 0.06385108
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.772876,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74955394
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 22.455588,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2183747
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000394,
+          "c_minus": 0.113431,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06385108
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 133,
+      "epoch_name": "epoch_000133",
+      "attacked": true,
+      "clean_flows_count": 5027,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5027,
+      "signal": {
+        "js": 0.75614433,
+        "new_src_ratio": 0.22936145,
+        "topk_src": 0.06146807
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.853142,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75614433
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 22.684949,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22936145
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.113027,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06146807
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 134,
+      "epoch_name": "epoch_000134",
+      "attacked": true,
+      "clean_flows_count": 5118,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5118,
+      "signal": {
+        "js": 0.75543976,
+        "new_src_ratio": 0.22176631,
+        "topk_src": 0.05900742
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 7.932705,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75543976
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 22.906716,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22176631
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.115084,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05900742
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 135,
+      "epoch_name": "epoch_000135",
+      "attacked": true,
+      "clean_flows_count": 5081,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5081,
+      "signal": {
+        "js": 0.7566079,
+        "new_src_ratio": 0.21806731,
+        "topk_src": 0.06022437
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.013435,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7566079
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 23.124783,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21806731
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.115924,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06022437
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 136,
+      "epoch_name": "epoch_000136",
+      "attacked": true,
+      "clean_flows_count": 5199,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5199,
+      "signal": {
+        "js": 0.74773153,
+        "new_src_ratio": 0.22042701,
+        "topk_src": 0.06251202
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.085289,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74773153
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 23.34521,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22042701
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.114477,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06251202
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 137,
+      "epoch_name": "epoch_000137",
+      "attacked": true,
+      "clean_flows_count": 5138,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5138,
+      "signal": {
+        "js": 0.75514728,
+        "new_src_ratio": 0.22713118,
+        "topk_src": 0.05624757
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.164559,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75514728
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 23.572341,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22713118
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.119293,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05624757
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 138,
+      "epoch_name": "epoch_000138",
+      "attacked": true,
+      "clean_flows_count": 5216,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5216,
+      "signal": {
+        "js": 0.7469767,
+        "new_src_ratio": 0.21491564,
+        "topk_src": 0.06326687
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.235658,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7469767
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 23.787257,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21491564
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.117091,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06326687
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 139,
+      "epoch_name": "epoch_000139",
+      "attacked": true,
+      "clean_flows_count": 5181,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5181,
+      "signal": {
+        "js": 0.74256021,
+        "new_src_ratio": 0.21926269,
+        "topk_src": 0.05635978
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.302341,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74256021
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 24.006519,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21926269
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.121795,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05635978
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 140,
+      "epoch_name": "epoch_000140",
+      "attacked": true,
+      "clean_flows_count": 5144,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5144,
+      "signal": {
+        "js": 0.75466087,
+        "new_src_ratio": 0.23269829,
+        "topk_src": 0.06026439
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.381124,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75466087
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 24.239218,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23269829
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.122595,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06026439
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 141,
+      "epoch_name": "epoch_000141",
+      "attacked": false,
+      "clean_flows_count": 5119,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5119,
+      "signal": {
+        "js": 0.74379888,
+        "new_src_ratio": 0.2240672,
+        "topk_src": 0.05469818
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.449045,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74379888
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 24.463285,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2240672
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.128961,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05469818
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 142,
+      "epoch_name": "epoch_000142",
+      "attacked": false,
+      "clean_flows_count": 5025,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5025,
+      "signal": {
+        "js": 0.74610539,
+        "new_src_ratio": 0.22746269,
+        "topk_src": 0.04756219
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.519273,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74610539
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 24.690748,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22746269
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.142464,
+          "threshold_h": 0.009572,
+          "signal_value": 0.04756219
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 143,
+      "epoch_name": "epoch_000143",
+      "attacked": false,
+      "clean_flows_count": 5213,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5213,
+      "signal": {
+        "js": 0.74366158,
+        "new_src_ratio": 0.2244389,
+        "topk_src": 0.05563016
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.587057,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74366158
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 24.915187,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2244389
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.147898,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05563016
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 144,
+      "epoch_name": "epoch_000144",
+      "attacked": false,
+      "clean_flows_count": 5223,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5223,
+      "signal": {
+        "js": 0.74273764,
+        "new_src_ratio": 0.212713,
+        "topk_src": 0.05877848
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.653918,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74273764
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 25.1279,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.212713
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.150184,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05877848
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 145,
+      "epoch_name": "epoch_000145",
+      "attacked": false,
+      "clean_flows_count": 5324,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5324,
+      "signal": {
+        "js": 0.74274883,
+        "new_src_ratio": 0.21712998,
+        "topk_src": 0.05353118
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.720789,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74274883
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 25.345029,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21712998
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.157717,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05353118
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 146,
+      "epoch_name": "epoch_000146",
+      "attacked": false,
+      "clean_flows_count": 5152,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5152,
+      "signal": {
+        "js": 0.73838818,
+        "new_src_ratio": 0.2185559,
+        "topk_src": 0.06075311
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.7833,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.73838818
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 25.563585,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2185559
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.158028,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06075311
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 147,
+      "epoch_name": "epoch_000147",
+      "attacked": false,
+      "clean_flows_count": 5061,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5061,
+      "signal": {
+        "js": 0.75386069,
+        "new_src_ratio": 0.22268326,
+        "topk_src": 0.05334914
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.861283,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75386069
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 25.786269,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22268326
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.165743,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05334914
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 148,
+      "epoch_name": "epoch_000148",
+      "attacked": false,
+      "clean_flows_count": 5119,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5119,
+      "signal": {
+        "js": 0.74401351,
+        "new_src_ratio": 0.22211369,
+        "topk_src": 0.05626099
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 8.929419,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74401351
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 26.008382,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22211369
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.170546,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05626099
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 149,
+      "epoch_name": "epoch_000149",
+      "attacked": false,
+      "clean_flows_count": 5090,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5090,
+      "signal": {
+        "js": 0.74908197,
+        "new_src_ratio": 0.21709234,
+        "topk_src": 0.05697446
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.002623,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74908197
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 26.225475,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21709234
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.174636,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05697446
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 150,
+      "epoch_name": "epoch_000150",
+      "attacked": false,
+      "clean_flows_count": 5107,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5107,
+      "signal": {
+        "js": 0.74264265,
+        "new_src_ratio": 0.22283141,
+        "topk_src": 0.0587429
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.069388,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74264265
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 26.448306,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22283141
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.176958,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0587429
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 151,
+      "epoch_name": "epoch_000151",
+      "attacked": false,
+      "clean_flows_count": 5167,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5167,
+      "signal": {
+        "js": 0.75137228,
+        "new_src_ratio": 0.20959938,
+        "topk_src": 0.05728663
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.144883,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75137228
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 26.657905,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.20959938
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.180735,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05728663
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 152,
+      "epoch_name": "epoch_000152",
+      "attacked": false,
+      "clean_flows_count": 5239,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5239,
+      "signal": {
+        "js": 0.74712445,
+        "new_src_ratio": 0.23115098,
+        "topk_src": 0.06203474
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.21613,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74712445
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 26.889056,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23115098
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.179765,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06203474
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 153,
+      "epoch_name": "epoch_000153",
+      "attacked": false,
+      "clean_flows_count": 5262,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5262,
+      "signal": {
+        "js": 0.7523813,
+        "new_src_ratio": 0.22614975,
+        "topk_src": 0.05834284
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.292634,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7523813
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 27.115206,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22614975
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.182487,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05834284
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 154,
+      "epoch_name": "epoch_000154",
+      "attacked": false,
+      "clean_flows_count": 5317,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5317,
+      "signal": {
+        "js": 0.74311291,
+        "new_src_ratio": 0.23509498,
+        "topk_src": 0.06432199
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.359869,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74311291
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 27.350301,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23509498
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000865,
+          "c_minus": 0.179229,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06432199
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 155,
+      "epoch_name": "epoch_000155",
+      "attacked": false,
+      "clean_flows_count": 5266,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5266,
+      "signal": {
+        "js": 0.74931016,
+        "new_src_ratio": 0.21933156,
+        "topk_src": 0.05829852
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.433302,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74931016
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 27.569633,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21933156
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.181995,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05829852
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 156,
+      "epoch_name": "epoch_000156",
+      "attacked": false,
+      "clean_flows_count": 5135,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5135,
+      "signal": {
+        "js": 0.75092861,
+        "new_src_ratio": 0.22843233,
+        "topk_src": 0.05978578
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.508353,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75092861
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 27.798065,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22843233
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.183273,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05978578
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 157,
+      "epoch_name": "epoch_000157",
+      "attacked": false,
+      "clean_flows_count": 5072,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5072,
+      "signal": {
+        "js": 0.74615533,
+        "new_src_ratio": 0.22358044,
+        "topk_src": 0.05658517
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.578631,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74615533
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 28.021646,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22358044
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.187752,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05658517
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 158,
+      "epoch_name": "epoch_000158",
+      "attacked": false,
+      "clean_flows_count": 5155,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5155,
+      "signal": {
+        "js": 0.7490513,
+        "new_src_ratio": 0.23026188,
+        "topk_src": 0.05392823
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.651805,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7490513
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 28.251907,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23026188
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.194888,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05392823
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 159,
+      "epoch_name": "epoch_000159",
+      "attacked": false,
+      "clean_flows_count": 5138,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5138,
+      "signal": {
+        "js": 0.74916604,
+        "new_src_ratio": 0.22907746,
+        "topk_src": 0.05975088
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.725093,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74916604
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 28.480985,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22907746
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.196202,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05975088
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 160,
+      "epoch_name": "epoch_000160",
+      "attacked": false,
+      "clean_flows_count": 5164,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5164,
+      "signal": {
+        "js": 0.75084713,
+        "new_src_ratio": 0.23489543,
+        "topk_src": 0.06041828
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.800063,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75084713
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 28.71588,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23489543
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.196848,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06041828
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 161,
+      "epoch_name": "epoch_000161",
+      "attacked": true,
+      "clean_flows_count": 5158,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5158,
+      "signal": {
+        "js": 0.74982499,
+        "new_src_ratio": 0.22547499,
+        "topk_src": 0.06397829
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.87401,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74982499
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 28.941355,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22547499
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000521,
+          "c_minus": 0.193934,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06397829
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 162,
+      "epoch_name": "epoch_000162",
+      "attacked": true,
+      "clean_flows_count": 5121,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5121,
+      "signal": {
+        "js": 0.7493707,
+        "new_src_ratio": 0.23471978,
+        "topk_src": 0.05721539
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 9.947504,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7493707
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 29.176075,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23471978
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.197783,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05721539
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 163,
+      "epoch_name": "epoch_000163",
+      "attacked": true,
+      "clean_flows_count": 5117,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5117,
+      "signal": {
+        "js": 0.74978732,
+        "new_src_ratio": 0.22415478,
+        "topk_src": 0.05804182
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.021413,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74978732
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 29.40023,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22415478
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.200805,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05804182
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 164,
+      "epoch_name": "epoch_000164",
+      "attacked": true,
+      "clean_flows_count": 5217,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5217,
+      "signal": {
+        "js": 0.75123863,
+        "new_src_ratio": 0.22618363,
+        "topk_src": 0.06095457
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.096774,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75123863
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 29.626413,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22618363
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.200915,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06095457
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 165,
+      "epoch_name": "epoch_000165",
+      "attacked": true,
+      "clean_flows_count": 5166,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5166,
+      "signal": {
+        "js": 0.75113863,
+        "new_src_ratio": 0.23422377,
+        "topk_src": 0.05536198
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.172036,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75113863
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 29.860637,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23422377
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.206617,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05536198
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 166,
+      "epoch_name": "epoch_000166",
+      "attacked": true,
+      "clean_flows_count": 3413,
+      "malicious_flows_count": 0,
+      "total_flows_count": 3413,
+      "signal": {
+        "js": 0.7914901,
+        "new_src_ratio": 0.21447407,
+        "topk_src": 0.04893056
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.287648,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7914901
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 30.075111,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21447407
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.218751,
+          "threshold_h": 0.009572,
+          "signal_value": 0.04893056
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 167,
+      "epoch_name": "epoch_000167",
+      "attacked": true,
+      "clean_flows_count": 5126,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5126,
+      "signal": {
+        "js": 0.74801304,
+        "new_src_ratio": 0.22902848,
+        "topk_src": 0.05540382
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.359784,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74801304
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 30.30414,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22902848
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.224412,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05540382
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 168,
+      "epoch_name": "epoch_000168",
+      "attacked": true,
+      "clean_flows_count": 5441,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5441,
+      "signal": {
+        "js": 0.75990251,
+        "new_src_ratio": 0.22698033,
+        "topk_src": 0.05991546
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.443809,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75990251
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 30.53112,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22698033
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.225561,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05991546
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 169,
+      "epoch_name": "epoch_000169",
+      "attacked": true,
+      "clean_flows_count": 5316,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5316,
+      "signal": {
+        "js": 0.74753649,
+        "new_src_ratio": 0.23607976,
+        "topk_src": 0.0596313
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.515468,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74753649
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 30.7672,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23607976
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.226994,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0596313
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 170,
+      "epoch_name": "epoch_000170",
+      "attacked": true,
+      "clean_flows_count": 5401,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5401,
+      "signal": {
+        "js": 0.7545651,
+        "new_src_ratio": 0.2273653,
+        "topk_src": 0.06035919
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.594155,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7545651
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 30.994565,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2273653
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.227699,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06035919
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 171,
+      "epoch_name": "epoch_000171",
+      "attacked": false,
+      "clean_flows_count": 5266,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5266,
+      "signal": {
+        "js": 0.75141446,
+        "new_src_ratio": 0.22692746,
+        "topk_src": 0.0596278
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.669692,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75141446
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 31.221493,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22692746
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.229135,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0596278
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 172,
+      "epoch_name": "epoch_000172",
+      "attacked": false,
+      "clean_flows_count": 5145,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5145,
+      "signal": {
+        "js": 0.75064549,
+        "new_src_ratio": 0.23576288,
+        "topk_src": 0.05830904
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.74446,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75064549
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 31.457256,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23576288
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.231891,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05830904
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 173,
+      "epoch_name": "epoch_000173",
+      "attacked": false,
+      "clean_flows_count": 5197,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5197,
+      "signal": {
+        "js": 0.75112517,
+        "new_src_ratio": 0.22609198,
+        "topk_src": 0.05445449
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.819708,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75112517
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 31.683347,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22609198
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.2385,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05445449
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 174,
+      "epoch_name": "epoch_000174",
+      "attacked": false,
+      "clean_flows_count": 5144,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5144,
+      "signal": {
+        "js": 0.75569905,
+        "new_src_ratio": 0.22706065,
+        "topk_src": 0.06162519
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.899529,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75569905
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 31.910408,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22706065
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.23794,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06162519
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 175,
+      "epoch_name": "epoch_000175",
+      "attacked": false,
+      "clean_flows_count": 5306,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5306,
+      "signal": {
+        "js": 0.75273685,
+        "new_src_ratio": 0.23445156,
+        "topk_src": 0.05785903
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 10.976389,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75273685
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 32.14486,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23445156
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.241145,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05785903
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 176,
+      "epoch_name": "epoch_000176",
+      "attacked": false,
+      "clean_flows_count": 5133,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5133,
+      "signal": {
+        "js": 0.75432762,
+        "new_src_ratio": 0.22131307,
+        "topk_src": 0.06273135
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.054839,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75432762
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 32.366173,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22131307
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.239478,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06273135
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 177,
+      "epoch_name": "epoch_000177",
+      "attacked": false,
+      "clean_flows_count": 5246,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5246,
+      "signal": {
+        "js": 0.74888362,
+        "new_src_ratio": 0.23008006,
+        "topk_src": 0.05547083
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.127845,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74888362
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 32.596253,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23008006
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.245071,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05547083
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 178,
+      "epoch_name": "epoch_000178",
+      "attacked": false,
+      "clean_flows_count": 5013,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5013,
+      "signal": {
+        "js": 0.75566797,
+        "new_src_ratio": 0.23079992,
+        "topk_src": 0.06363455
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.207635,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75566797
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 32.827053,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23079992
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000177,
+          "c_minus": 0.242501,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06363455
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 179,
+      "epoch_name": "epoch_000179",
+      "attacked": false,
+      "clean_flows_count": 5173,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5173,
+      "signal": {
+        "js": 0.75308769,
+        "new_src_ratio": 0.23023391,
+        "topk_src": 0.055867
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.284846,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75308769
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 33.057287,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23023391
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.247698,
+          "threshold_h": 0.009572,
+          "signal_value": 0.055867
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 180,
+      "epoch_name": "epoch_000180",
+      "attacked": false,
+      "clean_flows_count": 5162,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5162,
+      "signal": {
+        "js": 0.75192603,
+        "new_src_ratio": 0.22181325,
+        "topk_src": 0.05869818
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.360894,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75192603
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 33.2791,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22181325
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.250064,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05869818
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 181,
+      "epoch_name": "epoch_000181",
+      "attacked": false,
+      "clean_flows_count": 5181,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5181,
+      "signal": {
+        "js": 0.75574701,
+        "new_src_ratio": 0.23817796,
+        "topk_src": 0.06157113
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.440764,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75574701
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 33.517278,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23817796
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.249558,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06157113
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 182,
+      "epoch_name": "epoch_000182",
+      "attacked": false,
+      "clean_flows_count": 5226,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5226,
+      "signal": {
+        "js": 0.75109803,
+        "new_src_ratio": 0.22923842,
+        "topk_src": 0.05453502
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.515984,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75109803
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 33.746516,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22923842
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.256087,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05453502
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 183,
+      "epoch_name": "epoch_000183",
+      "attacked": false,
+      "clean_flows_count": 5181,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5181,
+      "signal": {
+        "js": 0.7540636,
+        "new_src_ratio": 0.23258058,
+        "topk_src": 0.05828991
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.59417,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7540636
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 33.979097,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23258058
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.258861,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05828991
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 184,
+      "epoch_name": "epoch_000184",
+      "attacked": false,
+      "clean_flows_count": 5195,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5195,
+      "signal": {
+        "js": 0.75791396,
+        "new_src_ratio": 0.23618864,
+        "topk_src": 0.05505294
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.676207,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75791396
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 34.215286,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23618864
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.264873,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05505294
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 185,
+      "epoch_name": "epoch_000185",
+      "attacked": false,
+      "clean_flows_count": 5207,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5207,
+      "signal": {
+        "js": 0.75109901,
+        "new_src_ratio": 0.22412138,
+        "topk_src": 0.05972729
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.751428,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75109901
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 34.439407,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22412138
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.26621,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05972729
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 186,
+      "epoch_name": "epoch_000186",
+      "attacked": false,
+      "clean_flows_count": 5214,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5214,
+      "signal": {
+        "js": 0.7502521,
+        "new_src_ratio": 0.23341005,
+        "topk_src": 0.0575374
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.825803,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7502521
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 34.672817,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23341005
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.269737,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0575374
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 187,
+      "epoch_name": "epoch_000187",
+      "attacked": false,
+      "clean_flows_count": 5084,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5084,
+      "signal": {
+        "js": 0.74132744,
+        "new_src_ratio": 0.22659323,
+        "topk_src": 0.0525177
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.891253,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74132744
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 34.89941,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22659323
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.278283,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0525177
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 188,
+      "epoch_name": "epoch_000188",
+      "attacked": false,
+      "clean_flows_count": 5109,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5109,
+      "signal": {
+        "js": 0.74472864,
+        "new_src_ratio": 0.23233509,
+        "topk_src": 0.05774124
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 11.960104,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74472864
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 35.131745,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23233509
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.281606,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05774124
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 189,
+      "epoch_name": "epoch_000189",
+      "attacked": false,
+      "clean_flows_count": 5306,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5306,
+      "signal": {
+        "js": 0.7519801,
+        "new_src_ratio": 0.22465134,
+        "topk_src": 0.06200528
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.036207,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7519801
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 35.356397,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22465134
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.280665,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06200528
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 190,
+      "epoch_name": "epoch_000190",
+      "attacked": false,
+      "clean_flows_count": 5090,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5090,
+      "signal": {
+        "js": 0.75337702,
+        "new_src_ratio": 0.22927308,
+        "topk_src": 0.05756385
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.113706,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75337702
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 35.58567,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22927308
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.284166,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05756385
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 191,
+      "epoch_name": "epoch_000191",
+      "attacked": true,
+      "clean_flows_count": 5134,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5134,
+      "signal": {
+        "js": 0.74913891,
+        "new_src_ratio": 0.23860538,
+        "topk_src": 0.05823919
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.186967,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74913891
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 35.824275,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23860538
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.286991,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05823919
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 192,
+      "epoch_name": "epoch_000192",
+      "attacked": true,
+      "clean_flows_count": 5181,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5181,
+      "signal": {
+        "js": 0.75101059,
+        "new_src_ratio": 0.21733256,
+        "topk_src": 0.06234318
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.262101,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75101059
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 36.041608,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21733256
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.285712,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06234318
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 193,
+      "epoch_name": "epoch_000193",
+      "attacked": true,
+      "clean_flows_count": 5137,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5137,
+      "signal": {
+        "js": 0.74888774,
+        "new_src_ratio": 0.21296477,
+        "topk_src": 0.06423983
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.335111,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74888774
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 36.254572,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21296477
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000782,
+          "c_minus": 0.282537,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06423983
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 194,
+      "epoch_name": "epoch_000194",
+      "attacked": true,
+      "clean_flows_count": 5160,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5160,
+      "signal": {
+        "js": 0.75119093,
+        "new_src_ratio": 0.22151163,
+        "topk_src": 0.0629845
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.410424,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75119093
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 36.476084,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22151163
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000309,
+          "c_minus": 0.280617,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0629845
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 195,
+      "epoch_name": "epoch_000195",
+      "attacked": true,
+      "clean_flows_count": 5237,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5237,
+      "signal": {
+        "js": 0.74702374,
+        "new_src_ratio": 0.22856597,
+        "topk_src": 0.06301318
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.48157,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74702374
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 36.70465,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22856597
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.278668,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06301318
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 196,
+      "epoch_name": "epoch_000196",
+      "attacked": true,
+      "clean_flows_count": 5127,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5127,
+      "signal": {
+        "js": 0.74772718,
+        "new_src_ratio": 0.21669592,
+        "topk_src": 0.06592549
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.55342,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74772718
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 36.921346,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21669592
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.002468,
+          "c_minus": 0.273807,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06592549
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 197,
+      "epoch_name": "epoch_000197",
+      "attacked": true,
+      "clean_flows_count": 5038,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5038,
+      "signal": {
+        "js": 0.75263555,
+        "new_src_ratio": 0.2441445,
+        "topk_src": 0.06034141
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.630178,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75263555
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 37.16549,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2441445
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.274529,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06034141
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 198,
+      "epoch_name": "epoch_000198",
+      "attacked": true,
+      "clean_flows_count": 5143,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5143,
+      "signal": {
+        "js": 0.74022595,
+        "new_src_ratio": 0.24013222,
+        "topk_src": 0.05794283
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.694527,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74022595
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 37.405623,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.24013222
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.277651,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05794283
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 199,
+      "epoch_name": "epoch_000199",
+      "attacked": true,
+      "clean_flows_count": 5214,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5214,
+      "signal": {
+        "js": 0.75018224,
+        "new_src_ratio": 0.22688914,
+        "topk_src": 0.06022248
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.768831,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75018224
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 37.632512,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22688914
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.278493,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06022248
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 200,
+      "epoch_name": "epoch_000200",
+      "attacked": true,
+      "clean_flows_count": 5295,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5295,
+      "signal": {
+        "js": 0.74362073,
+        "new_src_ratio": 0.2230406,
+        "topk_src": 0.0611898
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.836575,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74362073
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 37.855552,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2230406
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.278367,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0611898
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 201,
+      "epoch_name": "epoch_000201",
+      "attacked": false,
+      "clean_flows_count": 5084,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5084,
+      "signal": {
+        "js": 0.75232013,
+        "new_src_ratio": 0.23288749,
+        "topk_src": 0.06412274
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.913017,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75232013
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 38.08844,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23288749
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.000665,
+          "c_minus": 0.275309,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06412274
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 202,
+      "epoch_name": "epoch_000202",
+      "attacked": false,
+      "clean_flows_count": 5185,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5185,
+      "signal": {
+        "js": 0.75744409,
+        "new_src_ratio": 0.2289296,
+        "topk_src": 0.05728062
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 12.994584,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75744409
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 38.317369,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.2289296
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.279093,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05728062
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 203,
+      "epoch_name": "epoch_000203",
+      "attacked": false,
+      "clean_flows_count": 5077,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5077,
+      "signal": {
+        "js": 0.75730169,
+        "new_src_ratio": 0.23892062,
+        "topk_src": 0.05712035
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.076008,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75730169
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 38.55629,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23892062
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.283037,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05712035
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 204,
+      "epoch_name": "epoch_000204",
+      "attacked": false,
+      "clean_flows_count": 5152,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5152,
+      "signal": {
+        "js": 0.75656414,
+        "new_src_ratio": 0.22457298,
+        "topk_src": 0.0615295
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.156695,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75656414
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 38.780863,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22457298
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.282571,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0615295
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 205,
+      "epoch_name": "epoch_000205",
+      "attacked": false,
+      "clean_flows_count": 5079,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5079,
+      "signal": {
+        "js": 0.7536296,
+        "new_src_ratio": 0.22957275,
+        "topk_src": 0.06103564
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.234447,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.7536296
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 39.010436,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22957275
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.2826,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06103564
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 206,
+      "epoch_name": "epoch_000206",
+      "attacked": false,
+      "clean_flows_count": 5037,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5037,
+      "signal": {
+        "js": 0.76107009,
+        "new_src_ratio": 0.22334723,
+        "topk_src": 0.06134604
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.319639,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.76107009
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 39.233783,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22334723
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.282318,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06134604
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 207,
+      "epoch_name": "epoch_000207",
+      "attacked": false,
+      "clean_flows_count": 5057,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5057,
+      "signal": {
+        "js": 0.76297714,
+        "new_src_ratio": 0.22483686,
+        "topk_src": 0.06070793
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.406739,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.76297714
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 39.45862,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22483686
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.282675,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06070793
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 208,
+      "epoch_name": "epoch_000208",
+      "attacked": false,
+      "clean_flows_count": 5105,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5105,
+      "signal": {
+        "js": 0.74862908,
+        "new_src_ratio": 0.23721841,
+        "topk_src": 0.05798237
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.479491,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.74862908
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 39.695838,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23721841
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.285757,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05798237
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 209,
+      "epoch_name": "epoch_000209",
+      "attacked": false,
+      "clean_flows_count": 5083,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5083,
+      "signal": {
+        "js": 0.75767755,
+        "new_src_ratio": 0.23076923,
+        "topk_src": 0.05843006
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.561291,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75767755
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 39.926608,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23076923
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.288391,
+          "threshold_h": 0.009572,
+          "signal_value": 0.05843006
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 210,
+      "epoch_name": "epoch_000210",
+      "attacked": false,
+      "clean_flows_count": 5195,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5195,
+      "signal": {
+        "js": 0.76146545,
+        "new_src_ratio": 0.23272377,
+        "topk_src": 0.0560154
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.646878,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.76146545
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 40.159331,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23272377
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.29344,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0560154
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 211,
+      "epoch_name": "epoch_000211",
+      "attacked": true,
+      "clean_flows_count": 4992,
+      "malicious_flows_count": 0,
+      "total_flows_count": 4992,
+      "signal": {
+        "js": 0.75620639,
+        "new_src_ratio": 0.22676282,
+        "topk_src": 0.06290064
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.727207,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75620639
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 40.386094,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.22676282
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.291604,
+          "threshold_h": 0.009572,
+          "signal_value": 0.06290064
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 212,
+      "epoch_name": "epoch_000212",
+      "attacked": true,
+      "clean_flows_count": 5128,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5128,
+      "signal": {
+        "js": 0.76445695,
+        "new_src_ratio": 0.21840874,
+        "topk_src": 0.07059282
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.815787,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.76445695
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 40.604503,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.21840874
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.007135,
+          "c_minus": 0.282075,
+          "threshold_h": 0.009572,
+          "signal_value": 0.07059282
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 213,
+      "epoch_name": "epoch_000213",
+      "attacked": true,
+      "clean_flows_count": 5111,
+      "malicious_flows_count": 0,
+      "total_flows_count": 5111,
+      "signal": {
+        "js": 0.75596176,
+        "new_src_ratio": 0.23165721,
+        "topk_src": 0.0624144
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 13.895871,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.75596176
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 40.83616,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.23165721
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.006092,
+          "c_minus": 0.280725,
+          "threshold_h": 0.009572,
+          "signal_value": 0.0624144
+        }
+      },
+      "cusum_alarm": true
+    },
+    {
+      "epoch_index": 214,
+      "epoch_name": "epoch_000214",
+      "attacked": true,
+      "clean_flows_count": 1931,
+      "malicious_flows_count": 0,
+      "total_flows_count": 1931,
+      "signal": {
+        "js": 0.84868855,
+        "new_src_ratio": 0.19886069,
+        "topk_src": 0.04660798
+      },
+      "cusum": {
+        "js": {
+          "alarm": true,
+          "c_plus": 14.068682,
+          "c_minus": 0.0,
+          "threshold_h": 0.0341,
+          "signal_value": 0.84868855
+        },
+        "new_src_ratio": {
+          "alarm": true,
+          "c_plus": 41.035021,
+          "c_minus": 0.0,
+          "threshold_h": 0.0,
+          "signal_value": 0.19886069
+        },
+        "topk_src": {
+          "alarm": true,
+          "c_plus": 0.0,
+          "c_minus": 0.295181,
+          "threshold_h": 0.009572,
+          "signal_value": 0.04660798
+        }
+      },
+      "cusum_alarm": true
+    }
+  ]
+}
