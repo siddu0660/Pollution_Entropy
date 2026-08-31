@@ -1,0 +1,4 @@
+To run the Listguard logic run the command:
+sudo python3 runner.py --itemCapacity 23988 --attVar 3 --path /home/netx2/SecinfraHarish/attackIBLTFlowRadarMultipleEpoch/txtDataset
+
+To change the name of the "results" main folder, ammend lines 643, 646 and 649 in the attackIBLTFlowRadarMultipleEpoch.py  

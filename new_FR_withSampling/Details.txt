@@ -1,0 +1,24 @@
+29-05-2024 18:52:
+* Uses multiple epoch codes.
+* Samples all Completely colliding Flows (sampled_flows).
+* Extracts the IBLT until possible.
+* Check for pollution (O(1)) or occupied cells(O(N)).
+
+* If polluted, use the sampled data to remove further.
+* Should remove all input elements
+
+29-05-2024 23:15:
+* mitigation successfull by sampling all the CCFs
+* sampling all CCFs impractical and is too heavy
+* Only around 10% (very rough estimate) flows required to be removed before total mitigation
+
+** Next Question in hand : How to accurately sample only undecodable CCFs? 
+** Is random sampling of subset of CCFs good enough? --> If yes, how many of them?
+** Is there a factor that determines the undecodable CCFs on the fly?
+** or is there an efficient sample storing mechanishm?
+
+30-05-2024 15:35:
+* threshold based sampling is effective: sampling flows over 90% of capacityParameter (Significantyl reduces the number of sampled flows)
+* will  95% + be same effect?
+* will a hard boundary (i.e., flows seen between 90% to 100% capacityParameter, be sufficient) -> Intuition is should be.
+* Maybe even flows seen between 95% and 105% of capacityParameter 

@@ -1,0 +1,20 @@
+Instructions to play around with an IBLT
+
+1. Generate a Random dataset of any size using generateDataset.py with the following parameters:
+> python3 generateDataset.py --items 24089
+
+items = number of items to be generated
+
+A file with name as 24089.txt is created
+
+
+2. Run IBLT.py with the following parameters:
+
+>python3 IBLT.py --items 24089 --mal 3 --var 2 --dataset 24089.txt
+
+items = Number of items to be inserted into the IBLT
+mal = percent of malicious items to be crafted
+var = variant of the attack
+dataset = name of the file that was generated above (input dataset)
+
+Discover interesting relations between the paramentes
